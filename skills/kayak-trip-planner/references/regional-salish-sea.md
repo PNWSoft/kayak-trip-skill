@@ -16,7 +16,7 @@ Both scripts take the same arguments, do the same close-enough check (nearest mo
 ```
 python3 scripts/sscofs_currents.py --lat LAT --lon LON --date YYYY-MM-DD --start HH:MM --hours N
 ```
-Uses the bundled mesh index `data/sscofs_mesh.csv.gz` (offline), then one ~350-byte request per hour to NOAA's THREDDS server, from the newest model run (03, 09, 15, 21 UTC) that covers it. Flags hours when the element is dry (tidal flat). Exit codes as below. With no shell internet, `--url-only` prints the checks and a per-hour URL template; the brackets must stay percent-encoded (`%5B`, `%5D`) or the server returns 400. Info: https://tidesandcurrents.noaa.gov/ofs/sscofs/sscofs.html
+Also returns modeled surface water temperature per hour (often the only water temperature available near shore). Uses the bundled mesh index `data/sscofs_mesh.csv.gz` (offline), then one ~400-byte request per hour to NOAA's THREDDS server, from the newest model run (03, 09, 15, 21 UTC) that covers it. Flags hours when the element is dry (tidal flat). Exit codes as below. With no shell internet, `--url-only` prints the checks and a per-hour URL template; the brackets must stay percent-encoded (`%5B`, `%5D`) or the server returns 400. Info: https://tidesandcurrents.noaa.gov/ofs/sscofs/sscofs.html
 
 ## Modeled surface currents: SalishSeaCast (UBC)
 A ~500 m research model of the whole Salish Sea; the model behind the OceanConnect app. Hourly, and runs only ~36-48 h ahead.

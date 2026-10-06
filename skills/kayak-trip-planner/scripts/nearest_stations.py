@@ -18,6 +18,8 @@ import sys
 
 DATA_DIR = pathlib.Path(__file__).resolve().parent.parent / "data"
 FILES = {"tide": "tide_stations.csv", "current": "current_stations.csv", "buoy": "ndbc_stations.csv"}
+# NDBC station types: only "buoy" sits on open water; "fixed" is usually a shore or pier station (often no waves or water temp).
+NDBC_TYPES = {"buoy": "buoy", "fixed": "fixed shore/pier station", "oilrig": "offshore platform", "usv": "uncrewed vessel"}
 WEAK = "W"  # NOAA current station type: weak and variable, no predictions
 COMPASS = ["N", "NNE", "NE", "ENE", "E", "ESE", "SE", "SSE", "S", "SSW", "SW", "WSW", "W", "WNW", "NW", "NNW"]
 
@@ -86,11 +88,13 @@ def main():
                           "missing_data": missing}, indent=2))
     else:
         for k, rows in results.items():
-            print(f"\n{k.upper()} stations nearest {args.lat}, {args.lon}")
+            print(f"\n{'NDBC WEATHER' if k == 'buoy' else k.upper()} stations nearest {args.lat}, {args.lon}")
             if not rows:
                 print("  none within range")
             for r in rows:
                 extra = f"  bin {r['bin']}" if k == "current" else ""
+                if k == "buoy":
+                    extra = f"  [{NDBC_TYPES.get(r['type'], r['type'] or 'unknown type')}]"
                 if r.get("predictions") is False:
                     extra += "  [weak and variable: no predictions]"
                 print(f"  {r['id']:<10} {r['distance_mi']:>6} mi {r['bearing']:<3}  {r['name']}{extra}")

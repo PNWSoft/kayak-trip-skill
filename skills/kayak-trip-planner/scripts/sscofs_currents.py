@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Modeled surface currents at a point from NOAA SSCOFS (Salish Sea and Columbia River OFS).
+"""Modeled surface currents and water temperature at a point from NOAA SSCOFS (Salish Sea and Columbia River OFS).
 
 Finds the nearest model element from the bundled mesh index in ../data (offline),
 checks it is close enough to mean something, then fetches one tiny OPeNDAP slice
@@ -90,7 +90,7 @@ def file_path(cycle, lead):
 def data_url(cycle, lead, e):
     sl = f"%5B0:0%5D%5B0:0%5D%5B{e}:{e}%5D"  # [0:0][0:0][e:e]; brackets must be encoded
     return (f"{THREDDS}/dodsC/{file_path(cycle, lead)}.ascii?"
-            f"time,u{sl},v{sl},wet_cells%5B0:0%5D%5B{e}:{e}%5D")
+            f"time,u{sl},v{sl},temp{sl},wet_cells%5B0:0%5D%5B{e}:{e}%5D")
 
 
 _catalogs = {}
@@ -142,7 +142,7 @@ def plan_requests(start, end, now):
 
 
 def parse(text):
-    """Return (u, v, wet) from an OPeNDAP ASCII reply for one element and hour."""
+    """Return (u, v, temp_c, wet) from an OPeNDAP ASCII reply for one element and hour."""
     vals = {}
     cur = None
     for line in text.split("-" * 45, 1)[1].splitlines():
@@ -153,7 +153,7 @@ def parse(text):
         elif cur and line:
             vals[cur] = float(line.rsplit(",", 1)[-1])
             cur = None
-    return vals["u"], vals["v"], int(vals.get("wet_cells", 1))
+    return vals["u"], vals["v"], vals.get("temp"), int(vals.get("wet_cells", 1))
 
 
 def main():
@@ -176,7 +176,7 @@ def main():
     start = dt.datetime.combine(dt.date.fromisoformat(args.date), dt.time.fromisoformat(args.start), tz)
     end = start + dt.timedelta(hours=args.hours)
 
-    result = {"source": "NOAA SSCOFS (FVCOM), surface layer currents, hourly; nowcast/forecast guidance",
+    result = {"source": "NOAA SSCOFS (FVCOM), surface layer currents and water temperature, hourly; forecast guidance",
               "info": "https://tidesandcurrents.noaa.gov/ofs/sscofs/sscofs.html",
               "point": {"lat": args.lat, "lon": args.lon}, "window": [start.isoformat(), end.isoformat()]}
     el = nearest_element(args.lat, args.lon)
@@ -194,7 +194,7 @@ def main():
             "Each model run (03, 09, 15, 21 UTC) publishes fields.fNNN files valid NNN hours after the run, to f072. "
             "Use the newest run that covers each hour; the newest run may still be filling in. "
             "Speed kt = sqrt(u^2+v^2) x 1.944 (u east, v north, m/s); toward = atan2(u, v) deg from north; "
-            "wet_cells 0 = dry (tidal flat).")
+            "temp is surface water temperature in deg C; wet_cells 0 = dry (tidal flat).")
         result["url_template"] = data_url(dt.datetime(2000, 1, 1, 15), 1, el["element"]).replace(
             "2000/01/01", "YYYY/MM/DD").replace("t15z.20000101", "tHHz.YYYYMMDD").replace("f001", "fNNN")
         return report(result, args.json, 0)
@@ -213,14 +213,15 @@ def main():
     hours, failed = [], 0
     for t, c, lead in reqs:
         try:
-            u, v, wet = parse(fetch(data_url(c, lead, el["element"])))
+            u, v, temp, wet = parse(fetch(data_url(c, lead, el["element"])))
         except Exception:
             failed += 1
             continue
         deg = (math.degrees(math.atan2(u, v)) + 360) % 360
         hours.append({"time": t.astimezone(tz).isoformat(timespec="minutes"), "run": f"{c:%Y-%m-%d %H}z f{lead:03d}",
                       "speed_kt": round(math.hypot(u, v) * 1.944, 2), "toward_deg": round(deg),
-                      "toward": COMPASS[int((deg + 11.25) // 22.5) % 16], "dry": not wet})
+                      "toward": COMPASS[int((deg + 11.25) // 22.5) % 16],
+                      "water_temp_f": round(temp * 9 / 5 + 32) if temp is not None else None, "dry": not wet})
     if failed:
         result["notes"].append(f"{failed} hourly request(s) failed and are missing.")
     if any(h["dry"] for h in hours):
@@ -246,7 +247,8 @@ def report(r, as_json, code):
             print(f"  Latest run {r['model_run']}; forecast runs to {r['forecast_ends']}")
         for h in r.get("hours", []):
             dry = "  (dry)" if h["dry"] else ""
-            print(f"  {h['time'][:16].replace('T', ' ')}  {h['speed_kt']:.2f} kt toward {h['toward']}{dry}")
+            wt = f"  water {h['water_temp_f']} F" if h["water_temp_f"] is not None else ""
+            print(f"  {h['time'][:16].replace('T', ' ')}  {h['speed_kt']:.2f} kt toward {h['toward']}{wt}{dry}")
         if "peak" in r:
             print(f"  Peak in window: {r['peak']['speed_kt']:.2f} kt toward {r['peak']['toward']} at {r['peak']['time'][11:16]}")
         if "url_template" in r:

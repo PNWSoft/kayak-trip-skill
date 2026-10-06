@@ -41,10 +41,10 @@ Use a profile the person has already given (earlier in the conversation or in me
 - Cruising speed: 2.5 mph (~2.2 kt) for touring kayaks; 2 mph for recreational boats or relaxed groups
 - Trip length: 3 hours
 - Launch window: when they'd like to start
-- Skill level: beginner, intermediate or advanced (sets the thresholds in Step 4)
 - Cold-water gear: dry suit, wet suit, or none
+- Skill level: beginner, intermediate or advanced (sets the thresholds in Step 5). **No default.**
 
-If the trip is soon and the person seems to want an answer now, proceed with the defaults and say which were assumed. Restate the profile used in every plan. Don't lecture about gear they already have.
+Skill level must come from the person. If it isn't known, ask for it, and don't give verdicts or a plan until they answer; you can pull data meanwhile. For the other items, if the trip is soon and the person seems to want an answer now, proceed with the defaults and say which were assumed. Restate the profile used in every plan. Don't lecture about gear they already have.
 
 ## Step 2: Locate the launch and the stations
 
@@ -62,11 +62,11 @@ Never present data past its horizon as a forecast.
 
 | Stage | Trip is | Can check | Can't check yet |
 |---|---|---|---|
-| Tide shortlist | More than 7 days out | Tides, current-station predictions, daylight | Wind, waves, fog, rain |
-| Weather narrowing | 2-7 days out | All above + NWS marine forecast (solid to ~3 days, rough beyond), regional current models within their range | Real-time observations |
+| Tide shortlist | Past the last marine forecast period | Tides, current-station predictions, daylight | Wind, waves, fog, rain |
+| Weather narrowing | Within the marine forecast (usually ~4-5 days) | All above + NWS marine forecast (solid to ~3 days, rough beyond), regional current models within their range | Real-time observations |
 | Final check | Today or tomorrow | All above + buoy observations, regional current models (if they pass their close-enough check) | - |
 
-In the tide-shortlist stage, rank days by tide fit and say when to re-check (about 3 days out and the day before).
+The stage is set per day, not per trip: a week-long window usually mixes stages. The marine point forecast typically ends 4-5 days out (e.g. issued Monday, last period Friday night); days after its last period are tide-shortlist days even if they are within a week. In the tide-shortlist stage, rank days by tide fit and say when to re-check (about 3 days out and the day before).
 
 ## Step 4: Pull the data
 
@@ -84,19 +84,26 @@ https://api.tidesandcurrents.noaa.gov/api/prod/datagetter?begin_date=YYYYMMDD&en
 ```
 Add `&bin=N` with the bin from `nearest_stations.py` (the shallowest predicted depth, closest to what a kayak feels; bins count up from the bottom). Returns slack, max flood and max ebb times, speeds in knots (ebb negative) and mean flood/ebb directions.
 
-### Wind, waves, fog, rain (NWS marine point forecast; horizon: ~5-7 days)
+### Wind, waves, fog, rain (NWS marine point forecast; horizon: usually ~4-5 days)
 ```
 https://forecast.weather.gov/MapClick.php?lat=LAT&lon=LON&unit=0&lg=english&FcstType=text&TextType=1
 ```
 - Use the on-water point. This returns the marine point forecast, with any Small Craft Advisory, Gale Warning or Dense Fog Advisory listed at the top.
 - ALWAYS check the "Last Update" time. This site sometimes serves a stale cached page that is weeks old, especially for land points or the `FcstType=digital` view. Discard anything not issued in the last ~24 h and list it as unavailable.
+- Note the last period listed; that is the forecast horizon. Never extend it.
 - Marine forecasts cover broad zones in 5 kt steps. Local gusts, gap winds and afternoon sea breezes can exceed them; say so.
 
 ### Real-time observations (NDBC; final-check stage only)
 ```
-https://www.ndbc.noaa.gov/data/realtime2/BUOYID.txt
+https://www.ndbc.noaa.gov/data/realtime2/STATIONID.txt
 ```
-Latest rows first: wind speed and gusts (m/s), wave height (m), water temperature (deg C). Convert units before reporting. Note the buoy's distance and exposure; an offshore buoy overstates conditions in a sheltered bay.
+Latest rows first: wind speed and gusts (m/s), wave height (m), water temperature (deg C). `MM` means not measured. Convert units before reporting.
+- `nearest_stations.py` labels each NDBC station. Many near shore are **fixed shore or pier stations**, not buoys: they usually report wind and pressure only, no waves or water temperature. Call each one what it is in the plan ("Cherry Point pier weather station, 18.6 mi NW: wind only"), and list waves or water temperature as unavailable if nothing reported them. Never say "buoy data" for a shore station.
+- Note distance and exposure: an offshore buoy overstates conditions in a sheltered bay; a sheltered pier station can understate them.
+- Readings taken the evening before only describe that evening. For a trip tomorrow, say to check them again the morning of.
+
+### Water temperature
+Needed for the cold-water rule in Step 5 (it doesn't matter if the person wears a dry suit; say so and move on). Sources, in order: a regional model that reports it (in the Salish Sea, `sscofs_currents.py` gives modeled surface water temperature per hour); an NDBC station reporting WTMP; the nearest CO-OPS water level station with `product=water_temperature&date=latest`. Many tide stations don't measure it. If none has it, list it as unavailable, and with no immersion gear treat it as below 60 F.
 
 ### Daylight
 Run `python3 scripts/sun_times.py --lat LAT --lon LON --date YYYY-MM-DD --tz IANA_ZONE`. Flag trips ending within an hour of sunset.
@@ -138,6 +145,8 @@ Also check:
 - Distance = speed x duration, minus ~20% for breaks and margin. Give rough clock times for the turnaround and key stops.
 - Prefer routes that keep a landing within reach. Mention crossings of shipping lanes or ferry routes if the route has them.
 
+Local geography is the weakest part of any plan. Name features only when confident; otherwise describe the route by direction and distance ("south along the shore ~2.4 mi, then back") and say to check a chart.
+
 ## Step 7: Write the plan
 
 Lead with the recommendation (best day and a backup) and the planning stage. Then:
@@ -153,3 +162,11 @@ Then ALWAYS end with this section, filled in, even when everything looks good:
 - **Reliability at this lead time:** which parts are predictions (tides, currents) and which are forecasts (weather), and how reliable each is now.
 - **Not checked or unavailable:** anything that failed, was stale or was out of range.
 - **Not covered by this plan:** local hazards (rocks, surf, rebound off cliffs, boat and ferry traffic, shipping lanes), closures and permits, launch access, and real-time conditions on the day. Look at the water before launching and make your own go/no-go call. Conditions change; this plan is not a guarantee of safety.
+
+## Refining the plan
+
+After the plan, invite changes, for example: "I want to go south from the launch", "We'll stop for lunch at a beach 2 mi out", "Can we launch at 9?", "Only Thursday works", "Make it 2 hours".
+- Treat what the person says about the route, landings and local features as better local knowledge than yours. Use it; don't argue with it unless the data shows a conflict (e.g. their chosen direction means the return is against the stronger current or wind).
+- Re-run only what changes: a new direction or destination re-checks Step 6 (outbound/return pushes, distance, turnaround time) with the data already pulled; a new day or time window may need new data, and may change the planning stage.
+- If a change makes a factor cross a threshold (e.g. the return leg now fights >1 kt for an intermediate paddler), say so plainly and suggest the alternative, but the person decides.
+- Re-issue the full plan, including "What this plan is based on", so the latest version stands on its own when shared. Note what changed from the previous version in one line at the top.

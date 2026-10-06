@@ -10,10 +10,11 @@ A Claude skill that plans sea kayak trips in US waters. Give it a launch point a
 |---|---|---|
 | Tides | NOAA CO-OPS tide predictions | Months to years |
 | Tidal currents (slack, flood, ebb) | NOAA CO-OPS current predictions | Months to years |
-| Wind, waves, fog, rain, advisories | NWS marine point forecast | About 5-7 days |
-| Live wind, waves, water temperature | NDBC buoys | Real time |
+| Wind, waves, fog, rain, advisories | NWS marine point forecast | About 4-5 days |
+| Live wind, waves, water temperature | NDBC buoys and shore stations (what each reports varies) | Real time |
+| Water temperature | Regional models, NDBC, CO-OPS stations | Varies |
 | Sunrise and sunset | Computed offline | Any date |
-| Modeled currents at a point (NOAA SSCOFS, SalishSeaCast) | Salish Sea, Columbia River, WA/OR coast | ~2-3 days |
+| Modeled currents (and water temp, SSCOFS) at a point (NOAA SSCOFS, SalishSeaCast) | Salish Sea, Columbia River, WA/OR coast | ~2-3 days |
 | Other regional extras | See `references/` | Varies |
 
 Coverage: US coastal waters, estuaries and the Great Lakes. Inland lakes and rivers get the land forecast only.
@@ -25,6 +26,7 @@ Coverage: US coastal waters, estuaries and the Great Lakes. Inland lakes and riv
 3. **Finds the nearest stations** from a bundled snapshot of every NOAA tide station, current station and NDBC weather buoy. This runs offline, so it works even where Claude can't download large files.
 4. **Picks the planning stage** from how far out the trip is (tide shortlist, weather narrowing or final check) and never treats data past its horizon as a forecast.
 5. **Writes the plan**: best day and backup, a per-day table, launch time and route direction, when to re-check, and "What this plan is based on".
+6. **Refines it with you**: tell it "I want to go south" or "only Thursday works" and it re-plans, using your local knowledge of the route.
 
 ## Install
 
