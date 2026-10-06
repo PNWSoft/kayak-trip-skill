@@ -44,14 +44,22 @@ def num(v):
 
 
 def build_current(raw):
-    # One row per station: keep the shallowest bin (lowest currbin), closest to the surface.
+    # One row per station: keep the shallowest predicted depth, closest to what a kayak feels.
+    # Bins are numbered up from the bottom (bin 1 is deepest), so choose by depth, not bin number;
+    # with no depths, the highest bin is the shallowest.
+    def shallower(new, old):
+        if new["depth_ft"] != "" and old["depth_ft"] != "":
+            return new["depth_ft"] < old["depth_ft"]
+        return new["bin"] > old["bin"]
+
     best = {}
     for s in json.loads(raw)["stations"]:
         lat, lon = num(s.get("lat")), num(s.get("lng"))
         if lat is None or lon is None:
             continue
         b = s.get("currbin") or 1
-        if s["id"] not in best or b < best[s["id"]]["bin"]:
+        row = {"id": s["id"], "bin": b, "depth_ft": s.get("depth") if s.get("depth") is not None else ""}
+        if s["id"] not in best or shallower(row, best[s["id"]]):
             best[s["id"]] = {
                 "id": s["id"], "name": (s.get("name") or "").strip(), "lat": lat, "lon": lon,
                 "bin": b, "depth_ft": s.get("depth") if s.get("depth") is not None else "",
