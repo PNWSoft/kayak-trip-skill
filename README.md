@@ -55,7 +55,9 @@ skills/kayak-trip-planner/
   scripts/
     nearest_stations.py   nearest tide/current stations and buoys (offline)
     sun_times.py          sunrise/sunset (offline)
-    build_station_data.py rebuilds data/ from NOAA (maintainers)
+    salishsea_currents.py modeled currents at a point, Salish Sea
+    build_station_data.py rebuilds the station snapshot (maintainers)
+    build_salishsea_grid.py rebuilds the SalishSeaCast cell table (maintainers)
   data/                   station snapshot (generated; see SNAPSHOT.txt)
   references/
     regional-salish-sea.md

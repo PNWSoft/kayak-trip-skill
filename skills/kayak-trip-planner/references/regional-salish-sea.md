@@ -3,16 +3,23 @@
 Use when the launch point is roughly between 47.0 and 50.5 N and 122.0 and 125.0 W. These add detail; the national NOAA/NWS sources still come first.
 
 ## Modeled surface currents: SalishSeaCast (UBC)
-A ~500 m research model of the whole Salish Sea; the model behind the OceanConnect app. Useful in bays and passages with no nearby NOAA current station.
+A ~500 m research model of the whole Salish Sea; the model behind the OceanConnect app. Hourly, and runs only ~36-48 h ahead, so use it in the final-check stage. Most useful in bays and passages with no nearby NOAA current station, where a distant channel station's speeds would mislead.
 
-- Dataset page: https://salishsea.eos.ubc.ca/erddap/griddap/ubcSSfDepthAvgdCurrents1h.html
-- FIRST fetch `https://salishsea.eos.ubc.ca/erddap/griddap/ubcSSfDepthAvgdCurrents1h.das` and read `time_coverage_end`. That's the real horizon (it has run ~36-48 h ahead). If the trip window is past it, skip this source and list it as out of range.
-- Dimensions: `time`, `gridY` (0-897), `gridX` (0-397). Variables (m/s): `VelEast5`, `VelNorth5` (upper 5 levels), `VelEast10`, `VelNorth10`.
-- The grid is indexed by cell, not lat/lon. Find the nearest cell with the bathymetry dataset `ubcSSnBathymetryV21-08` on the same server (lat/lon per gridY, gridX). This lookup is not yet tested end to end; if it fails, say so.
-- Request a subset as CSV:
-  `https://salishsea.eos.ubc.ca/erddap/griddap/ubcSSfDepthAvgdCurrents1h.csv?VelEast5[(START):(END)][(Y)][(X)],VelNorth5[(START):(END)][(Y)][(X)]` with ISO times.
-- Speed (kt) = sqrt(E^2 + N^2) x 1.944. Direction the water flows toward = atan2(E, N), in degrees from north.
-- Limits: research model; eddies smaller than ~500 m are not resolved.
+Run:
+```
+python3 scripts/salishsea_currents.py --lat LAT --lon LON --date YYYY-MM-DD --start HH:MM --hours N
+```
+Use the on-water point from Step 2, not the launch on shore. The script finds the nearest model water cell from the bundled `data/salishsea_grid.csv.gz` (offline), checks it, reads the forecast horizon, and returns hourly speed (kt) and the direction the water flows toward, in local time.
+
+**Close-enough check (the script does this; report it in the plan):**
+- Nearest water cell more than 1 km from the point: **not usable**, exit code 2. The model doesn't resolve water there (small coves, narrow passes like Deception Pass, lakes). Fall back to NOAA current stations and say the model was checked and didn't apply.
+- 400 m-1 km: usable, but describes the nearby open water, not the launch. Say so.
+- Cell bordering land on 3+ sides: nearshore, least reliable. Say so.
+- Exit code 3: trip window past the forecast; list as out of range and give a re-check time.
+
+If the shell has no internet, add `--url-only`: it still does the cell checks offline and prints the data URL to fetch with the web-fetch tool (check `time_coverage_end` in the `.das` first). Convert: speed kt = sqrt(E^2 + N^2) x 1.944; toward = atan2(E, N) degrees from north; times are UTC.
+
+Limits: research model, not an official forecast; eddies smaller than ~500 m are not resolved; values are near-surface averages. Use it to judge how strong current is and which way it sets near the route, alongside (not instead of) NOAA predictions for slack timing.
 
 ## Visual check: OceanConnect
 https://oceanconnect.ca (Hakai Institute) maps modeled currents, wind, waves and webcams for BC and Washington. It renders in JavaScript, so the fetch tool can't read it. Recommend it to the paddler for a morning-of look, especially the webcams for fog.

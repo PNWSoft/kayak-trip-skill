@@ -28,7 +28,8 @@ Before giving any plan, recommendation, go/no-go verdict or route in a conversat
 
 - `scripts/nearest_stations.py` finds the nearest NOAA tide stations, current stations and NDBC buoys to a lat/lon, from the bundled snapshot in `data/`. Runs offline.
 - `scripts/sun_times.py` gives sunrise and sunset for a date and place. Runs offline.
-- `scripts/build_station_data.py` rebuilds `data/` from NOAA. Needs internet; maintainers run it, not part of planning.
+- `scripts/salishsea_currents.py` gives modeled hourly currents at a point in the Salish Sea (SalishSeaCast), with a check that the model resolves water near the point. See `references/regional-salish-sea.md`.
+- `scripts/build_station_data.py` and `scripts/build_salishsea_grid.py` rebuild `data/`. Need internet; maintainers run them, not part of planning.
 - `references/regional-*.md` hold optional extras for specific regions. Read one only if the launch point is inside its area.
 
 Run scripts with `python3 <skill-dir>/scripts/<name>.py --help` for options.
@@ -63,7 +64,7 @@ Never present data past its horizon as a forecast.
 |---|---|---|---|
 | Tide shortlist | More than 7 days out | Tides, current-station predictions, daylight | Wind, waves, fog, rain |
 | Weather narrowing | 2-7 days out | All above + NWS marine forecast (solid to ~3 days, rough beyond) | Real-time observations |
-| Final check | Today or tomorrow | All above + buoy observations, any regional models | - |
+| Final check | Today or tomorrow | All above + buoy observations, regional current models (if they pass their close-enough check) | - |
 
 In the tide-shortlist stage, rank days by tide fit and say when to re-check (about 3 days out and the day before).
 
@@ -102,6 +103,8 @@ Run `python3 scripts/sun_times.py --lat LAT --lon LON --date YYYY-MM-DD --tz IAN
 
 ### Regional extras
 If a `references/regional-*.md` file covers the launch area, read it and use its sources. These add detail (for example, modeled currents for the Salish Sea) but don't replace the national sources.
+
+Modeled currents beat a distant current station for speed and set near the route, but only where the model actually resolves the water there. Always report the model's distance from the on-water point and its close-enough verdict; if it fails, say the model was checked and didn't apply, and fall back to station timing.
 
 ### Access notes
 - The web-fetch tool summarizes long pages and truncates large files. Don't fetch NOAA's full station lists; that's what the bundled data is for.
