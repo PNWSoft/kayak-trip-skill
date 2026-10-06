@@ -12,6 +12,7 @@ Every plan ends with **"What this plan is based on"**: each source, when it was 
 - [Using it](#using-it)
 - [Example](#example)
 - [What it checks](#what-it-checks)
+- [Extra detail for Puget Sound and the Salish Sea](#extra-detail-for-puget-sound-and-the-salish-sea)
 - [Reference conditions](#reference-conditions)
 - [Notes and limitations](#notes-and-limitations)
 - [For maintainers](#for-maintainers)
@@ -129,6 +130,20 @@ The plan then gives the route (south first along the shore against the weak set,
 | Sunrise and sunset | Computed offline | Any date |
 
 **Coverage:** US coastal waters, estuaries and the Great Lakes. Inland lakes and rivers get the land forecast only. Outside the US, the sources don't apply and it says so.
+
+### Extra detail for Puget Sound and the Salish Sea
+The skill works anywhere in US coastal waters, but it has extra data for one region, where it was built and tested:
+
+| | Everywhere in the US | Also in the Salish Sea region |
+|---|---|---|
+| Tides, current-station timing, NWS forecast and advisories, NDBC stations, daylight | ✓ | ✓ |
+| **Modeled current at your launch** (speed and direction hour by hour, not just a distant channel station) | – | ✓ NOAA SSCOFS, with UBC SalishSeaCast as a cross-check |
+| **Modeled water temperature** near your launch | – (only where an NDBC or CO-OPS station measures it) | ✓ NOAA SSCOFS |
+| Local notes (station quirks, fog patterns, model accuracy) | – | ✓ [`regional-salish-sea.md`](skills/kayak-trip-planner/references/regional-salish-sea.md) |
+
+**The Salish Sea region** covers Puget Sound, Hood Canal, the San Juan Islands, Bellingham Bay, the Strait of Juan de Fuca and the Strait of Georgia (SalishSeaCast includes the BC side). NOAA SSCOFS also covers the **Columbia River and the Washington and Oregon outer coast**.
+
+**Elsewhere** the plan relies on the nearest NOAA current station for timing only, and says so, because channel speeds can be far from what you'll meet near shore. NOAA runs similar models for other regions (Chesapeake Bay, San Francisco Bay, Delaware Bay, Tampa Bay, the Great Lakes and more), but the skill doesn't read them yet. Regional notes and model support for other areas are welcome; see [Contributing](#contributing).
 
 **Planning stage, set per day:** days past the last marine forecast period get tides and daylight only ("tide shortlist"); days within the forecast add weather and models ("weather narrowing"); today and tomorrow add live readings ("final check"). It never treats data past its horizon as a forecast.
 

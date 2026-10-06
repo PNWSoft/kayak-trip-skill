@@ -1,7 +1,13 @@
 {
   "name": "kayak-trip-planner",
-  "owner": { "name": "PNWSoft" },
+  "description": "Kayak Trip Planner: a sea kayak trip planning skill for US waters (NOAA tides and currents, NWS marine forecasts, modeled currents for the Salish Sea).",
+  "owner": {
+    "name": "PNWSoft"
+  },
   "plugins": [
-    { "name": "kayak-trip-planner", "source": "./" }
+    {
+      "name": "kayak-trip-planner",
+      "source": "./"
+    }
   ]
 }
