@@ -13,7 +13,8 @@ A Claude skill that plans sea kayak trips in US waters. Give it a launch point a
 | Wind, waves, fog, rain, advisories | NWS marine point forecast | About 5-7 days |
 | Live wind, waves, water temperature | NDBC buoys | Real time |
 | Sunrise and sunset | Computed offline | Any date |
-| Regional extras (e.g. Salish Sea modeled currents) | See `references/` | Varies |
+| Modeled currents at a point (NOAA SSCOFS, SalishSeaCast) | Salish Sea, Columbia River, WA/OR coast | ~2-3 days |
+| Other regional extras | See `references/` | Varies |
 
 Coverage: US coastal waters, estuaries and the Great Lakes. Inland lakes and rivers get the land forecast only.
 
@@ -55,9 +56,11 @@ skills/kayak-trip-planner/
   scripts/
     nearest_stations.py   nearest tide/current stations and buoys (offline)
     sun_times.py          sunrise/sunset (offline)
-    salishsea_currents.py modeled currents at a point, Salish Sea
+    sscofs_currents.py    modeled currents at a point, NOAA SSCOFS (Salish Sea, Columbia R., WA/OR coast)
+    salishsea_currents.py modeled currents at a point, SalishSeaCast
     build_station_data.py rebuilds the station snapshot (maintainers)
     build_salishsea_grid.py rebuilds the SalishSeaCast cell table (maintainers)
+    build_sscofs_mesh.py  rebuilds the SSCOFS mesh index (maintainers)
   data/                   station snapshot (generated; see SNAPSHOT.txt)
   references/
     regional-salish-sea.md

@@ -28,8 +28,8 @@ Before giving any plan, recommendation, go/no-go verdict or route in a conversat
 
 - `scripts/nearest_stations.py` finds the nearest NOAA tide stations, current stations and NDBC buoys to a lat/lon, from the bundled snapshot in `data/`. Runs offline.
 - `scripts/sun_times.py` gives sunrise and sunset for a date and place. Runs offline.
-- `scripts/salishsea_currents.py` gives modeled hourly currents at a point in the Salish Sea (SalishSeaCast), with a check that the model resolves water near the point. See `references/regional-salish-sea.md`.
-- `scripts/build_station_data.py` and `scripts/build_salishsea_grid.py` rebuild `data/`. Need internet; maintainers run them, not part of planning.
+- `scripts/sscofs_currents.py` (NOAA SSCOFS: Salish Sea, Columbia River, WA/OR coast) and `scripts/salishsea_currents.py` (SalishSeaCast) give modeled hourly currents at a point, each with a check that the model resolves water near the point. See `references/regional-salish-sea.md`.
+- `scripts/build_station_data.py`, `scripts/build_sscofs_mesh.py` and `scripts/build_salishsea_grid.py` rebuild `data/`. Need internet; maintainers run them, not part of planning.
 - `references/regional-*.md` hold optional extras for specific regions. Read one only if the launch point is inside its area.
 
 Run scripts with `python3 <skill-dir>/scripts/<name>.py --help` for options.
@@ -63,7 +63,7 @@ Never present data past its horizon as a forecast.
 | Stage | Trip is | Can check | Can't check yet |
 |---|---|---|---|
 | Tide shortlist | More than 7 days out | Tides, current-station predictions, daylight | Wind, waves, fog, rain |
-| Weather narrowing | 2-7 days out | All above + NWS marine forecast (solid to ~3 days, rough beyond) | Real-time observations |
+| Weather narrowing | 2-7 days out | All above + NWS marine forecast (solid to ~3 days, rough beyond), regional current models within their range | Real-time observations |
 | Final check | Today or tomorrow | All above + buoy observations, regional current models (if they pass their close-enough check) | - |
 
 In the tide-shortlist stage, rank days by tide fit and say when to re-check (about 3 days out and the day before).
@@ -82,7 +82,7 @@ Predictions are astronomical; wind and air pressure can shift real water levels 
 ```
 https://api.tidesandcurrents.noaa.gov/api/prod/datagetter?begin_date=YYYYMMDD&end_date=YYYYMMDD&station=ID&product=currents_predictions&interval=MAX_SLACK&time_zone=lst_ldt&units=english&format=json
 ```
-Add `&bin=N` with the bin from `nearest_stations.py` (the shallowest bin, closest to what a kayak feels). Returns slack, max flood and max ebb times, speeds in knots (ebb negative) and mean flood/ebb directions.
+Add `&bin=N` with the bin from `nearest_stations.py` (the shallowest predicted depth, closest to what a kayak feels; bins count up from the bottom). Returns slack, max flood and max ebb times, speeds in knots (ebb negative) and mean flood/ebb directions.
 
 ### Wind, waves, fog, rain (NWS marine point forecast; horizon: ~5-7 days)
 ```

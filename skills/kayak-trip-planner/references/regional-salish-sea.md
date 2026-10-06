@@ -2,8 +2,24 @@
 
 Use when the launch point is roughly between 47.0 and 50.5 N and 122.0 and 125.0 W. These add detail; the national NOAA/NWS sources still come first.
 
+## Modeled surface currents: which source
+Two models give hourly currents at a point. Both run a few hours to days ahead, so use them in the weather-narrowing and final-check stages.
+
+1. **NOAA SSCOFS first** (`scripts/sscofs_currents.py`): NOAA's operational model, ~50-150 m mesh in passes and bays, ~72 h ahead. Also covers the Columbia River and the WA/OR outer coast.
+2. **SalishSeaCast as a cross-check or fallback** (`scripts/salishsea_currents.py`, below): ~500 m research model, ~36-48 h ahead; the model behind OceanConnect. Coarser, so it fails the close-enough check in narrow passes.
+
+Both scripts take the same arguments, do the same close-enough check (nearest model water within 1 km, flags beyond 400 m and next to shore), and return hourly speed and the direction the water flows toward, in local time. Use the on-water point from Step 2. If both pass and disagree a lot, say so and lean on the NOAA station predictions.
+
+**Models vs. NOAA current predictions.** Where a NOAA prediction station sits right on the route, its slack times and peak speeds come first. Tested at Deception Pass, SSCOFS got the flood/slack/ebb timing within ~20-30 min but peak speeds ~30-50% low (3.9 vs 5.5 kt flood). Models are most valuable away from stations, in bays and along shorelines where a distant channel station's speeds would mislead.
+
+### NOAA SSCOFS
+```
+python3 scripts/sscofs_currents.py --lat LAT --lon LON --date YYYY-MM-DD --start HH:MM --hours N
+```
+Uses the bundled mesh index `data/sscofs_mesh.csv.gz` (offline), then one ~350-byte request per hour to NOAA's THREDDS server, from the newest model run (03, 09, 15, 21 UTC) that covers it. Flags hours when the element is dry (tidal flat). Exit codes as below. With no shell internet, `--url-only` prints the checks and a per-hour URL template; the brackets must stay percent-encoded (`%5B`, `%5D`) or the server returns 400. Info: https://tidesandcurrents.noaa.gov/ofs/sscofs/sscofs.html
+
 ## Modeled surface currents: SalishSeaCast (UBC)
-A ~500 m research model of the whole Salish Sea; the model behind the OceanConnect app. Hourly, and runs only ~36-48 h ahead, so use it in the final-check stage. Most useful in bays and passages with no nearby NOAA current station, where a distant channel station's speeds would mislead.
+A ~500 m research model of the whole Salish Sea; the model behind the OceanConnect app. Hourly, and runs only ~36-48 h ahead.
 
 Run:
 ```
