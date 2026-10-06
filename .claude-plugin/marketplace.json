@@ -1,0 +1,7 @@
+{
+  "name": "kayak-trip-planner",
+  "owner": { "name": "AUTHOR NAME" },
+  "plugins": [
+    { "name": "kayak-trip-planner", "source": "./" }
+  ]
+}
