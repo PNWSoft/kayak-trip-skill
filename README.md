@@ -16,6 +16,7 @@ Every plan ends with **"What this plan is based on"**: each source, when it was 
 - [Reference conditions](#reference-conditions)
 - [Notes and limitations](#notes-and-limitations)
 - [For maintainers](#for-maintainers)
+- [Network use and data handling](#network-use-and-data-handling)
 
 ## What it does, and doesn't
 
@@ -220,6 +221,20 @@ LICENSE                     Apache License 2.0 (code)
 
 ### Contributing
 Regional notes are the most useful contribution: a `references/regional-<area>.md` file describing extra sources (regional models, local wind patterns, known hazards, nearby stations, common routes and landings) for a stretch of coast you know well. Follow the Salish Sea file as a template. Keep every source public and free, and say what it does and doesn't cover.
+
+## Network use and data handling
+The plugin has no server and sends nothing to its authors. To build a plan, Claude (with the web-fetch tool) or the bundled scripts request public data from these hosts only:
+
+| Host | What is requested |
+|---|---|
+| `api.tidesandcurrents.noaa.gov`, `tidesandcurrents.noaa.gov` | Tide and current predictions, station metadata |
+| `opendap.co-ops.nos.noaa.gov` | NOAA SSCOFS model values at one point (currents, water temperature) |
+| `forecast.weather.gov`, `api.weather.gov` | Marine point forecast and active alerts |
+| `www.ndbc.noaa.gov` | Latest station observations |
+| `salishsea.eos.ubc.ca` | SalishSeaCast model values at one point |
+| (none fetched) `www.nwrafting.com` | Hosts the ACA cold-water brochure that plans cite as a link; the plugin never fetches it |
+
+Requests contain only coordinates, dates, station IDs and model indexes, nothing about the person. No personal data is read or stored by the plugin, and nothing is retained. Details: [PRIVACY.md](PRIVACY.md).
 
 ## Data sources and attribution
 Tide and current predictions and the SSCOFS model from NOAA CO-OPS (tidesandcurrents.noaa.gov). Marine forecasts and alerts from the National Weather Service (weather.gov). Station observations from NOAA's National Data Buoy Center (ndbc.noaa.gov). SalishSeaCast modeled currents from the University of British Columbia. Reference conditions from the American Canoe Association and British Canoeing / Paddle UK. None of these organizations is affiliated with or endorses this tool.
