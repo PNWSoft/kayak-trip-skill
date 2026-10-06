@@ -1,6 +1,6 @@
 # Kayak Trip Planner
 
-A Claude skill that plans sea kayak trips in US waters. Give it a launch point and a few days, and it pulls NOAA tide and current predictions, the NWS marine forecast, buoy observations and daylight, checks each against your skill level, and recommends the best day, launch time and route direction. Every plan ends with a section listing exactly which sources it used, how reliable they are at that lead time, and what it didn't check, so a plan you share can stand on its own.
+A Claude skill that plans sea kayak trips in US waters. Give it a launch point and a few days, and it pulls NOAA tide and current predictions, the NWS marine forecast, buoy observations and daylight, compares each with published reference conditions (ACA and Paddle UK) for your experience level, and suggests the best-matching day, launch time and route direction. It's a planning tool, not a safety system: it never calls a day safe or unsafe, and it doesn't plan days with a Small Craft Advisory or stronger marine warning. Every plan ends with a section listing exactly which sources it used, how reliable they are at that lead time, and what it didn't check, so a plan you share can stand on its own.
 
 > **Safety notice.** This tool gives general planning information from public data that can be wrong or out of date. It does not see real conditions or know local hazards, and it is not a guarantee of safety. Paddling can cause injury or death. You are responsible for your own decisions and safety. Use of the tool requires accepting the [Terms of Use](TERMS.md), which include an assumption of risk, a release and a hold-harmless agreement. The skill asks you to accept them before giving its first plan in each conversation.
 
@@ -22,7 +22,7 @@ Coverage: US coastal waters, estuaries and the Great Lakes. Inland lakes and riv
 ## How it works
 
 1. **Accepts terms** once per conversation (see TERMS.md).
-2. **Asks for your profile** once: speed, trip length, skill level, cold-water gear. Thresholds for wind, waves and current adjust to your skill level.
+2. **Asks for your profile** once: speed, trip length, experience level (or your own limits), cold-water gear. Your level picks the reference conditions for wind, waves, current and distance from shore.
 3. **Finds the nearest stations** from a bundled snapshot of every NOAA tide station, current station and NDBC weather buoy. This runs offline, so it works even where Claude can't download large files.
 4. **Picks the planning stage** from how far out the trip is (tide shortlist, weather narrowing or final check) and never treats data past its horizon as a forecast.
 5. **Writes the plan**: best day and backup, a per-day table, launch time and route direction, when to re-check, and "What this plan is based on".

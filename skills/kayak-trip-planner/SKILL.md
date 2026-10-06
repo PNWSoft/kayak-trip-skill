@@ -5,22 +5,22 @@ description: Use when someone asks about a good day or time to sea kayak in US w
 
 # Kayak trip planner (US waters)
 
-Sea kayaking needs more prep than a run or bike ride: tide, current, wind, waves, fog and daylight all have to line up. This skill pulls public NOAA and NWS data for a launch point, checks each go/no-go factor against the paddler's profile, recommends the best day, launch time and route direction, and states plainly what the plan rests on and what it does not cover.
+Sea kayaking needs more prep than a run or bike ride: tide, current, wind, waves, fog and daylight all have to line up. This skill pulls public NOAA and NWS data for a launch point, compares each factor with reference conditions for the paddler's experience level, suggests the best-matching day, launch time and route direction, and states plainly what the plan rests on and what it does not cover.
 
-Plans may be shared with people who never saw the conversation, so every plan must stand on its own. This skill gives planning information only; the paddler makes the go/no-go call.
+Plans may be shared with people who never saw the conversation, so every plan must stand on its own. This skill gives planning information only. It is not a safety system: it shows the data, compares it with published reference conditions for the person's experience level, and offers guidance, but never says a day is safe or unsafe. The paddler makes every decision.
 
 Coverage: US coastal waters, estuaries and the Great Lakes (NOAA/NWS sources). Outside the US, say the data sources don't cover it and stop. On inland lakes and rivers there are no tide or marine forecasts; use the land forecast and say so.
 
 ## Step 0: Required acceptance of terms (before the first plan in every conversation)
 
-Before giving any plan, recommendation, go/no-go verdict or route in a conversation, show this notice exactly, and ask the person to reply "I accept". Gathering their trip details (Step 1) can happen alongside it, but no plan is given until they accept.
+Before giving any plan, recommendation or route in a conversation, show this notice exactly, and ask the person to reply "I accept". Gathering their trip details (Step 1) can happen alongside it, but no plan is given until they accept.
 
 > **Safety notice and terms of use.** Kayak Trip Planner gives general planning information from public NOAA and NWS data, which can be wrong, late, incomplete or unavailable. It does not observe real conditions, know your abilities or know local hazards, and it is not professional advice, instruction or a guarantee of safety. Paddling is dangerous and can cause injury or death. You are solely responsible for deciding whether, when and where to paddle, and for your own safety and that of anyone with you. By using this tool you accept all risks of using it, release its authors and contributors from all liability, and agree to hold them harmless from any claims, losses or damages arising from your use of it or reliance on it. Full terms: TERMS.md in this skill's repository.
 >
 > Reply **"I accept"** to continue.
 
 - Accept only a clear acceptance ("I accept", "I agree", "yes, I accept"). If the reply is ambiguous, ask once more.
-- If they decline, don't give plans, verdicts or routes. You can still explain general concepts (what slack water is, how to read a tide table) and point them to the sources in Step 4.
+- If they decline, don't give plans, recommendations or routes. You can still explain general concepts (what slack water is, how to read a tide table) and point them to the sources in Step 4.
 - Ask once per conversation. If they already accepted earlier in the conversation, don't ask again.
 - When a plan is shared, it already carries its own "Not covered by this plan" section; don't repeat the full notice in every plan.
 
@@ -42,9 +42,9 @@ Use a profile the person has already given (earlier in the conversation or in me
 - Trip length: 3 hours
 - Launch window: when they'd like to start
 - Cold-water gear: dry suit, wet suit, or none
-- Skill level: beginner, intermediate or advanced (sets the thresholds in Step 5). **No default.**
+- Experience level: beginner, intermediate or advanced (picks the reference conditions in Step 5), or their own limits. **No default.**
 
-Skill level must come from the person. If it isn't known, ask for it, and don't give verdicts or a plan until they answer; you can pull data meanwhile. For the other items, if the trip is soon and the person seems to want an answer now, proceed with the defaults and say which were assumed. Restate the profile used in every plan. Don't lecture about gear they already have.
+Experience level must come from the person. If it isn't known, ask for it, and don't give a plan until they answer; you can pull data meanwhile. For the other items, if the trip is soon and the person seems to want an answer now, proceed with the defaults and say which were assumed. Restate the profile used in every plan. Don't lecture about gear they already have.
 
 ## Step 2: Locate the launch and the stations
 
@@ -89,6 +89,7 @@ Add `&bin=N` with the bin from `nearest_stations.py` (the shallowest predicted d
 https://forecast.weather.gov/MapClick.php?lat=LAT&lon=LON&unit=0&lg=english&FcstType=text&TextType=1
 ```
 - Use the on-water point. This returns the marine point forecast, with any Small Craft Advisory, Gale Warning or Dense Fog Advisory listed at the top.
+- Check for marine advisories and warnings for every candidate day: the hazards listed at the top of the page, and the wording of each forecast period. If shell internet is available, `https://api.weather.gov/alerts/active?point=LAT,LON` also lists active alerts (it may be blocked; don't retry). See "Days this tool doesn't plan" in Step 5.
 - ALWAYS check the "Last Update" time. This site sometimes serves a stale cached page that is weeks old, especially for land points or the `FcstType=digital` view. Discard anything not issued in the last ~24 h and list it as unavailable.
 - Note the last period listed; that is the forecast horizon. Never extend it.
 - Marine forecasts cover broad zones in 5 kt steps. Local gusts, gap winds and afternoon sea breezes can exceed them; say so.
@@ -118,55 +119,68 @@ Modeled currents beat a distant current station for speed and set near the route
 - `api.weather.gov` blocks some automated fetchers. If it fails, use the forecast.weather.gov URL above and don't retry.
 - Some map sites (OceanConnect, Windy) render in JavaScript and return nothing to the fetch tool. Recommend them for a visual check; never claim to have read them.
 
-## Step 5: Evaluate each candidate day
+## Step 5: Compare each day with reference conditions
 
-Default thresholds by skill level. Say which set was used, and let the person override.
+### Days this tool doesn't plan
+If a **Small Craft Advisory**, or any stronger marine warning (Gale Warning, Storm Warning, Hurricane Force Wind Warning, Hazardous Seas Warning, Special Marine Warning), is in effect at any point during the person's trip window on a day, don't plan that day. Skip the comparison, launch time and route for it. In the table, list the day as "Not planned: <advisory name> in effect <times>", and say once in the plan: "This tool doesn't plan days with a Small Craft Advisory or stronger marine warning; anyone who wants to paddle in those conditions needs to do their own planning." If the advisory's times are unclear, treat the whole day as covered. This is a limit on what the tool plans, not a safety verdict, and applies at every experience level. Re-check advisories at each re-check; one issued or lifted later changes which days are planned.
 
-| Factor | Beginner | Intermediate | Advanced |
+
+This is a planning tool, not a safety system. Present the data, compare it with published reference conditions for the person's stated experience level, and point out what may matter. Never call a day, time or route "safe" or "unsafe", and never give a go/no-go verdict; the paddler judges their own skills, group, gear and the water on the day. Use plain comparisons: "within", "near the top of" or "above the reference range for beginners".
+
+### Reference conditions
+
+These come from training standards, not from this skill. They describe the conditions training bodies use for **instructor-led courses** and leader remits at each level, not limits for independent paddling. Say that when you use them, name which set you used, and use the person's own limits instead whenever they give them.
+
+| | Beginner | Intermediate | Advanced |
 |---|---|---|---|
-| Sustained wind, go | <=8 kt | <=12 kt | <=15 kt |
-| Sustained wind, no-go | >10 kt or any advisory | >15 kt or Small Craft Advisory | >20 kt or Gale Warning |
-| Waves, no-go | >1 ft | >2 ft | >3 ft |
-| Current against you on the return leg, no-go | >0.5 kt | >1 kt | > half the paddling speed |
-| Fog | No-go with any fog in the window | No-go with Dense Fog Advisory | Caution with Dense Fog Advisory |
-| Water temp below 60 F with no immersion gear | No-go | Stay near shore | Stay near shore |
-| Thunder or lightning in the forecast | No-go | No-go | No-go |
+| ACA course venue | Level 2, Essentials of Kayak Touring: protected water, landing always available, within 0.5 nm of shore; wind < 10 kt, waves < 1 ft, current < 1 kt | Level 3, Coastal Kayaking: within 1.5 nm of shore, landing always available; wind 10-15 kt, waves 1-2 ft, surf 1-2 ft, current 1-2 kt | Level 4, Open Water Coastal: within 2 nm of shore; wind 15-20 kt, waves 3-5 ft, current 2-4 kt |
+| Paddle UK (British Canoeing) environment | Sheltered water: wind up to Beaufort 3 (7-10 kt); open water no more than 200 m offshore; estuaries < 0.5 kt; enclosed bays and harbours, easy landings throughout, no tide races, overfalls or surf | Moderate water (sea): wind up to Beaufort 4 (11-16 kt); up to 2 kt of tide, no races or overfalls; easy landings at most 2 nm apart; crossings up to 2 nm; surf up to 1 m | Advanced water (sea): wind above Beaufort 4; tide races, overfalls or open crossings that can't be avoided; landings may be difficult or impossible; surf up to 1.5 m |
 
-Also check:
-- **Wind against current** stacks up steep, short waves even at moderate speeds. Treat it one level more conservatively.
-- **Launch at low tide**: mudflats, long carries, exposed rocks. A rising tide during the trip is safer; a falling one can strand boats in shallow bays.
-- **Afternoon sea breeze**: often builds after midday on warm days. Prefer heading upwind first.
-- **Offshore wind** (blowing from land to water) is the riskiest direction for a tired paddler. Flag it.
+Sources: ACA Level 2 Essentials of Kayak Touring Instructor Criteria, ACA Level 3 Coastal Kayaking Basic Strokes & Rescues Skills Course, ACA Level 4 Open Water Coastal Kayaking Skills Course (all rev. 1/1/2023, americancanoe.org); British Canoeing Awarding Body, Environmental Definitions and Deployment Guidance for Instructors, Coaches and Leaders (V2, April 2025, paddleuk.org.uk). If the person asks where the numbers come from, give these.
+
+The two sets differ (for beginners, ACA allows current up to 1 kt; Paddle UK's sheltered estuaries stop at 0.5 kt). Show the comparison against both when they disagree for a given day, rather than picking one.
+
+### Other things worth pointing out
+
+No standard gives numbers for these; they are common rules of thumb. Mention them as context when they apply, not as limits.
+- **Wind against current** builds steep, short waves even at moderate speeds.
+- **Offshore wind** (blowing from land to water) makes the return harder and can push a tired paddler away from shore.
+- **Afternoon sea breeze** often builds after midday on warm days; heading upwind first keeps the easier leg for last.
+- **Fog** cuts visibility for the paddler and for boats looking for them.
+- **Thunder or lightning** in the forecast.
+- **Cold water**: report the water temperature (see Step 4). Water below about 60 F is commonly cited as a cold-shock concern without immersion gear; mention it only when the person has none.
+- **Launch at low tide**: mudflats, long carries, exposed rocks. A rising tide during the trip helps; a falling one can leave boats short of water in shallow bays.
 
 ## Step 6: Plan the route
 
 - Do the outbound leg against the weaker push (current or wind) so the return is assisted. Use slack times and the flood/ebb directions to choose.
 - Time features to the tide: rocks and tidepools near low water, shallow bays and marshes near high water.
 - Distance = speed x duration, minus ~20% for breaks and margin. Give rough clock times for the turnaround and key stops.
-- Prefer routes that keep a landing within reach. Mention crossings of shipping lanes or ferry routes if the route has them.
+- Prefer routes that keep a landing within reach, and note how far from shore the route goes compared with the reference distance for their level (e.g. ACA Level 2: within 0.5 nm; Paddle UK sheltered: within 200 m of shore). Mention crossings of shipping lanes or ferry routes if the route has them.
 
 Local geography is the weakest part of any plan. Name features only when confident; otherwise describe the route by direction and distance ("south along the shore ~2.4 mi, then back") and say to check a chart.
 
 ## Step 7: Write the plan
 
-Lead with the recommendation (best day and a backup) and the planning stage. Then:
-- A compact table per candidate day: low/high times and heights, slack and max current times, wind, waves, sky, fog, water temperature, verdict.
+Lead with the suggestion (best-matching day and a backup, and why) and the planning stage. Frame it as the best match for their stated level and preferences, not as a safety call. Then:
+- A compact table per candidate day: low/high times and heights, slack and max current times, wind, waves, sky, fog, water temperature, any marine advisory, and how it compares with the reference conditions (or "Not planned" for advisory days).
 - Launch time, route and direction, with the reason.
 - When to re-check, if the trip is beyond the reliable forecast range.
 
 Then ALWAYS end with this section, filled in, even when everything looks good:
 
 ### What this plan is based on
-- **Paddler assumptions:** speed, duration, skill level and the thresholds used, gear, and the water temperature with its source.
+- **Paddler assumptions:** speed, duration, experience level and the reference conditions used (with their source, and that they describe instructor-led course conditions), or the person's own limits; gear; water temperature with its source.
 - **Sources checked:** each source with its issue/update time and the period covered (link each); each station's distance from the launch; for current stations, that speeds apply at that station only.
 - **Reliability at this lead time:** which parts are predictions (tides, currents) and which are forecasts (weather), and how reliable each is now.
 - **Not checked or unavailable:** anything that failed, was stale or was out of range.
-- **Not covered by this plan:** local hazards (rocks, surf, rebound off cliffs, boat and ferry traffic, shipping lanes), closures and permits, launch access, and real-time conditions on the day. Look at the water before launching and make your own go/no-go call. Conditions change; this plan is not a guarantee of safety.
+- **Not planned:** any day skipped for a Small Craft Advisory or stronger marine warning, with the advisory and its times.
+- **Not covered by this plan:** local hazards (rocks, surf, rebound off cliffs, boat and ferry traffic, shipping lanes), closures and permits, launch access, and real-time conditions on the day. This is planning information, not a safety assessment. Look at the water before launching and make your own decision. Conditions change; this plan is not a guarantee of safety.
 
 ## Refining the plan
 
 After the plan, invite changes, for example: "I want to go south from the launch", "We'll stop for lunch at a beach 2 mi out", "Can we launch at 9?", "Only Thursday works", "Make it 2 hours".
 - Treat what the person says about the route, landings and local features as better local knowledge than yours. Use it; don't argue with it unless the data shows a conflict (e.g. their chosen direction means the return is against the stronger current or wind).
 - Re-run only what changes: a new direction or destination re-checks Step 6 (outbound/return pushes, distance, turnaround time) with the data already pulled; a new day or time window may need new data, and may change the planning stage.
-- If a change makes a factor cross a threshold (e.g. the return leg now fights >1 kt for an intermediate paddler), say so plainly and suggest the alternative, but the person decides.
+- If a change moves a factor outside the reference range (e.g. the return leg now meets more current than the beginner reference), say so plainly and mention the alternative; the person decides.
 - Re-issue the full plan, including "What this plan is based on", so the latest version stands on its own when shared. Note what changed from the previous version in one line at the top.
