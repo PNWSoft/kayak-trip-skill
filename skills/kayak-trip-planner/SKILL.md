@@ -103,7 +103,7 @@ Latest rows first: wind speed and gusts (m/s), wave height (m), water temperatur
 - Readings taken the evening before only describe that evening. For a trip tomorrow, say to check them again the morning of.
 
 ### Water temperature
-Needed for the cold-water rule in Step 5 (it doesn't matter if the person wears a dry suit; say so and move on). Sources, in order: a regional model that reports it (in the Salish Sea, `sscofs_currents.py` gives modeled surface water temperature per hour); an NDBC station reporting WTMP; the nearest CO-OPS water level station with `product=water_temperature&date=latest`. Many tide stations don't measure it. If none has it, list it as unavailable, and with no immersion gear treat it as below 60 F.
+Always find and report it, whatever the gear. It drives the cold-water rule in Step 5 when there is no immersion gear, and with a dry suit or wet suit it tells the person what to wear: dry suit insulation layers, or wet suit thickness. Give the temperature and one short line on what it means for their gear (e.g. "57 F: mid-weight base layer under the dry suit"); don't lecture. Sources, in order: a regional model that reports it (in the Salish Sea, `sscofs_currents.py` gives modeled surface water temperature per hour); an NDBC station reporting WTMP; the nearest CO-OPS water level station with `product=water_temperature&date=latest`. Many tide stations don't measure it. If none has it, list it as unavailable and say what that means for their gear choice; with no immersion gear treat it as below 60 F.
 
 ### Daylight
 Run `python3 scripts/sun_times.py --lat LAT --lon LON --date YYYY-MM-DD --tz IANA_ZONE`. Flag trips ending within an hour of sunset.
@@ -150,14 +150,14 @@ Local geography is the weakest part of any plan. Name features only when confide
 ## Step 7: Write the plan
 
 Lead with the recommendation (best day and a backup) and the planning stage. Then:
-- A compact table per candidate day: low/high times and heights, slack and max current times, wind, waves, sky, fog, verdict.
+- A compact table per candidate day: low/high times and heights, slack and max current times, wind, waves, sky, fog, water temperature, verdict.
 - Launch time, route and direction, with the reason.
 - When to re-check, if the trip is beyond the reliable forecast range.
 
 Then ALWAYS end with this section, filled in, even when everything looks good:
 
 ### What this plan is based on
-- **Paddler assumptions:** speed, duration, skill level and the thresholds used, gear.
+- **Paddler assumptions:** speed, duration, skill level and the thresholds used, gear, and the water temperature it was matched against (with its source).
 - **Sources checked:** each source with its issue/update time and the period covered (link each); each station's distance from the launch; for current stations, that speeds apply at that station only.
 - **Reliability at this lead time:** which parts are predictions (tides, currents) and which are forecasts (weather), and how reliable each is now.
 - **Not checked or unavailable:** anything that failed, was stale or was out of range.
