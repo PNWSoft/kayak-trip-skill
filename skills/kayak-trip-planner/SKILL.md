@@ -77,7 +77,7 @@ Fetch with the web-fetch tool. Record each source's URL, issue/update time and t
 ```
 https://api.tidesandcurrents.noaa.gov/api/prod/datagetter?begin_date=YYYYMMDD&end_date=YYYYMMDD&station=ID&product=predictions&datum=MLLW&time_zone=lst_ldt&interval=hilo&units=english&format=json
 ```
-Predictions are astronomical; wind and air pressure can shift real water levels by a few tenths of a foot or more. Great Lakes have no meaningful tide; skip this and watch wind-driven water level changes instead.
+Many stations are subordinate (secondary) stations that publish only high and low times: `interval=hilo` works, but `interval=h` or `6` returns "No Predictions data was found". When a tide height between the highs and lows is needed (a chart, the water depth at launch time), use cosine interpolation between the bracketing events, NOAA's own method for these stations: h(t) = (h0+h1)/2 + (h0-h1)/2 × cos(π(t-t0)/(t1-t0)). Fetch the events either side of the window, and say the curve is interpolated. Predictions are astronomical; wind and air pressure can shift real water levels by a few tenths of a foot or more. Great Lakes have no meaningful tide; skip this and watch wind-driven water level changes instead.
 
 ### Tidal currents (NOAA CO-OPS; horizon: months to years)
 ```
