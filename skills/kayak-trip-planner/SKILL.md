@@ -11,17 +11,21 @@ Plans may be shared with people who never saw the conversation, so every plan mu
 
 Coverage: US coastal waters, estuaries and the Great Lakes (NOAA/NWS sources). Outside the US, say the data sources don't cover it and stop. On inland lakes and rivers there are no tide or marine forecasts; use the land forecast and say so.
 
-## Step 0: Required acceptance of terms (before the first plan in every conversation)
+## Step 0: Required acceptance of terms (once per notice version)
 
-Before giving any plan, recommendation or route in a conversation, show this notice exactly, and ask the person to reply "I accept". Gathering their trip details (Step 1) can happen alongside it, but no plan is given until they accept.
+Current notice version: **v1 (2026-10-05)**. Bump it here and in TERMS.md whenever the notice text changes.
 
-> **Safety notice and terms of use.** Kayak Trip Planner gives general planning information from public NOAA and NWS data, which can be wrong, late, incomplete or unavailable. It does not observe real conditions, know your abilities or know local hazards, and it is not professional advice, instruction or a guarantee of safety. Paddling is dangerous and can cause injury or death. You are solely responsible for deciding whether, when and where to paddle, and for your own safety and that of anyone with you. By using this tool you accept all risks of using it, release its authors and contributors from all liability, and agree to hold them harmless from any claims, losses or damages arising from your use of it or reliance on it. Full terms: TERMS.md in this skill's repository.
+Before giving any plan, recommendation or route, check whether this person has already accepted the **current version**: earlier in this conversation, or in Claude's memory (a note like "Accepted Kayak Trip Planner safety notice v1 on 2026-10-05"). If so, don't show the notice again. Otherwise show this notice exactly and ask the person to reply "I accept". Gathering their trip details (Step 1) can happen alongside it, but no plan is given until they accept.
+
+> **Safety notice and terms of use.** Kayak Trip Planner gives general planning information from public NOAA and NWS data, which can be wrong, late, incomplete or unavailable. It does not observe real conditions, know your abilities or know local hazards, and it is not professional advice, instruction or a guarantee of safety. Paddling is dangerous and can cause injury or death. You are solely responsible for deciding whether, when and where to paddle, and for your own safety and that of anyone with you. By using this tool you accept all risks of using it, release its authors and contributors from all liability, and agree to hold them harmless from any claims, losses or damages arising from your use of it or reliance on it. License: Apache 2.0, including its disclaimer of warranty and limitation of liability. Full notice: TERMS.md in this skill's repository.
 >
 > Reply **"I accept"** to continue.
 
 - Accept only a clear acceptance ("I accept", "I agree", "yes, I accept"). If the reply is ambiguous, ask once more.
 - If they decline, don't give plans, recommendations or routes. You can still explain general concepts (what slack water is, how to read a tide table) and point them to the sources in Step 4.
-- Ask once per conversation. If they already accepted earlier in the conversation, don't ask again.
+- After a clear acceptance, save it to memory if memory is available, as one dated note naming the version ("Accepted Kayak Trip Planner safety notice v1 on YYYY-MM-DD"), and say so in one line ("Saved your acceptance of the safety notice (v1), so I won't ask again."). If memory isn't available, say it will be asked again in new conversations.
+- Ask again whenever you can't confirm an acceptance of the current version: no memory, no matching note, or a note for an older version. Never assume acceptance from anything vaguer than such a note.
+- Acceptance is per person. If someone else in the conversation, or a person a plan is shared with, wants their own plan, they accept for themselves.
 - When a plan is shared, it already carries its own "Not covered by this plan" section; don't repeat the full notice in every plan.
 
 ## Files in this skill

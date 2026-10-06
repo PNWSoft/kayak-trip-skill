@@ -4,7 +4,7 @@ A Claude skill that plans sea kayak trips in US waters. Give it a launch point a
 
 Every plan ends with **"What this plan is based on"**: each source, when it was issued, how far it is from your launch, how reliable it is at that lead time, and what wasn't checked. A plan you share stands on its own.
 
-> **Safety notice.** This is a planning tool, not a safety system. It gives general information from public data that can be wrong, late or incomplete. It does not see real conditions, know your abilities or know local hazards, and it never tells you a day is safe. Paddling can cause injury or death. You are responsible for your own decisions and safety. Use of the tool requires accepting the [Terms of Use](TERMS.md), which include an assumption of risk, a release and a hold-harmless agreement. The skill asks you to accept them before its first plan in each conversation.
+> **Safety notice.** This is a planning tool, not a safety system. It gives general information from public data that can be wrong, late or incomplete. It does not see real conditions, know your abilities or know local hazards, and it never tells you a day is safe. Paddling can cause injury or death. You are responsible for your own decisions and safety. The tool is licensed under the [Apache License 2.0](LICENSE), which provides it "as is" with no warranty and limits liability (Sections 7 and 8). The [safety notice](TERMS.md) explains what the tool is and isn't; the skill asks you to accept it once, remembers that where Claude has memory, and asks again if the notice changes.
 
 ## Contents
 - [What it does, and doesn't](#what-it-does-and-doesnt)
@@ -81,7 +81,7 @@ Ask in plain language. Name a launch (or give coordinates), a day range and roug
 > We're thinking Deception Pass next Saturday morning. When is slack, and is the weather looking OK?
 
 **What it asks first**
-1. **The terms.** It shows the safety notice once per conversation. Reply **"I accept"**; it won't plan until you do.
+1. **The safety notice.** Reply **"I accept"**; it won't plan until you do. With Claude's memory on it saves your acceptance and doesn't ask again until the notice version changes; without memory it asks in each new conversation.
 2. **Your profile**, once: cruising speed (default 2.5 mph touring, 2 mph relaxed), trip length (default 3 hours), launch window, cold-water gear, and **experience level** (beginner, intermediate, advanced, or your own limits). Experience level has no default; it always asks.
 
 **Refining the plan**
@@ -197,7 +197,7 @@ skills/kayak-trip-planner/
   references/
     regional-salish-sea.md  Salish Sea models, local notes
     visual-links.md         links to graphs, maps and webcams
-TERMS.md                    terms of use, assumption of risk, hold harmless
+TERMS.md                    safety notice (versioned), in addition to the license
 LICENSE                     Apache License 2.0 (code)
 ```
 
@@ -208,4 +208,4 @@ Regional notes are the most useful contribution: a `references/regional-<area>.m
 Tide and current predictions and the SSCOFS model from NOAA CO-OPS (tidesandcurrents.noaa.gov). Marine forecasts and alerts from the National Weather Service (weather.gov). Station observations from NOAA's National Data Buoy Center (ndbc.noaa.gov). SalishSeaCast modeled currents from the University of British Columbia. Reference conditions from the American Canoe Association and British Canoeing / Paddle UK. None of these organizations is affiliated with or endorses this tool.
 
 ## License
-Code: [Apache License 2.0](LICENSE). Use of the tool and its output: [Terms of Use](TERMS.md).
+[Apache License 2.0](LICENSE) for the tool and its output. The [safety notice](TERMS.md) is an additional notification, not a separate license.
