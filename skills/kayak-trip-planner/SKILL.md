@@ -31,6 +31,7 @@ Before giving any plan, recommendation or route in a conversation, show this not
 - `scripts/sscofs_currents.py` (NOAA SSCOFS: Salish Sea, Columbia River, WA/OR coast) and `scripts/salishsea_currents.py` (SalishSeaCast) give modeled hourly currents at a point, each with a check that the model resolves water near the point. See `references/regional-salish-sea.md`.
 - `scripts/build_station_data.py`, `scripts/build_sscofs_mesh.py` and `scripts/build_salishsea_grid.py` rebuild `data/`. Need internet; maintainers run them, not part of planning.
 - `references/regional-*.md` hold optional extras for specific regions. Read one only if the launch point is inside its area.
+- `references/visual-links.md` has link patterns for graphs, maps and webcams the person can open themselves (tide and current curves, hourly wind graph, live stations, model maps). Read it when the person wants to see the data or a link would clearly help.
 
 Run scripts with `python3 <skill-dir>/scripts/<name>.py --help` for options.
 
@@ -117,7 +118,7 @@ Modeled currents beat a distant current station for speed and set near the route
 ### Access notes
 - The web-fetch tool summarizes long pages and truncates large files. Don't fetch NOAA's full station lists; that's what the bundled data is for.
 - `api.weather.gov` blocks some automated fetchers. If it fails, use the forecast.weather.gov URL above and don't retry.
-- Some map sites (OceanConnect, Windy) render in JavaScript and return nothing to the fetch tool. Recommend them for a visual check; never claim to have read them.
+- Some map sites (OceanConnect, Windy) render in JavaScript and return nothing to the fetch tool. Offer them for a visual check (see `references/visual-links.md`); never claim to have read them.
 
 ## Step 5: Compare each day with reference conditions
 
@@ -179,7 +180,7 @@ Then ALWAYS end with this section, filled in, even when everything looks good:
 
 ## Refining the plan
 
-After the plan, invite changes, for example: "I want to go south from the launch", "We'll stop for lunch at a beach 2 mi out", "Can we launch at 9?", "Only Thursday works", "Make it 2 hours".
+Plans already carry a lot of data; keep extra detail for when it's wanted. After the plan, offer in one line the links to graphs, maps and webcams from `references/visual-links.md` instead of listing them, and invite changes, for example: "I want to go south from the launch", "We'll stop for lunch at a beach 2 mi out", "Can we launch at 9?", "Only Thursday works", "Make it 2 hours".
 - Treat what the person says about the route, landings and local features as better local knowledge than yours. Use it; don't argue with it unless the data shows a conflict (e.g. their chosen direction means the return is against the stronger current or wind).
 - Re-run only what changes: a new direction or destination re-checks Step 6 (outbound/return pushes, distance, turnaround time) with the data already pulled; a new day or time window may need new data, and may change the planning stage.
 - If a change moves a factor outside the reference range (e.g. the return leg now meets more current than the beginner reference), say so plainly and mention the alternative; the person decides.

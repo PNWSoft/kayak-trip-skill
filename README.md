@@ -66,6 +66,7 @@ skills/kayak-trip-planner/
   data/                   station snapshot (generated; see SNAPSHOT.txt)
   references/
     regional-salish-sea.md
+    visual-links.md       links to graphs, maps and webcams for your own look
 TERMS.md                  terms of use, assumption of risk, hold harmless
 LICENSE                   Apache License 2.0 (code)
 ```
