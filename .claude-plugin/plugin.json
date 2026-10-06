@@ -3,9 +3,24 @@
   "displayName": "Kayak Trip Planner",
   "version": "0.1.0",
   "description": "Plans sea kayak trips in US waters: checks NOAA tides and currents, the NWS marine forecast, buoys and daylight, compares them with ACA and Paddle UK reference conditions for your experience level, suggests a day, launch time and route direction, and lists exactly what each plan is based on. A planning tool, not a safety system; skips days with a Small Craft Advisory or stronger. You are responsible for your own safety (see TERMS.md).",
-  "author": { "name": "PNWSoft" },
+  "author": {
+    "name": "PNWSoft"
+  },
   "homepage": "https://github.com/PNWSoft/kayak-trip-skill",
   "repository": "https://github.com/PNWSoft/kayak-trip-skill",
   "license": "Apache-2.0",
-  "keywords": ["kayak", "sea kayaking", "paddling", "tides", "currents", "marine forecast", "NOAA", "trip planning"]
+  "keywords": [
+    "kayak",
+    "sea kayaking",
+    "paddling",
+    "tides",
+    "currents",
+    "marine forecast",
+    "NOAA",
+    "trip planning"
+  ],
+  "documentationUrl": "https://github.com/PNWSoft/kayak-trip-skill#readme",
+  "privacyPolicyUrl": "https://github.com/PNWSoft/kayak-trip-skill/blob/main/PRIVACY.md",
+  "supportUrl": "https://github.com/PNWSoft/kayak-trip-skill/blob/main/SUPPORT.md",
+  "termsOfServiceUrl": "https://github.com/PNWSoft/kayak-trip-skill/blob/main/TERMS.md"
 }

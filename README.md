@@ -213,6 +213,8 @@ skills/kayak-trip-planner/
     regional-salish-sea.md  Salish Sea models, local notes
     visual-links.md         links to graphs, maps and webcams
 TERMS.md                    terms of use and safety notice (versioned); applies with the license
+PRIVACY.md                  privacy policy (the authors collect no data)
+SUPPORT.md                  no support provided; feedback via GitHub issues
 LICENSE                     Apache License 2.0 (code)
 ```
 
