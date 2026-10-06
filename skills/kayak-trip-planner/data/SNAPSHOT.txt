@@ -1,0 +1,8 @@
+Station snapshot built 2026-10-05
+current_stations.csv: 2785
+tide_stations.csv: 3499
+ndbc_stations.csv: 906
+Sources:
+  https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations.json?type=currentpredictions
+  https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations.json?type=tidepredictions
+  https://www.ndbc.noaa.gov/activestations.xml

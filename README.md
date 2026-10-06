@@ -29,7 +29,7 @@ Coverage: US coastal waters, estuaries and the Great Lakes. Inland lakes and riv
 
 ### Claude Code
 ```
-/plugin marketplace add OWNER/kayak-trip-planner
+/plugin marketplace add PNWSoft/kayak-trip-skill
 /plugin install kayak-trip-planner@kayak-trip-planner
 ```
 Once listed in Anthropic's community marketplace:

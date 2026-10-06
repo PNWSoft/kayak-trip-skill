@@ -1,6 +1,6 @@
 {
   "name": "kayak-trip-planner",
-  "owner": { "name": "AUTHOR NAME" },
+  "owner": { "name": "PNWSoft" },
   "plugins": [
     { "name": "kayak-trip-planner", "source": "./" }
   ]

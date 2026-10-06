@@ -2,7 +2,7 @@
 
 > DRAFT. Not reviewed by a lawyer. Have this reviewed by a qualified attorney in your jurisdiction before publishing.
 
-Last updated: [DATE]
+Last updated: October 5, 2026
 
 These terms apply to anyone who uses Kayak Trip Planner (the "Tool"), including the skill, its scripts, its bundled data and any plan, recommendation or other output it produces ("Output"). The Tool's source code is licensed separately under the Apache License 2.0 (see LICENSE). These terms govern use of the Tool and reliance on its Output. If you do not agree to these terms, do not use the Tool or rely on its Output.
 
@@ -37,4 +37,4 @@ The Tool relies on data and services from third parties, including NOAA, the Nat
 By using the Tool or relying on its Output, including by replying "I accept" when the Tool presents its safety notice, you agree to these terms. If you are using the Tool on behalf of a group or organization, you agree on its behalf and confirm that you have authority to do so. You must be at least 18 years old, or the age of majority where you live, to agree to these terms.
 
 ## 11. General
-If any provision of these terms is held unenforceable, the remaining provisions remain in effect, and the unenforceable provision will be enforced to the maximum extent permitted. These terms are governed by the laws of [STATE], without regard to conflict-of-laws rules. The Authors may update these terms; the version in the Tool's repository at the time of use applies.
+If any provision of these terms is held unenforceable, the remaining provisions remain in effect, and the unenforceable provision will be enforced to the maximum extent permitted. These terms are governed by the laws of the State of Washington, without regard to conflict-of-laws rules. The Authors may update these terms; the version in the Tool's repository at the time of use applies.

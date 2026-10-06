@@ -1,0 +1,2786 @@
+id,name,lat,lon,bin,depth_ft,type
+ACT0091,"Eastport, Friar Roads",44.9,-66.98333,1,,S
+ACT0101,"Western Passage, off Kendall Head",44.93167,-67.0,1,,S
+ACT0106,"Western Passage, off Frost Ledge",44.965,-67.03167,1,,S
+ACT0111,"Pond Point, 7.6 miles SSE of",44.335,-67.50333,1,,S
+ACT0116,"Moosabec Reach, east end",44.5285,-67.57267,1,,S
+ACT0121,"Moosabec Reach, west end",44.52083,-67.65,1,,S
+ACT0131,"Casco Passage, east end, Blue Hill Bay",44.195,-68.465,1,,S
+ACT0136,"Hat Island, SE of, Jericho Bay",44.13333,-68.495,1,,S
+ACT0141,"Clam I., NW of, Deer I. Thorofare",44.1645,-68.60383,1,14.0,S
+ACT0146,"Grog Island, E of, Deer Island Thorofare",44.162,-68.6205,1,14.0,S
+ACT0151,"Russ Island, N of, Deer Island Thorofare",44.153,-68.64633,1,14.0,S
+ACT0161,"Isle au Haut, 0.8 mile E of Rich's Pt",44.08333,-68.58333,1,11.0,S
+ACT0166,"Mark Island, north of",44.13667,-68.70283,1,14.0,S
+ACT0171,"Widow Island-Stimpson Island, between",44.1325,-68.825,1,14.0,S
+ACT0176,"Eagle Island, 0.4 nautical mile S of",44.19383,-68.78217,1,14.0,S
+ACT0181,"Burnt Island-Oak Island, between",44.19117,-68.81883,1,14.0,S
+ACT0186,"Butter I., 0.3 nautical mile SE of",44.22217,-68.77783,1,14.0,S
+ACT0191,"Bradbury Island, ESE of",44.23383,-68.7345,1,14.0,S
+ACT0196,"Compass Island, 0.4 nmi. ENE of",44.21667,-68.8555,1,14.0,S
+ACT0201,"Scrag Island, 0.3 nautical mile SW of",44.22217,-68.84367,1,14.0,S
+ACT0206,"Great Spruce Head Island, west of",44.23833,-68.83633,1,14.0,S
+ACT0216,"Pickering Island, south of",44.2605,-68.75633,1,14.0,S
+ACT0221,"Little Eaton Island, NNE of",44.27417,-68.73117,1,14.0,S
+ACT0231,"Hog Island, ESE of",44.27533,-68.78117,1,14.0,S
+ACT0236,"Little Deer I.-Sheep I., between",44.27967,-68.72383,1,14.0,S
+ACT0246,"Swains Ledge, 0.3 nautical mile SW of",44.2855,-68.73117,1,14.0,S
+ACT0251,"Pond Island-Western Island, between",44.293,-68.81667,1,14.0,S
+ACT0256,"Birch Island, northwest of",44.30283,-68.75583,1,14.0,S
+ACT0261,"Pond Island, north of",44.30283,-68.81,1,14.0,W
+ACT0266,"Howard Ledges, ENE of, Eggemoggin Reach",44.30467,-68.7105,1,14.0,W
+ACT0271,"Howard Ledges, NE of, Eggemoggin Reach",44.305,-68.70133,1,14.0,W
+ACT0276,"Spectacle Island, 0.2 nmi. NW of",44.30783,-68.78883,1,14.0,W
+ACT0281,"Pumpkin Island, north of",44.31333,-68.74033,1,14.0,S
+ACT0291,"Islesboro Harbor, NE of, Penobscot Bay",44.31617,-68.87967,1,75.0,S
+ACT0296,"Islesboro Harbor, NE of, Penobscot Bay",44.31717,-68.87783,1,15.0,S
+ACT0306,"Thrumcap I., E of, East Penobscot Bay",44.32332992553711,-68.74667358398438,1,14.0,W
+ACT0311,"Turtle Head Pt., ESE of, Penobscot Bay",44.37617,-68.85467,1,15.0,S
+ACT0321,"Dice Head, west of, Penobscot Bay",44.3795,-68.84533,1,15.0,S
+ACT0331,"Jones Point, Bagaduce River",44.42583,-68.75833,1,15.0,S
+ACT0346,"Verona I., N of, Easter Ch., Penobscot R",44.56783,-68.78117,1,10.0,S
+ACT0371,"Oak Point, Penobscot River",44.66833,-68.813,1,15.0,S
+ACT0381,"Andrews Island, ESE of",43.99417,-69.013,1,15.0,S
+ACT0386,"Little Hurricane Island, southwest of",44.023,-68.91783,1,15.0,S
+ACT0391,"Heron Neck, Green Island",44.02967,-68.873,1,14.0,S
+ACT0396,"The Reach, Norton Point",44.0375,-68.84833,1,14.0,W
+ACT0401,"Triangle Ledge, SSE of",44.04117,-68.758,1,15.0,S
+ACT0406,"Moore Harbor, W of",44.04217,-68.6925,1,15.0,S
+ACT0411,"The Reach, NNE of, Green Island",44.04283,-68.85967,1,14.0,S
+ACT0416,"White Islands, northeast of",44.05,-68.90667,1,14.0,S
+ACT0421,Fisherman Island Passage,44.052,-69.045,1,14.0,S
+ACT0426,"Crotch Island, east of",44.06033,-68.90717,1,14.0,S
+ACT0431,"Laireys Island, south of",44.06033,-68.89633,1,14.0,S
+ACT0436,Sheep Island,44.06467,-69.05783,1,14.0,S
+ACT0441,"Leadbetter I., SSW of southern tip",44.06783,-68.89833,1,14.0,S
+ACT0446,"Leadbetter Island, E of southern tip",44.06917,-68.89367,1,14.0,S
+ACT0451,"Leadbetter Island, northwest tip of",44.08383,-68.91117,1,14.0,S
+ACT0456,"Dodge Point-Monroe Island, between",44.08533,-69.04367,1,14.0,S
+ACT0461,"Dogfish Island, NNE of",44.092,-68.91333,1,14.0,S
+ACT0466,Rockland Harbor Breakwater,44.10217,-69.07783,1,14.0,S
+ACT0471,"Browns Head, Vinalhaven Island, NNW of",44.112998962402344,-68.91217041015625,1,14.0,S
+ACT0476,"Crabtree Pt., North Haven I., NNE of",44.115,-68.92367,1,14.0,S
+ACT0481,Fox Island Thorofare,44.127,-68.893,1,14.0,S
+ACT0486,"Mark Island, 0.3 nmi., SSE of",44.16667,-68.9805,1,14.0,S
+ACT0491,"Saddle Island, northwest of",44.18083,-68.955,1,14.0,S
+ACT0501,"Lasell Island, SSW of",44.18667,-68.947,1,14.0,S
+ACT0506,"East Goose Rock, NNE of",44.1895,-68.968,1,14.0,S
+ACT0511,Camden Harbor Entrance,44.20283,-69.04667,1,14.0,S
+ACT0516,"Ensign Island, SSE of",44.22333,-68.95867,1,14.0,S
+ACT0521,"Warren Island, northwest of",44.27583,-68.95367,1,14.0,S
+ACT0526,"Ducktrap Harbor, northeast of",44.3,-68.93967,1,15.0,S
+ACT0531,"Ducktrap Harbor, NNE of",44.3045,-68.95583,1,90.0,S
+ACT0536,"Ducktrap Harbor, NNE of",44.305,-68.95917,1,15.0,S
+ACT0541,"Flat Island, SSW of",44.31383,-68.92417,1,14.0,S
+ACT0546,"Head of the Cape, 0.8 nmi. W, of Penobscot Bay",44.32083,-68.84667,1,15.0,S
+ACT0551,"Head of the Cape, NNW of, Penobscot Bay",44.31783,-68.83617,1,15.0,S
+ACT0556,"Ram Island, west of, West Penobscot Bay",44.35467,-68.91583,1,14.0,S
+ACT0561,"Temple Heights, NE of, W Penobscot Bay",44.35633,-68.92217,1,15.0,S
+ACT0566,"Temple Heights, NNE of, W Penobscot Bay",44.3575,-68.94367,1,15.0,S
+ACT0571,Muscongus Sound,43.94167,-69.44833,1,,W
+ACT0576,"Damariscotta River, off Cavis Point",43.875,-69.58332824707031,1,,S
+ACT0581,"Sheepscot River, off Barter Island",43.900001525878906,-69.6916732788086,1,,S
+ACT0586,"Lowe Point, NE of, Sasanoa River",43.85166931152344,-69.72167205810547,1,,S
+ACT0591,"Lower Hell Gate, Knubble Bay",43.876670837402344,-69.7300033569336,1,,S
+ACT0596,"Upper Hell Gate, Sasanoa River",43.89500045776367,-69.77166748046875,1,,S
+ACT0601,"Hunniwell Point, northeast of",43.75667190551758,-69.78166961669922,1,,S
+ACT0606,"Bald Head, 0.3 mile southwest of",43.80167007446289,-69.79332733154297,1,,S
+ACT0611,"Bluff Head, west of",43.85499954223633,-69.79666900634766,1,,S
+ACT0616,"Fiddler Ledge, north of",43.880001068115234,-69.79666900634766,1,,S
+ACT0621,"Doubling Point, south of",43.880001068115234,-69.80667114257812,1,,S
+ACT0626,"Lincoln Ledge, east of",43.89667,-69.81,1,,S
+ACT0686,"Odiornes Point, NNE of",43.04333,-70.705,1,15.0,S
+ACT0691,"Odiornes Point, northeast of",43.05,-70.70167,1,15.0,S
+ACT0706,"Whaleback Reef, west of",43.05833,-70.7045,1,15.0,S
+ACT0716,"Wood Island, northwest of",43.06583,-70.705,1,15.0,S
+ACT0726,"Salamander Point, north of",43.07633,-70.717,1,15.0,S
+ACT0731,"Clark Island, south of",43.07383,-70.72467,1,15.0,S
+ACT0736,"Clark Island, southwest of",43.075,-70.72783,1,15.0,S
+ACT0741,"Henderson Point, SSW of",43.07333,-70.73867,1,15.0,S
+ACT0751,"Shapleigh Island Bridge, south of",43.06967,-70.73833,1,,S
+ACT0756,"Pierces Island, northeast of",43.07583,-70.74133,1,15.0,S
+ACT0791,"Dover Point, west of",43.11917,-70.83717,1,15.0,S
+ACT0796,"Goat Island, north of",43.127,-70.85617,1,15.0,S
+ACT0801,"Goat Island and Fox Point, between",43.12283,-70.857,1,15.0,S
+ACT0806,"Knight Hill Township, west of",43.10783,-70.85833,1,15.0,S
+ACT0816,Merrimack River entrance,42.81833,-70.81,1,,S
+ACT0821,"Newburyport, Merrimack River",42.81333,-70.86833,1,,S
+ACT0826,Plum Island Sound entrance,42.705,-70.78833,1,,S
+ACT0831,Annisquam Harbor Light,42.66833,-70.685,1,,S
+ACT0836,Gloucester Harbor entrance,42.58167,-70.675,1,,S
+ACT0841,"Blynman Canal ent., Gloucester Harbor",42.61,-70.67333,1,,S
+ACT0906,"Nahant, 1.8 n.mi. NE of East Point",42.43333,-70.867,1,10.0,S
+ACT0911,"Nahant, 0.4 n.mi. east of East Point",42.4205,-70.89383,1,15.0,S
+ACT0916,"Nahant, 1 n.mi. SE of East Point",42.39717,-70.85283,1,45.0,S
+ACT0921,"Pea Island, 0.4 n.mi. southeast of",42.4105,-70.90217,1,15.0,S
+ACT0926,"Bass Point, 1.2 n.mi. southeast of",42.402,-70.91783,1,10.0,S
+ACT0941,"Little Nahant Cupola, 0.6 n.mi. west of",42.43117,-70.94717,1,10.0,S
+ACT0946,"Sand Point, Black Marsh Channel",42.443,-70.942,1,10.0,S
+ACT0951,Lynn Harbor,42.4545,-70.94633,1,10.0,S
+ACT0956,"Point of Pines, 0.5 n.mi. south of",42.43283,-70.95883,1,6.0,S
+ACT0961,"Point of Pines, 0.1 n.mi. northeast of",42.442,-70.96033,1,6.0,S
+ACT0966,"Finn's Ledge Bell, 0.2 n.mi. west of",42.3695,-70.92367,1,10.0,S
+ACT0971,"Winthrop Head, 1.1 n.mi. east of",42.3655,-70.942,1,10.0,S
+ACT1026,"The Graves, 0.3 n.mi. SSE of",42.36,-70.86667,1,10.0,S
+ACT1031,Thieves Ledge,42.32133,-70.838,1,45.0,S
+ACT1036,"Little Brewster Island, 1.5 n.mi. E of",42.328,-70.85717,1,10.0,S
+ACT1041,Hypocrite Channel,42.34917,-70.89383,1,10.0,S
+ACT1046,"Little Calf Island, 0.4 n.mi. NW of",42.35083,-70.9,1,10.0,S
+ACT1051,"Boston Light, 0.2 n.mi. south of",42.32533,-70.89,1,10.0,S
+ACT1061,"Point Allerton, 0.4 n.mi. northwest of",42.31467,-70.88717,1,10.0,S
+ACT1066,"Calf Island, 0.4 n.mi. west of",42.33883,-70.90633,1,10.0,S
+ACT1081,Black Rock Channel,42.32883,-70.9155,1,10.0,S
+ACT1086,"Deer Island Light, 0.4 n.mi. NW of",42.343,-70.92833,1,35.0,S
+ACT1091,"Lovell Island, 0.4 n.mi. north of",42.34083,-70.93,1,10.0,S
+ACT1101,"Deer Island Light, 0.8 n.mi. ESE of",42.337,-70.938,1,10.0,S
+ACT1106,"Deer Island Light, 0.4 n.mi. east of",42.34083,-70.94617,1,10.0,S
+ACT1111,"Deer Island Light, 0.7 n.mi. ESE of",42.3375,-70.93967,1,35.0,S
+ACT1121,"Deer Island Light, 0.3 n.mi. SSE of",42.33533,-70.957,1,10.0,S
+ACT1126,"Deer Island Light, 0.4 n.mi. SSE of",42.33283,-70.957,1,10.0,S
+ACT1131,"Deer Island, southwest of",42.34383,-70.963,1,10.0,S
+ACT1136,"Long Island Head, 0.9 n.mi. NW of",42.34,-70.97383,1,10.0,S
+ACT1141,Deer Island Flats,42.34717,-70.9775,1,10.0,S
+ACT1151,"Snake Island, southwest of",42.36283,-70.987,1,10.0,S
+ACT1156,"Deer Island Light, 1.0 n.mi. WSW of",42.33283,-70.97383,1,10.0,S
+ACT1161,"Spectacle I. and Long I., between",42.3225,-70.97417,1,10.0,S
+ACT1166,"Spectacle Island, 0.2 n.mi. south of",42.31633,-70.98583,1,10.0,S
+ACT1176,"Spectacle I. and Thompson I., between",42.32083,-70.99283,1,10.0,S
+ACT1181,"Thompson Island, 0.7 n.mi. NNE of",42.33283,-70.99833,1,10.0,S
+ACT1191,"Fort Independence, 0.3 n.mi. east of",42.33883,-71.00367,1,10.0,S
+ACT1206,"South Boston, Pier 4, 0.2 n.mi. NNE of",42.35217,-71.03083,1,10.0,S
+ACT1216,"East Boston, Pier 10, southeast of",42.37583,-71.04667,1,10.0,S
+ACT1226,"Chelsea River, west of bascule bridge",42.3845,-71.04217,1,10.0,S
+ACT1231,"Chelsea River, below bascule bridge",42.38383,-71.02833,1,10.0,S
+ACT1236,"Mystic River Bridge, 0.1 n.mi. west of",42.38583,-71.05033,1,10.0,S
+ACT1241,"Mystic River Bridge, northwest of",42.38583,-71.04917,1,10.0,S
+ACT1246,"City Point, 0.8 n.mi. SSE of",42.32033,-71.01467,1,10.0,S
+ACT1251,"Squantum Point, 0.8 n.mi. northeast of",42.3105,-71.02833,1,10.0,S
+ACT1256,"Squantum Point, 0.4 n.mi. NNE of",42.30633,-71.03717,1,10.0,S
+ACT1261,Neponset River,42.30417,-71.043,1,10.0,S
+ACT1271,"Lovell Island, 0.1 n.mi. south of",42.32333,-70.92467,1,10.0,S
+ACT1276,"Georges Island, northeast of",42.32283,-70.9255,1,10.0,S
+ACT1281,"Georges Island, north of",42.32367,-70.92783,1,25.0,S
+ACT1286,"Gallops Island, 0.2 n.mi. SSE of",42.323,-70.93217,1,10.0,S
+ACT1291,"Gallops Island, 0.1 n.mi. southeast of",42.32417,-70.93167,1,10.0,S
+ACT1296,"Gallops Island, The Narrows",42.327,-70.93383,1,20.0,S
+ACT1306,"Lovell Island, west of",42.32867,-70.93283,1,10.0,S
+ACT1316,"Georges Island, 0.5 n.mi. ESE of",42.3195,-70.91617,1,10.0,S
+ACT1321,"Georges Island, 0.4 n.mi. east of",42.31867,-70.91617,1,10.0,S
+ACT1331,"Georges Island, 0.3 n.mi. SSE of",42.313,-70.92583,1,10.0,S
+ACT1336,"Georges Island, 0.4 n.mi. SSE of",42.31117,-70.9255,1,10.0,S
+ACT1341,Nubble Channel,42.32883,-70.94883,1,10.0,S
+ACT1356,"Peddocks Island, 0.2 n.mi. north of",42.30533,-70.93333,1,10.0,S
+ACT1361,"Peddocks Island, 0.3 n.mi. northwest of",42.30667,-70.9355,1,10.0,S
+ACT1366,"Rainsford I. and Windmill Pt., between",42.30867,-70.93867,1,10.0,S
+ACT1371,"Gallops Island, 0.5 n.mi. southwest of",42.31883,-70.947,1,10.0,S
+ACT1376,"Rainsford Island, 0.2 n.mi. NE of",42.315,-70.94917,1,10.0,S
+ACT1381,"Rainsford Island, 0.4 n.mi. SE of",42.30833,-70.94367,1,10.0,S
+ACT1386,"Long I. and Rainsford I., between",42.31167,-70.963,1,10.0,S
+ACT1391,"West Head, Peddocks I., 0.1 n.mi. W of",42.29083,-70.95367,1,10.0,S
+ACT1396,"Sunken Ledge, 0.2 n.mi. northwest of",42.29783,-70.9645,1,10.0,S
+ACT1401,"West Head, Long I., 0.4 n.mi. south of",42.30533,-70.97133,1,10.0,S
+ACT1406,"Moon Head, 0.4 n.mi. east of",42.30633,-70.97883,1,10.0,S
+ACT1411,"West Head, 0.2 n.mi. southwest of",42.28583,-70.953,1,10.0,S
+ACT1416,"Nut Island, 0.4 n.mi. NNE of",42.28467,-70.95367,1,10.0,S
+ACT1421,"Nut Island, 0.2 n.mi. NNE of",42.283,-70.95533,1,10.0,S
+ACT1426,"Peddocks Island, west of",42.28717,-70.96533,1,10.0,S
+ACT1431,"Moon Head, 0.9 n.mi. southeast of",42.29167,-70.98217,1,10.0,S
+ACT1436,"Squantum, 0.3 n.mi. southeast of",42.29,-71.00167,1,8.0,W
+ACT1441,Weir River entrance,42.2755,-70.8805,1,10.0,S
+ACT1446,"Strawberry Hill, 0.4 n.mi. west of",42.29,-70.89333,1,6.0,W
+ACT1451,"Crow Point, 0.2 n.mi. north of",42.26617,-70.895,1,10.0,S
+ACT1456,"Bumkin Island, 0.1 n.mi. west of",42.28083,-70.90617,1,10.0,S
+ACT1461,"Windmill Point, 0.7 n.mi. SSE of",42.2925,-70.91617,1,10.0,S
+ACT1466,"Bumkin Island, 0.4 n.mi. west of",42.2805,-70.9125,1,10.0,S
+ACT1476,"Sheep Island, 0.3 n.mi. west of",42.28117,-70.933,1,10.0,S
+ACT1486,"Pig Rock, north of",42.28217,-70.94083,1,10.0,S
+ACT1491,"Pig Rock, northwest of",42.28133,-70.9425,1,20.0,S
+ACT1496,"Grape Island and Lower Neck, between",42.2645,-70.925,1,10.0,S
+ACT1501,Grape Island,42.268,-70.93133,1,10.0,S
+ACT1506,"Stodders Neck, Weymouth Back River",42.25333,-70.9275,1,10.0,S
+ACT1516,"Gull Point, 0.4 n.mi. ESE of",42.253,-70.947,1,10.0,S
+ACT1526,Germantown Point,42.24633,-70.96467,1,20.0,S
+ACT1531,"Pine Point, southeast of",42.238,-70.968,1,10.0,W
+ACT1536,"Philip Head, Town River Bay",42.25,-70.97033,1,10.0,S
+ACT1546,Barnstable Harbor,41.72667,-70.27333,1,7.0,S
+ACT1551,Sandwich Harbor,41.76667,-70.48333,1,,W
+ACT1556,Sagamore Beach,41.8,-70.51667,1,,W
+ACT1591,"Old Man Shoal, Nantucket Shoals",41.22667,-69.98333,1,,S
+ACT1596,"Miacomet Pond, 3.0 miles SSE of",41.19,-70.09667,1,,S
+ACT1601,"Tuckernuck Island, 4.2 miles SSW of",41.22617,-70.28167,1,,S
+ACT1611,"Pollock Rip Channel, east end",41.565,-69.92333,1,,S
+ACT1616,Pollock Rip Channel (Butler Hole),41.54999923706055,-69.9832992553711,1,15.0,H
+ACT1626,"Monomoy Pt., channel 0.2 mile west of",41.55,-70.02167,1,,S
+ACT1631,Chatham Roads,41.64333,-70.02833,1,,W
+ACT1636,"Stage Harbor, west of Morris Island",41.65667,-69.975,1,,S
+ACT1641,"Dennis Port, 2.2 miles south of",41.61667,-70.115,1,,S
+ACT1646,"Monomoy Point, 6 miles west of",41.55833,-70.15,1,,S
+ACT1651,Handkerchief Lighted Whistle Buoy 'H',41.48833,-70.06667,1,,S
+ACT1656,"Halfmoon Shoal, 1.9 miles northeast of",41.48417,-70.1925,1,,S
+ACT1661,"Halfmoon Shoal, 3.5 miles east of",41.46833,-70.15333,1,,S
+ACT1666,"Great Point, 0.5 mile west of",41.39333,-70.06167,1,,S
+ACT1671,"Great Point, 3 miles west of",41.39,-70.11333,1,,S
+ACT1676,"Tuckernuck Shoal, off east end",41.405,-70.17333,1,,S
+ACT1686,Nantucket Harbor entrance channel,41.30667,-70.1,1,,S
+ACT1691,"Eel Pt., Nantucket I. 2.5 miles NE of",41.32167,-70.17,1,,S
+ACT1696,"Muskeget I., channel 1 mile northeast of",41.35,-70.285,1,,S
+ACT1701,"Muskeget Rock, 1.3 miles southwest of",41.32,-70.39333,1,,S
+ACT1706,Muskeget Channel,41.34833,-70.42,1,,S
+ACT1716,"Long Shoal-Norton Shoal, between",41.40833,-70.33333,1,,S
+ACT1721,"Cape Poge Lt., 1.7 miles SSE of",41.4,-70.42667,1,,S
+ACT1726,Cross Rip Channel,41.44833,-70.29167,1,,S
+ACT1731,"Cape Poge Lt., 3.2 miles northeast of",41.45833,-70.4,1,,S
+ACT1736,"Broken Ground-Horseshoe Shoal, between",41.55,-70.285,1,,S
+ACT1741,"Point Gammon, 1.2 miles south of",41.58833,-70.25667,1,,S
+ACT1746,"Hyannis Harbor, entrance off breakwater",41.62333,-70.29167,1,,W
+ACT1751,Lewis Bay entrance channel,41.63167,-70.27333,1,,S
+ACT1756,Cotuit Bay entrance (Bluff Point),41.61,-70.43,1,,S
+ACT1761,"Wreck Shoal-Eldridge Shoal, between",41.53333,-70.42833,1,,S
+ACT1766,Hedge Fence Lighted Gong Buoy 22,41.47167,-70.48333,1,,S
+ACT1771,"Cape Poge Light, 1.4 miles west of",41.42417,-70.48333,1,,S
+ACT1786,"East Chop-Squash Meadow, between",41.465,-70.53667,1,,S
+ACT1791,"East Chop, 1 mile north of",41.485,-70.55833,1,,S
+ACT1796,Vineyard Haven,41.46833,-70.58667,1,,W
+ACT1801,"West Chop, 0.8 mile north of",41.49333,-70.595,1,,S
+ACT1806,"Hedge Fence-L'Hommedieu Shoal, between",41.505,-70.53667,1,,S
+ACT1811,Waquoit Bay entrance,41.54833,-70.53,1,,S
+ACT1816,"L'Hommedieu Shoal, north of west end",41.52667,-70.57667,1,,S
+ACT1821,"Nobska Point, 1.8 miles east of",41.51833,-70.61833,1,,S
+ACT1826,"West Chop, 0.2 mile west of",41.48333,-70.61,1,,S
+ACT1831,"Nobska Point, 1 mile southeast of",41.50167,-70.64333,1,,S
+ACT1836,"Norton Point, 0.5 mile north of",41.46833,-70.665,1,,S
+ACT1841,"Tarpaulin Cove, 1.5 miles east of",41.47167,-70.725,1,,S
+ACT1846,"Robinsons Hole, 1.2 miles southeast of",41.435,-70.78,1,,S
+ACT1851,"Gay Head, 3 miles northeast of",41.385,-70.78333,1,,S
+ACT1861,"Gay Head, 3 miles north of",41.40167,-70.85333,1,,S
+ACT1866,"Gay Head, 1.5 miles northwest of",41.36333,-70.86333,1,,S
+ACT1901,South end,41.43833,-70.84167,1,,S
+ACT1911,North end,41.45167,-70.85,1,,S
+ACT1921,Westport River entrance,41.50833,-71.08833,1,,S
+ACT1931,"Ribbon Reef-Sow & Pigs Reef, between",41.42167,-70.97,1,,S
+ACT1936,"Penikese Island, 0.8 mile northwest of",41.465,-70.93667,1,,S
+ACT1941,"Penikese Island, 0.2 mile south of",41.44333,-70.925,1,,S
+ACT1946,"Gull I. and Nashawena I., between",41.43667,-70.90333,1,,S
+ACT1951,"Weepecket Island, south of",41.50667,-70.73833,1,,S
+ACT1956,Quamquisset Harbor entrance,41.54,-70.66333,1,,W
+ACT1961,West Falmouth Harbor entrance,41.60833,-70.655,1,,W
+ACT1966,"Dumpling Rocks, 0.2 mile southeast of",41.53333,-70.91833,1,,S
+ACT1971,Apponaganset Bay,41.58333,-70.95,1,,W
+ACT1976,Clarks Cove,41.6,-70.91667,1,,W
+ACT1986,"West Island and Long Island, between",41.59333,-70.84,1,,W
+ACT1996,Nasketucket Bay,41.61833,-70.83667,1,,W
+ACT2001,Mattapoisett Harbor,41.63333,-70.78333,1,,W
+ACT2011,Megansett Harbor,41.64667,-70.65333,1,,W
+ACT2021,Sippican Harbor,41.68333,-70.73333,1,,W
+ACT2026,"Wareham River, off Long Beach Point",41.73333,-70.71667,1,,S
+ACT2031,"Wareham River, off Barneys Point",41.745,-70.70667,1,,S
+ACT2046,Bourne Highway bridge,41.75,-70.58333,1,,S
+ACT2071,"Black Point, SW of, Sakonnet River",41.50667,-71.22,1,15.0,S
+ACT2076,"Almy Point Bridge, south of, Sakonnet River",41.62167,-71.22,1,15.0,S
+ACT2096,"Brenton Point, 1.4 n.mi. southwest of",41.43167,-71.37667,1,7.0,S
+ACT2101,"Castle Hill, west of, East Passage",41.45667,-71.37833,1,15.0,S
+ACT2106,"Bull Point, east of",41.48,-71.35,1,10.0,S
+ACT2111,Mackerel Cove,41.475,-71.38,1,,W
+ACT2116,"Newport Harbor, S and E of Goat Island",41.48333,-71.33333,1,,W
+ACT2121,"Rose Island, northeast of",41.50333,-71.33167,1,15.0,S
+ACT2126,"Rose Island, northwest of",41.50667,-71.35167,1,15.0,S
+ACT2131,"Rose Island, west of",41.49667,-71.35,1,,S
+ACT2136,"Gould Island, southeast of",41.525,-71.33667,1,7.0,S
+ACT2141,"Gould Island, west of",41.53167,-71.35833,1,15.0,S
+ACT2146,Dyer Island-Carrs Point (between),41.575,-71.29667,1,,S
+ACT2151,"Conanicut Point, ENE of",41.575,-71.34167,1,15.0,S
+ACT2156,"Dyer Island, west of",41.58667,-71.30833,1,7.0,S
+ACT2166,Mount Hope Bridge,41.64,-71.25833,1,7.0,S
+ACT2171,"Hog Island, northwest of",41.64667,-71.295,1,10.0,S
+ACT2176,"Common Fence Point, west of",41.65,-71.245,1,10.0,S
+ACT2181,"Mount Hope Point, northeast of",41.68,-71.21167,1,10.0,S
+ACT2191,Warren River entrance,41.71167,-71.29667,1,,W
+ACT2196,"Warren, Warren River",41.72833,-71.28833,1,,S
+ACT2201,"Beavertail Point, 0.8 mile northwest of",41.45833,-71.41167,1,,S
+ACT2211,"Dutch Island and Beaver Head, between",41.49667,-71.40333,1,,S
+ACT2216,"Dutch Island, west of",41.505,-71.41,1,7.0,S
+ACT2226,Wickford Harbor,41.56667,-71.43333,1,,W
+ACT2231,Greenwich Bay entrance,41.66667,-71.39333,1,,W
+ACT2236,"Patience Island, narrows east of",41.65833,-71.35333,1,,S
+ACT2241,"Patience I. and Warwick Neck, between",41.66333,-71.37333,1,,S
+ACT2246,"Nayatt Point, WNW of",41.72833,-71.36,1,10.0,S
+ACT2266,"Harbor of Refuge, south entrance",41.358,-71.49583,1,,S
+ACT2276,Pond entrance - Point Judith,41.38333,-71.51667,1,,S
+ACT2281,2.4 miles southwest of,41.33117,-71.51083,1,,S
+ACT2291,4 miles north of,41.3,-71.53333,1,,S
+ACT2296,"Sandy Point, 2.1 miles NNE of",41.26417,-71.56667,1,15.0,S
+ACT2301,"Sandy Pt., 1.5 miles north of",41.25,-71.56667,1,7.0,S
+ACT2306,"Clay Head, 1.2 miles ENE of",41.2225,-71.53083,1,15.0,S
+ACT2311,"Old Harbor Pt., 0.5 mile southeast of",41.15,-71.53333,1,,S
+ACT2316,"Lewis Pt., 1.0 mile southwest of",41.13667,-71.62167,1,,S
+ACT2321,"Lewis Pt., 1.5 miles west of",41.15,-71.63333,1,,S
+ACT2326,Great Salt Pond entrance,41.1995,-71.59167,1,,S
+ACT2331,"Great Salt Pond ent., 1 mile NW of",41.2,-71.6,1,7.0,S
+ACT2341,"Green Hill Point, 1.1 miles south of",41.34833,-71.59617,1,,S
+ACT2346,"Sandy Point, 4.1 miles northwest of",41.29333,-71.63333,1,15.0,S
+ACT2356,"Quonochontaug Beach, 1.1 miles S of",41.31333,-71.71367,1,,S
+ACT2361,"Quonochontaug Beach, 3.8 miles S of",41.2725,-71.71667,1,15.0,S
+ACT2366,"Lewis Point, 6.0 miles WNW of",41.19333,-71.73667,1,15.0,S
+ACT2371,Southwest Ledge,41.11667,-71.7,1,,S
+ACT2376,"Southwest Ledge, 2.0 miles west of",41.11333,-71.71667,1,15.0,S
+ACT2381,"Watch Hill Point, 2.2 miles east of",41.30267,-71.81,1,,S
+ACT2386,"Watch Hill Point, 5.2 miles SSE of",41.22,-71.81667,1,15.0,S
+ACT2391,"Watch Hill Point, 5.3 n.mi. SE of",41.24417,-71.77383,1,15.0,S
+ACT2396,"Montauk Point, 5.4 miles NNE of",41.15917,-71.82467,1,15.0,S
+ACT2401,"Montauk Point, 1.2 miles east of",41.075,-71.83,1,,S
+ACT2406,"Montauk Point, 1 mile northeast of",41.08333,-71.85,1,,S
+ACT2416,"East Pt., 4.1 miles S of Fishers Island",41.22333,-71.925,1,15.0,S
+ACT2421,"Cerberus Shoal, 1.5 miles east of",41.17417,-71.9195,1,15.0,S
+ACT2426,"Shagwong Reef & Cerberus Shoal, between",41.13167,-71.925,1,,S
+ACT2436,"Mt. Prospect, 0.6 mile SSE of",41.24583,-71.99667,1,15.0,S
+ACT2441,"Cerberus Shoal and Fishers I., between",41.21667,-71.96667,1,7.0,S
+ACT2451,"Gardiners Island, 3 miles northeast of",41.13167,-72.03333,1,10.0,S
+ACT2456,"Eastern Plain Pt., 3.9 miles ENE of",41.1175,-71.99667,1,,S
+ACT2466,"Rocky Point, 2 miles WNW of",41.05917,-72.03,1,15.0,S
+ACT2471,"Goff Point, 0.4 mile northwest of",41.02483,-72.0625,1,,S
+ACT2476,"Acabonack Hbr. ent., 0.6 mile ESE of",41.02167,-72.12333,1,,S
+ACT2481,"Hog Creek Point, north of",41.06833,-72.16167,1,,S
+ACT2486,"Ram Island, 2.2 miles east of",41.07833,-72.23,1,,S
+ACT2491,"Orient Point, 2.4 miles SSE of",41.125,-72.205,1,,S
+ACT2496,"Gardiners Pt. Ruins, 1.1 miles N of",41.15833,-72.14717,1,,S
+ACT2501,"Gardiners Point & Plum Island, between",41.1555,-72.15867,1,15.0,S
+ACT2506,"Ram Island, 1.4 miles NNE of",41.09667,-72.26333,1,,S
+ACT2511,"Long Beach Pt., 0.7 mile southwest of",41.10417,-72.30667,1,15.0,S
+ACT2521,"Jennings Point, 0.2 mile NNW of",41.07467,-72.3825,1,13.0,S
+ACT2526,"Cedar Point, 0.2 mile west of",41.03967,-72.26783,1,,S
+ACT2531,"North Haven Peninsula, north of",41.04117,-72.32083,1,,S
+ACT2536,"Paradise Point, 0.4 mile east of",41.048,-72.37617,1,13.0,S
+ACT2541,Little Peconic Bay entrance,41.02633,-72.38467,1,19.0,S
+ACT2546,"Robins Island, 0.5 mile south of",40.94967,-72.453,1,,S
+ACT2556,"Napatree Point, 0.7 mile southwest of",41.29867,-71.9,1,,S
+ACT2561,Little Narragansett Bay entrance,41.33333,-71.88333,1,,S
+ACT2571,"Ram Island Reef, south of",41.30167,-71.975,1,7.0,S
+ACT2586,"Clay Point, 1.3 miles NNE of",41.298,-71.9755,1,15.0,S
+ACT2591,"North Hill Point, 1.1 miles NNW of",41.29283,-72.028,1,,S
+ACT2596,"Race Point, 0.4 mile southwest of",41.245,-72.04333,1,,S
+ACT2606,"Little Gull Island, 1.4 n.mi. NNE of",41.2255,-72.092,1,45.0,S
+ACT2611,"Little Gull Island, 1.1 miles ENE of",41.21833,-72.085,1,,S
+ACT2616,"Little Gull Island, 0.8 mile NNW of",41.21833,-72.1155,1,15.0,S
+ACT2661,Lower Coal Dock,41.51467,-72.07867,1,15.0,W
+ACT2666,"Goshen Point, 1.9 miles SSE of",41.26667,-72.105,1,15.0,S
+ACT2671,"Bartlett Reef, 0.2 mile south of",41.26667,-72.13333,1,15.0,S
+ACT2676,Twotree Island Channel,41.29833,-72.14167,1,11.0,S
+ACT2681,Niantic (Railroad Bridge),41.32667,-72.17667,1,5.0,S
+ACT2686,"Black Point, 0.8 mile south of",41.27333,-72.20833,1,15.0,S
+ACT2691,"Black Point and Plum Island, between",41.23333,-72.205,1,15.0,S
+ACT2701,"Plum Island, 0.8 mile NNW of",41.19833,-72.19833,1,15.0,S
+ACT2711,"Hatchett Point, 1.6 n.mi. S of",41.25667,-72.25617,1,15.0,S
+ACT2716,"Hatchett Point, 1.1 miles WSW of",41.2725,-72.282,1,,S
+ACT2721,"Orient Point, 1 mile WNW of",41.16667,-72.25167,1,,S
+ACT2726,"Saybrook Breakwater, 1.5 miles SE of",41.24633,-72.3175,1,,S
+ACT2746,"Eustasia Island, 0.6 mile ESE of",41.38833,-72.40383,1,,S
+ACT2751,"Eddy Rock Shoal, west of",41.44283,-72.463,1,15.0,S
+ACT2756,"Higganum Creek, 0.5 mile ESE of",41.50033,-72.54367,1,,S
+ACT2761,"Wilcox Island Park, east of",41.57217,-72.648,1,,S
+ACT2766,Rocky Hill,41.66367,-72.62883,1,9.0,S
+ACT2771,Hartford Jetty,41.75117,-72.65033,1,9.0,S
+ACT2776,"Mulford Point, 3.1 miles northwest of",41.2,-72.31833,1,15.0,S
+ACT2781,"Rocky Point, 0.3 mile north of",41.14383,-72.357,1,15.0,S
+ACT2786,"Cornfield Point, 2.8 n.mi. SE of",41.2325,-72.33883,1,15.0,S
+ACT2796,"Cornfield Point, 1.1 miles south of",41.24417,-72.39,1,15.0,S
+ACT2801,"Cornfield Point, 1.9 n.mi. SW of",41.24133,-72.42167,1,15.0,S
+ACT2806,"Kelsey Point, 2.1 miles southeast of",41.235,-72.4655,1,,S
+ACT2811,"Kelsey Point, 1 mile south of",41.23333,-72.5,1,,S
+ACT2816,"Six Mile Reef, 1.5 miles north of",41.21117,-72.48117,1,,S
+ACT2821,"Six Mile Reef, 2 miles east of",41.1805,-72.44833,1,,S
+ACT2841,"Horton Point, 1.4 miles NNW of",41.105,-72.45667,1,,S
+ACT2846,"Hammonasset Point, 1.2 miles SW of",41.237,-72.56667,1,15.0,S
+ACT2851,"Hammonasset Point, 5 miles south of",41.16333,-72.5695,1,15.0,S
+ACT2856,"Duck Pond Point, 3.2 n.mi. NW of",41.07883,-72.56517,1,15.0,S
+ACT2861,"Mattituck Inlet, 1 mile northwest of",41.028,-72.57033,1,15.0,S
+ACT2866,"Sachem Head, 1 mile SSE of",41.2275,-72.705,1,,S
+ACT2871,Sachem Head  6.2 miles south of,41.1455,-72.705,1,15.0,S
+ACT2876,"Roanoke Point, 5.6 miles north of",41.07283,-72.70883,1,15.0,S
+ACT2886,"Roanoke Point, 2.3 miles NNW of",41.01533,-72.71617,1,,S
+ACT2891,"Branford Reef, 1.5 miles southwest of",41.2095,-72.8305,1,15.0,S
+ACT2901,"Herod Point, 6.5 miles north of",41.0775,-72.83,1,15.0,S
+ACT2906,"Herod Point, 2.8 miles north of",41.01617,-72.83217,1,15.0,S
+ACT2911,"Herod Point, 5.0 n.mi. NW of",41.02733,-72.91217,1,15.0,S
+ACT2936,"Pond Point, 4.2 miles SSE of",41.14333,-72.968,1,,S
+ACT2941,"Sound Beach, 2.2 miles north of",41.0055,-72.97417,1,,S
+ACT2946,"Charles Island, 0.8 mile SSE of",41.1795,-73.04383,1,,S
+ACT2951,"Milford Point, 0.2 mile west of",41.1725,-73.11367,1,10.0,S
+ACT2956,"Railroad drawbridge, above",41.20883,-73.11117,1,5.0,S
+ACT2961,"Fowler Island, 0.1 mile NNW of",41.24,-73.10383,1,5.0,S
+ACT2966,"Wooster Island, 0.1 mile southwest of",41.27783,-73.08667,1,5.0,S
+ACT2976,"Point No Point, 2.1 miles south of",41.1125,-73.11883,1,15.0,S
+ACT2986,"Stratford Point, 4.3 miles south of",41.0795,-73.11117,1,15.0,S
+ACT2991,"Stratford Point, 6.1 miles south of",41.0495,-73.09667,1,15.0,S
+ACT2996,"Stratford Shoal, 6 miles east of",41.07533,-72.97383,1,,S
+ACT3006,"Old Field Point, 2.9 n.mi. NNW of",41.022,-73.1395,1,15.0,S
+ACT3011,"Old Field Point, 2 miles northeast of",41.00383,-73.095,1,15.0,S
+ACT3016,"Old Field Point, 1 mile east of",40.9745,-73.09667,1,15.0,S
+ACT3026,"Crane Neck Point, 0.5 mile northwest of",40.96667,-73.16667,1,,S
+ACT3041,"Pine Creek Point, 2.3 miles SSE of",41.08417,-73.24,1,15.0,S
+ACT3046,"Shoal Point, 6 miles south of",41.02833,-73.23383,1,15.0,S
+ACT3051,"Crane Neck Point, 3.4 miles WNW of",40.98333,-73.23117,1,15.0,S
+ACT3056,"Crane Neck Point, 3.7 miles WSW of",40.93833,-73.23117,1,15.0,S
+ACT3061,"Saugatuck River, 0.3 mi. NW of Bluff Pt",41.1045,-73.36533,1,15.0,S
+ACT3066,"Saugatuck R., 0.5 mile above Bluff Pt",41.1,-73.38333,1,,W
+ACT3076,"Sheffield I. Hbr., 0.5 mile southeast of",41.05533,-73.42083,1,12.0,S
+ACT3081,"Sheffield I. Tower, 1.1 miles SE of",41.03283,-73.4055,1,15.0,S
+ACT3091,"Eatons Neck Pt., 2.5 n.mi. NNW of",40.9955,-73.41,1,15.0,S
+ACT3096,"Eatons Neck Pt., 1.3 miles north of",40.97667,-73.39617,1,15.0,S
+ACT3106,"Eatons Neck Pt., 1.8 miles west of",40.95,-73.43333,1,,S
+ACT3111,"Huntington Bay, off East Fort Point",40.92667,-73.4175,1,15.0,S
+ACT3116,Northport Bay entrance (in channel),40.90883,-73.4075,1,15.0,S
+ACT3121,"Northport Bay, south of Duck I. Bluff",40.91667,-73.38333,1,,S
+ACT3126,"Long Neck Point, 0.6 mile south of",41.02633,-73.478,1,15.0,S
+ACT3131,"Lloyd Point, 1.3 miles NNW of",40.96583,-73.495,1,15.0,S
+ACT3136,"Shippan Point, 1.3 miles SSE of",40.99967,-73.51717,1,15.0,S
+ACT3151,"Rocky Point, 1 mile east of",40.91917,-73.5005,1,15.0,S
+ACT3156,"Harbor ent., south of Plum Point",40.9,-73.51667,1,7.0,S
+ACT3161,"Harbor, west of Soper Point",40.88333,-73.53333,1,7.0,S
+ACT3166,Cold Spring Harbor,40.88333,-73.48333,1,,W
+ACT3171,"Greenwich Point, 1.1 miles south of",40.98367,-73.567,1,15.0,S
+ACT3176,"Greenwich Point, 2.5 miles south of",40.96,-73.56133,1,15.0,S
+ACT3181,"Oak Neck Point, 0.6 mile north of",40.925,-73.567,1,15.0,S
+ACT3186,"Cos Cob Harbor, off Goose Island",41.01667022705078,-73.5999984741211,1,,S
+ACT3191,"Captain Hbr. Ent., 0.6 mile southwest of",40.99417,-73.5945,1,15.0,S
+ACT3196,"Parsonage Point, 1.3 n.mi. ESE of",40.9375,-73.65817,1,15.0,S
+ACT3201,"Peningo Neck, 0.6 mi. off Parsonage Pt",40.93867,-73.675,1,15.0,S
+ACT3211,"Matinecock Point, 0.7 mile NNW of",40.91333,-73.64,1,15.0,S
+ACT3216,"Hempstead Harbor, 0.3 mile north of",40.862,-73.6745,1,15.0,W
+ACT3226,"Hempstead Harbor, off Glenwood Landing",40.828,-73.65,1,10.0,S
+ACT3236,"Delancey Point, 1 mile southeast of",40.91667,-73.71217,1,15.0,S
+ACT3241,Mamaroneck Harbor,40.93333,-73.71667,1,,W
+ACT3246,Echo Bay entrance,40.9,-73.76667,1,,W
+ACT3251,"Davids Island, channel 0.1 mile east of",40.88333,-73.76667,1,,W
+ACT3256,"Huckleberry Island, 0.2 mile NW of",40.8905,-73.75717,1,15.0,S
+ACT3261,"Huckleberry Island, 0.6 mile SE of",40.88,-73.74583,1,15.0,S
+ACT3271,Manhasset Bay entrance,40.82917,-73.72967,1,15.0,S
+ACT3286,"Hart Island, 0.3 n.mi. SSE of",40.8405,-73.76567,1,15.0,S
+ACT3296,City Island Bridge,40.85783,-73.79333,1,10.0,S
+ACT3301,"Eastchester Bay, near Big Tom",40.83667,-73.79533,1,5.0,S
+ACT3306,"Hutchinson R., Pelham Highway Bridge",40.86167,-73.81667,1,5.0,S
+ACT3321,"Throgs Neck, 0.3 n.mi. NE of",40.81067,-73.7855,1,15.0,S
+ACT3326,"Throgs Neck, 0.4 mile south of",40.79833,-73.79083,1,15.0,S
+ACT3331,"Throgs Neck, 0.2 mile S of (Willets Point)",40.802,-73.79133,1,15.0,S
+ACT3341,"Cryders Point, 0.4 mile NNW of",40.80030059814453,-73.79869842529297,1,,S
+ACT3346,"Bronx-Whitestone Bridge, East of",40.801700592041016,-73.82669830322266,1,14.0,S
+ACT3356,"College Point Reef, 0.25 n.mi. NW of",40.80099868774414,-73.85469818115234,1,15.0,S
+ACT3361,Flushing Creek entrance,40.765,-73.845,1,,W
+ACT3366,"Rikers I. chan., off La Guardia Field",40.78329849243164,-73.88330078125,1,,S
+ACT3371,Bronx River (1 mile north of Hunts Pt.),40.815,-73.875,1,,W
+ACT3376,"Hunts Point, southwest of",40.79999923706055,-73.88330078125,1,,S
+ACT3381,"South Brother Island, NW of",40.79669952392578,-73.90170288085938,1,15.0,S
+ACT3386,"Off Winthrop Ave., Astoria",40.78670120239258,-73.91670227050781,1,,S
+ACT3406,"Roosevelt Is., west of, off 75th Street",40.766700744628906,-73.94999694824219,1,,S
+ACT3411,"Roosevelt Island, east of, off 36th Avenue",40.76359939575195,-73.94550323486328,1,,S
+ACT3416,"Roosevelt Is., west of, off 67th Street",40.762298583984375,-73.9540023803711,1,,S
+ACT3421,"Roosevelt Is., west of, off 63rd Street",40.759700775146484,-73.95449829101562,1,,S
+ACT3426,"Roosevelt Island, east of",40.758201599121094,-73.95130157470703,1,,S
+ACT3431,"Manhattan, off 31st Street",40.73970031738281,-73.96949768066406,1,,S
+ACT3481,"Willis Ave. Bridge, 0.1 mile NW of",40.805,-73.93,1,,S
+ACT3486,Madison Ave. Bridge,40.81330108642578,-73.93499755859375,1,,S
+ACT3491,Macombs Dam Bridge,40.82830047607422,-73.93499755859375,1,,S
+ACT3496,High Bridge,40.84170150756836,-73.93170166015625,1,,S
+ACT3501,West 207th Street Bridge,40.86330032348633,-73.91500091552734,1,,S
+ACT3506,Broadway Bridge,40.87329864501953,-73.91169738769531,1,,S
+ACT3511,"Henry Hudson Bridge, 0.7 nmi. SE of",40.87670135498047,-73.92169952392578,1,16.0,S
+ACT3531,"Ponquogue bridge, Shinnecock Bay",40.845001220703125,-72.50170135498047,1,,S
+ACT3536,Shinnecock Inlet,40.843299865722656,-72.47830200195312,1,,S
+ACT3541,"Fire I. Inlet, 0.5 mi. S of Oak Beach",40.62969970703125,-73.30670166015625,1,,S
+ACT3546,Jones Inlet,40.59170150756836,-73.56670379638672,1,,S
+ACT3551,"Long Beach, inside, between bridges",40.595001220703125,-73.66000366210938,1,,S
+ACT3556,East Rockaway Inlet,40.59000015258789,-73.75499725341797,1,,S
+ACT3571,Rockaway Point,40.53630065917969,-73.94129943847656,1,15.0,S
+ACT3596,Beach Channel (bridge),40.58330154418945,-73.81670379638672,1,,S
+ACT3601,Grass Hassock Channel,40.61000061035156,-73.78500366210938,1,,S
+ACT3611,"Norton Point, WSW of",40.55500030517578,-74.02169799804688,1,16.0,S
+ACT3621,"Bay Ridge, west of",40.625701904296875,-74.05400085449219,1,22.0,S
+ACT3646,"Statue of Liberty, east of",40.689998626708984,-74.02999877929688,1,,S
+ACT3656,Grants Tomb,40.808,-73.96767,1,18.0,S
+ACT3671,Riverdale,40.9,-73.91667,1,,S
+ACT3676,"Mount St. Vincent College, SW of",40.907,-73.908,1,15.0,S
+ACT3681,Dobbs Ferry,41.01667,-73.88333,1,,S
+ACT3691,Tarrytown,41.08333,-73.88333,1,,S
+ACT3696,Ossining,41.16667,-73.9,1,,S
+ACT3711,Peekskill,41.28333,-73.95,1,,S
+ACT3721,Highland Falls,41.36667,-73.96667,1,,S
+ACT3726,"West Point, off Duck Island",41.4,-73.95,1,,S
+ACT3741,New Hamburg,41.58333,-73.95,1,,S
+ACT3751,Hyde Park,41.78333,-73.95,1,,S
+ACT3766,Barrytown,42.0,-73.93333,1,,S
+ACT3771,Saugerties,42.06667,-73.93333,1,,S
+ACT3781,Catskill,42.21667,-73.85,1,,S
+ACT3801,New Baltimore,42.45,-73.78333,1,,S
+ACT3826,"Sandy Hook Chan., 0.4 mi. W of N. Tip",40.479801177978516,-74.02169799804688,1,,S
+ACT3841,"New Dorp Beach, 1.2 miles south of",40.540000915527344,-74.0967025756836,1,,S
+ACT3846,"Old Orchard Shoal Lt., 1.2 mi. ENE of",40.5182991027832,-74.07330322265625,1,,S
+ACT3861,"Coney Island Lt., 1.5 miles SSE of",40.551700592041016,-74.00499725341797,1,,S
+ACT3866,"Hoffman Island, 0.2 mile west of",40.58330154418945,-74.06670379638672,1,,S
+ACT3876,"Coney Island Channel, west end",40.56999969482422,-74.00830078125,1,,S
+ACT3886,"Seabright Bridge, Shrewsbury River",40.3650016784668,-73.9749984741211,1,,S
+ACT3891,Raritan Bay Reach Channel,40.48929977416992,-74.1176986694336,1,15.0,S
+ACT3896,Keyport Channel entrance,40.44833,-74.19833,1,,W
+ACT3901,"Red Bank, 1.4 miles south of",40.4817008972168,-74.20999908447266,1,,S
+ACT3906,Seguine Point,40.50400161743164,-74.185302734375,1,14.0,S
+ACT3911,"Ward Point, ESE",40.48830032348633,-74.22470092773438,1,14.0,S
+ACT3921,"Washington Canal, north entrance",40.47169876098633,-74.36830139160156,1,,S
+ACT3926,South River entrance,40.47829818725586,-74.37830352783203,1,,S
+ACT3931,"Tottenville, Arthur Kill River",40.513301849365234,-74.25499725341797,1,15.0,S
+ACT3936,Tufts Point-Smoking Point,40.55670166015625,-74.22329711914062,1,,S
+ACT3946,Elizabethport,40.64670181274414,-74.18170166015625,1,,S
+ACT3956,"Bergen Point, East Reach",40.64030075073242,-74.12470245361328,1,15.0,S
+ACT3966,"South Reach, Newark Bay",40.65599822998047,-74.13729858398438,1,15.0,S
+ACT3971,"Lincoln Highway Bridge, Hackensack River",40.733299255371094,-74.0999984741211,1,,S
+ACT3976,"Lincoln Highway Bridge, Passaic River",40.733299255371094,-74.11669921875,1,,S
+ACT3986,Manasquan Inlet,40.1,-74.03333,1,,S
+ACT3991,"Manasquan R., hwy. bridge, main chan",40.1,-74.05,1,,S
+ACT3996,"Point Pleasant Canal, north bridge",40.08333,-74.06667,1,,S
+ACT4001,Barnegat Inlet,39.76667,-74.11667,1,,S
+ACT4006,Manahawkin Drawbridge,39.65,-74.18333,1,,S
+ACT4011,Absecon Inlet,39.3765,-74.4145,1,9.0,S
+ACT4031,Five Fathom Bank Traffic Lane,38.78833,-74.71133,1,35.0,S
+ACT4036,McCrie Shoal,38.85,-74.85,1,,S
+ACT4046,"Cape May Canal, east end",38.95,-74.9,1,,S
+ACT4056,Cape May Channel,38.9,-74.96667,1,,S
+ACT4061,"Cape May Point, 1.4 n.mi. SSW of",38.90617,-74.978,1,15.0,S
+ACT4066,"Cape May Point, 2.7 n.mi. SSW of",38.89,-74.9855,1,15.0,S
+ACT4076,"Cape Henlopen, 0.7 n.mi. ESE of",38.7995,-75.08167,1,12.0,S
+ACT4091,"Cape Henlopen, 4.8 n.mi. northeast of",38.85917,-75.0245,1,18.0,S
+ACT4101,Breakwater Harbor,38.79333,-75.10833,1,,S
+ACT4111,Broadkill Slough,38.89633,-75.2105,1,14.0,S
+ACT4116,Mispillion River mouth,38.94667,-75.315,1,,S
+ACT4121,Bay Shore Channel (north),39.078,-74.98133,1,13.0,S
+ACT4141,"Big Stone Beach, 2.8 miles southeast of",38.97833,-75.27667,1,,S
+ACT4146,"Big Stone Beach, 2.2 n.mi. ENE of",39.008,-75.28417,1,15.0,S
+ACT4151,"Fourteen Ft. Bank Lt., 1.4 n.mi. SSE of",39.03867,-75.158,1,12.0,S
+ACT4156,"Fourteen Ft. Bank Lt., 1.2 mi. east of",39.055,-75.15833,1,,S
+ACT4161,"Deadman Shoal, 3.1 n.mi. SW of",39.06667,-75.07033,1,13.0,S
+ACT4166,Egg Island Flats,39.10667,-75.11833,1,,S
+ACT4176,Maurice River entrance,39.21667,-75.045,1,,S
+ACT4181,"Mauricetown Bridge, Maurice River",39.28667,-74.99333,1,,S
+ACT4191,"St. Jones River ent., 1 mile east of",39.06667,-75.38333,1,,S
+ACT4196,"Kelly Island, 1.5 miles east of",39.21333,-75.36167,1,,S
+ACT4206,"False Egg Island Point, 2 miles off",39.19,-75.2,1,,S
+ACT4211,"Ben Davis Pt. Shoal, southwest of",39.24783,-75.3155,1,15.0,S
+ACT4221,"Ben Davis Point, 0.8 mile southwest of",39.28167,-75.30333,1,,S
+ACT4226,"Cohansey River, 0.5 mile above entrance",39.34833,-75.36,1,,S
+ACT4241,Smyrna River entrance,39.365,-75.51333,1,,S
+ACT4246,"Stony Point, channel west of",39.451698303222656,-75.56330108642578,1,,S
+ACT4251,Appoquinimink River entrance,39.44670104980469,-75.58170318603516,1,,S
+ACT4261,Reedy Island (off end of pier),39.51169967651367,-75.55670166015625,1,,S
+ACT4266,"Alloway Creek ent., 0.2 mile above",39.49829864501953,-75.5250015258789,1,,S
+ACT4271,"New Bridge, Alloway Creek",39.52669906616211,-75.45169830322266,1,,S
+ACT4296,Salem River entrance,39.56999969482422,-75.50170135498047,1,,S
+ACT4301,"Bulkhead Shoal Channel, SE, Del. City",39.57630157470703,-75.57530212402344,1,14.0,S
+ACT4306,"Bulkhead Shoal Channel, off Del. City",39.58330154418945,-75.58670043945312,1,,S
+ACT4316,"Finns Point, 0.60 n.mi. Northwest of",39.606201171875,-75.57450103759766,1,16.0,S
+ACT4321,"Penns Neck, 0.6 mile west of",39.61750030517578,-75.58200073242188,1,,S
+ACT4326,"Penns Neck, 0.3 mile west of",39.617801666259766,-75.57630157470703,1,,S
+ACT4351,"Christina River, 0.9 n.mi. above ent",39.72169876098633,-75.52950286865234,1,15.0,S
+ACT4391,"Hog Island, channel southeast of",39.86669921875,-75.21499633789062,1,,S
+ACT4406,"Eagle Point, 0.2 n.mi. northwest of",39.88029861450195,-75.1729965209961,1,17.0,S
+ACT4496,"Smith Island Shoal, southeast of",37.08833,-75.725,1,7.0,S
+ACT4501,"Cape Henry Light, 2.2 miles southeast of",36.89833,-75.97833,1,,S
+ACT4506,"Cape Henry Light, 3.4nm NNE of",36.97983,-75.98083,1,7.0,S
+ACT4511,"Cape Henry Light, 2.35nm NNE of",36.96233,-75.98567,1,15.0,S
+ACT4516,"Cape Henry Light, 1.4nm NE of",36.9455,-75.98967,1,15.0,S
+ACT4521,"Cape Henry Light, 0.8 n.mi. NNE of",36.93883,-75.99967,1,15.0,S
+ACT4531,"Cape Henry Light, 3.2 miles north of",36.98,-75.998,1,15.0,S
+ACT4536,"Cape Henry Light, 4.6 miles north of",37.00167,-75.98833,1,,S
+ACT4541,"Cape Henry Light, 5.9 n.mi. north of",37.02333,-75.9925,1,14.0,S
+ACT4546,"Cape Henry Light, 8.3 mi. NW of",37.03667,-76.11,1,12.0,S
+ACT4551,Lynnhaven Roads,36.91833,-76.08167,1,,S
+ACT4556,Lynnhaven Inlet bridge,36.90667,-76.09333,1,,S
+ACT4561,"Chesapeake Beach, 1.5 miles north of",36.94483,-76.12217,1,,S
+ACT4571,Tail of the Horseshoe,36.99283,-76.10333,1,,S
+ACT4576,Chesapeake Channel (bridge tunnel),37.04167,-76.07217,1,,S
+ACT4581,Chesapeake Channel (Buoy '15'),37.05667,-76.093,1,13.0,S
+ACT4586,"Fishermans Island, 3.2 miles WSW of",37.06667,-76.0375,1,,S
+ACT4591,"Fishermans Island, 1.4 miles WSW of",37.07967,-76.00417,1,,S
+ACT4596,"Fishermans Island, 2.45nm south of",37.044,-75.96283,1,6.0,S
+ACT4601,"Fishermans Island, 1.7 n.mi. south of",37.05617,-75.97217,1,16.0,S
+ACT4606,"Fishermans Island, 0.5 n.mi. SW of",37.08083,-75.9805,1,15.0,S
+ACT4611,"Fishermans I., 0.4 mile west of",37.09283,-75.98883,1,,S
+ACT4616,"Fishermans I., 1.4 n.mi. WNW of",37.10167,-76.0055,1,16.0,S
+ACT4621,"Fishermans I., 1.1 miles northwest of",37.10833,-76.0,1,,S
+ACT4626,"Cape Charles, off Wise Point",37.11467,-75.97167,1,5.0,S
+ACT4631,"Little Creek, 0.2 n.mi. N of east jetty",36.93417,-76.17667,1,15.0,S
+ACT4636,"Butler Bluff, 2.1 n.mi. WSW of",37.15617,-76.02667,1,14.0,S
+ACT4641,"York Spit Channel, N of Buoy '26'",37.215,-76.14167,1,7.0,S
+ACT4646,"Old Plantation Flats Lt., 0.5 mi. W of",37.23333,-76.06833,1,,S
+ACT4651,"Cape Charles City, 3.3 n.mi. west of",37.2645,-76.09367,1,15.0,S
+ACT4656,"New Point Comfort, 4.1 n.mi. ESE of",37.29,-76.19083,1,15.0,S
+ACT4661,"Wolf Trap Light, 0.5 mile west of",37.39,-76.19833,1,,S
+ACT4666,"Wolf Trap Light, 5.8 miles east of",37.385,-76.07167,1,,S
+ACT4671,"Church Neck Point, 1.9 n.mi. W of",37.40333,-76.013,1,15.0,S
+ACT4676,"Wolf Trap Light, 6.1 n.mi. ENE of",37.40833,-76.06383,1,14.0,S
+ACT4681,"Wolf Trap Light, 5.2 n.mi. ENE of",37.40833,-76.08333,1,15.0,S
+ACT4686,"Wolf Trap Light, 1.4 n.mi. NNE of",37.41117,-76.17617,1,15.0,S
+ACT4691,"Wolf Trap Light, 2.0 n.mi. NW of",37.41667,-76.215,1,14.0,S
+ACT4696,"Nassawadox Point, 1.9 n.mi. NW of",37.4995,-75.9895,1,13.0,S
+ACT4701,"Gwynn Island, 8.0 n.mi. east of",37.495,-76.10833,1,14.0,S
+ACT4706,"Gwynn Island, 1.5 n.mi. east of",37.5005,-76.245,1,16.0,S
+ACT4711,"Stingray Point, 5.5 miles east of",37.58333,-76.17333,1,,S
+ACT4716,"Stingray Point, 12.5 miles east of",37.56333,-76.03833,1,,S
+ACT4721,"Powells Bluff, 2.2 n.mi. NW of",37.59083,-76.96833,1,17.0,S
+ACT4726,"Windmill Point Light, 8.3 n.mi. ESE of",37.57667,-76.06333,1,14.0,S
+ACT4731,"Windmill Point Light, 2.2 n.mi. ESE of",37.58833,-76.19167,1,14.0,S
+ACT4736,"Milby Point, 5.3 n.mi. WNW of",37.66417,-76.00867,1,13.0,S
+ACT4741,"Bluff Point, 4.6 n.mi. east of",37.67833,-76.20417,1,13.0,S
+ACT4746,"Tangier Sound Light, 5.8 n.mi. west of",37.78383,-76.09467,1,15.0,S
+ACT4751,"Great Wicomico R. Lt., 3.8 n.mi. ESE of",37.78333,-76.19167,1,14.0,S
+ACT4756,"Smith Point Light, 6.7 n.mi. east of",37.8805,-76.04417,1,9.0,S
+ACT4761,"Smith Point Light, 4.5 n.mi. east of",37.87783,-76.08833,1,14.0,S
+ACT4766,"Smith Point Light, 3.0 n.mi. east of",37.8775,-76.118,1,15.0,S
+ACT4771,"Smith Point Light, 1.5 n.mi. east of",37.87917,-76.152,1,14.0,S
+ACT4776,"Smith Point Light, 0.8 n.mi. NW of",37.88717,-76.19833,1,8.0,S
+ACT4786,"Smith Point Light, 6 miles north of",37.98167,-76.19,1,,S
+ACT4791,"Smith Island, 3.6 n.mi. northwest of",38.0075,-76.12133,1,15.0,S
+ACT4796,"Point Lookout, 5.9 n.mi. ESE of",38.01467,-76.202,1,15.0,S
+ACT4806,Point Lookin,38.11,-76.21833,1,,S
+ACT4811,"Adams Island, 1.1 n.mi. west of",38.1445,-76.1145,1,12.0,S
+ACT4816,"Adams Island, 3.4 n.mi west of",38.13967,-76.16333,1,16.0,S
+ACT4821,"Point No Point, 4.3 n.mi. east of",38.1355,-76.22917,1,17.0,S
+ACT4826,"Point No Point, 2.8 n.mi. east of",38.13967,-76.26117,1,15.0,S
+ACT4831,"Point No Point, 1.0 n.mi. east of",38.1405,-76.30217,1,17.0,S
+ACT4836,"Hooper Strait (west), at buoy '2'",38.22083,-76.10333,1,15.0,S
+ACT4846,"Cedar Point, 2.9 n.mi. ENE of",38.31083,-76.31333,1,16.0,S
+ACT4851,"Cedar Point, 1.1 miles ENE of",38.3045,-76.35167,1,,S
+ACT4861,"Cove Point, 1.1 n.mi. east of",38.38133,-76.36033,1,17.0,S
+ACT4866,"Cove Point, 2.7 n.mi. east of",38.38,-76.32533,1,15.0,S
+ACT4871,"Cove Point, 3.9 n.mi. east of",38.37533,-76.29867,1,11.0,S
+ACT4876,"Cove Point, 4.9 n.mi. NNE of",38.46717,-76.37667,1,15.0,S
+ACT4881,"Kenwood Beach, 1.5 miles northeast of",38.51833,-76.48167,1,,S
+ACT4891,"James Island, 3.4 miles west of",38.525,-76.42,1,,S
+ACT4896,"James Island, 2.5 miles WNW of",38.53333,-76.39333,1,,S
+ACT4901,"Plum Point, 1.4 miles ESE of",38.6125,-76.4775,1,,S
+ACT4906,"Sharp Island Lt., 2.3 n.mi. SE of",38.60717,-76.348,1,20.0,S
+ACT4911,"Sharp Island Lt., 2.1 n.mi. west of",38.64333,-76.42033,1,18.0,S
+ACT4916,"Sharp Island Lt., 3.4 n.mi. west of",38.64383,-76.448,1,18.0,S
+ACT4921,"Plum Point, 2.1 n.mi. NNE of",38.645,-76.48717,1,15.0,S
+ACT4926,"Poplar Island, 2.2 n.mi. WSW of",38.75617,-76.4295,1,14.0,S
+ACT4931,"Poplar Island, 3.0 n.mi. WSW of",38.74967,-76.4455,1,15.0,S
+ACT4936,"Holland Point, 2.0 n.mi east of",38.75167,-76.49883,1,15.0,S
+ACT4941,"Kent Point, 4 miles southwest of",38.79167,-76.43333,1,,S
+ACT4946,"Kent Point, 1.3 miles south of",38.81667,-76.36417,1,,S
+ACT4951,"Horseshoe Point, 1.7 miles east of",38.83833,-76.45333,1,,S
+ACT4956,"Bloody Point Bar Light, 0.6 mi. NW of",38.8395,-76.40283,1,19.0,S
+ACT4961,"Thomas Pt. Shoal Lt., 1.8 mi. SW of",38.875,-76.46167,1,,S
+ACT4966,"Thomas Pt. Shoal Lt., 2.0 n.mi. east of",38.89583,-76.38683,1,22.0,S
+ACT4971,"Thomas Pt. Shoal Lt., 0.5 n.mi. SE of",38.891,-76.427,1,16.0,S
+ACT4976,"Tolly Point, 1.6 miles east of",38.9345,-76.417,1,,S
+ACT4981,"Chesapeake Bay Bridge, main channel",38.99167,-76.385,1,,S
+ACT4986,"Sandy Point, 2.3 n.mi. east of",39.00267,-76.34883,1,15.0,S
+ACT4991,"Sandy Point, 0.8 n.mi. ESE of",39.004,-76.38,1,15.0,S
+ACT4996,Baltimore Harbor Approach (off Sandy Point),39.01300048828125,-76.36830139160156,1,,H
+ACT5001,"Craighill Channel entrance, Buoy '2C'",39.04033,-76.37783,1,15.0,S
+ACT5006,"Love Point, 2.8 miles NNE of",39.07833,-76.27167,1,,W
+ACT5011,"Love Point, 2.5 miles north of",39.07967,-76.31217,1,,S
+ACT5021,"Craighill Channel, NE of Mountain Pt",39.08133,-76.3945,1,,S
+ACT5026,"Craighill Channel, Belvidere Shoal",39.09467,-76.393,1,18.0,S
+ACT5031,"Craighill Angle, right outside quarter",39.12833,-76.38783,1,,S
+ACT5036,"Swan Point, 2.7 n.mi. SW of",39.108,-76.30533,1,14.0,S
+ACT5046,"Swan Point, 1.6 miles northwest of",39.1625,-76.30467,1,,S
+ACT5051,"Brewerton Channel Eastern Ext., Buoy '7'",39.163,-76.38967,1,14.0,S
+ACT5056,"Tolchester Channel, SW of Bouy '58B'",39.1825,-76.28117,1,17.0,S
+ACT5061,"Tolchester Channel, Buoy '22'",39.19117,-76.26583,1,15.0,S
+ACT5066,"Tolchester Channel, south of Buoy '38B'",39.19283,-76.28783,1,15.0,S
+ACT5071,"North Point, 2.5 miles northeast of",39.2145,-76.39533,1,7.0,S
+ACT5076,"Tolchester Beach, 0.33 n.mi. west of",39.21717,-76.24833,1,15.0,S
+ACT5081,"Pooles Island, 4 miles southwest of",39.22667,-76.33133,1,,S
+ACT5086,Pooles Island 2.0 n.mi. SSW of,39.24633,-76.29667,1,15.0,S
+ACT5091,"Pooles Island, 0.8 mile south of",39.26167,-76.27333,1,,S
+ACT5096,"Miller Island, 1.5 miles ENE of",39.275,-76.33167,1,7.0,S
+ACT5101,"Pooles Island, 1.6 n.mi. east of",39.2745,-76.22617,1,16.0,S
+ACT5106,"Robins Point, 0.7 mile ESE of",39.29583,-76.26833,1,5.0,S
+ACT5111,"Worton Point, 1.5 n.mi. WSW of",39.31167,-76.21717,1,17.0,S
+ACT5116,"Worton Point, 1.1 miles northwest of",39.33167,-76.2,1,,S
+ACT5121,"Howell Point, 0.8 n.mi. west of",39.3705,-76.13,1,15.0,S
+ACT5126,"Howell Point, 0.4 mile NNW of",39.37667,-76.115,1,,S
+ACT5131,"Grove Point, 0.7 n.mi.NW of",39.39633,-76.05033,1,14.0,S
+ACT5136,"Turkey Point, 1.2 n.mi. SW of",39.44333,-76.03383,1,9.0,S
+ACT5141,"Spesutie Island, channel north of",39.4805,-76.08167,1,7.0,S
+ACT5146,"Rocky Pt. (Elk Neck), 0.25 n.mi. SW of",39.48833,-75.9975,1,9.0,S
+ACT5151,"Red Point, 0.2 mile W of, Northeast River",39.52917,-75.98467,1,7.0,S
+ACT5156,"Havre de Grace, Susquehanna River",39.55217,-76.08467,1,,W
+ACT5161,Thimble Shoal Channel (west end),37.00533,-76.22667,1,15.0,S
+ACT5171,0.55 n.mi. east of,37.002,-76.29533,1,48.0,S
+ACT5176,0.2 mile south of,36.99617,-76.31467,1,,S
+ACT5181,0.9 mile southwest of,36.98883,-76.32617,1,,S
+ACT5186,"Willoughby Spit, 0.8 mile northwest of",36.97667,-76.30667,1,,S
+ACT5191,Willoughby Bay entrance,36.96167,-76.29833,1,,S
+ACT5201,Norfolk Harbor Reach (Buoy R '8'),36.95,-76.3395,1,13.0,S
+ACT5206,"Sewells Point, pierhead",36.94667,-76.335,1,7.0,S
+ACT5211,"Channel, middle",36.95633,-76.38167,1,15.0,S
+ACT5221,"Middle Ground, 1 mile south of",36.93333,-76.38667,1,7.0,S
+ACT5226,Craney Island,36.89467,-76.33583,1,15.0,S
+ACT5236,Lamberts Point,36.875,-76.3325,1,15.0,S
+ACT5241,"West Norfolk Bridge, Western Branch",36.85833,-76.34333,1,,S
+ACT5246,"Seaboard Coast Line RR, Pinner Point",36.86,-76.31667,1,,S
+ACT5251,"Berkley Bridge, Eastern Branch",36.84167,-76.28333,1,,S
+ACT5256,"Norfolk and Western RR. Bridge, E Branch",36.83667,-76.245,1,,S
+ACT5261,"Berkley, Southern Branch",36.83333,-76.29667,1,,S
+ACT5266,"Chesapeake, Southern Branch",36.80833,-76.29,1,,S
+ACT5271,"Gilmerton Hwy. bridge, Southern Branch",36.775,-76.295,1,,S
+ACT5276,"Money Point, Southern Branch",36.777000427246094,-76.30216979980469,1,15.0,S
+ACT5281,"Pig Point, 1.8 miles northeast of",36.92333,-76.41833,1,,S
+ACT5286,"Town Point Bridge, 0.5 mile east of",36.88833,-76.48333,1,,S
+ACT5291,Dumpling Island,36.80833,-76.55833,1,,S
+ACT5301,0.8 mile SW of shipbuilding plant,36.975,-76.455,1,,S
+ACT5306,1.5 miles SW of shipbuilding plant,36.96833,-76.47,1,6.0,S
+ACT5311,South end,37.05833,-76.59383,1,,S
+ACT5316,Middle,37.08667,-76.61383,1,,S
+ACT5321,North end,37.11,-76.6325,1,,S
+ACT5326,"Point of Shoals, west of",37.065,-76.66,1,,S
+ACT5331,Deepwater Shoals,37.14333,-76.63667,1,,S
+ACT5336,Hog Point,37.2,-76.69167,1,,S
+ACT5341,"Jamestown Island, Church Point",37.20333,-76.78333,1,,S
+ACT5346,Chickahominy River Bridge,37.26167,-76.875,1,,S
+ACT5351,Caremont Landing,37.23333,-76.95333,1,,S
+ACT5356,"Brandon Point, 0.3 mile northeast of",37.275,-76.98667,1,,S
+ACT5361,Windmill Point,37.31167,-77.095,1,,S
+ACT5366,"Coggins Point, 0.5 mile north of",37.30667,-77.16667,1,,S
+ACT5371,City Point,37.31667,-77.27167,1,,S
+ACT5376,Appomattox River entrance,37.31167,-77.295,1,,S
+ACT5381,Bermuda Hundred,37.33667,-77.27,1,,S
+ACT5386,"Dutch Gap Canal, 0.5 mile east of",37.38,-77.34667,1,,S
+ACT5401,"York Spit Light, 0.8 mile southwest of",37.2,-76.26667,1,,S
+ACT5406,York River Ent. Channel (NW end),37.22583,-76.30783,1,15.0,S
+ACT5411,"Tue Marshes Light, 0.7 n.mi. north of",37.24667,-76.388,1,14.0,S
+ACT5416,"Tue Marshes Light, 0.9 n.mi. WNW of",37.238,-76.40217,1,14.0,S
+ACT5421,Midchannel,37.23333,-76.44333,1,,S
+ACT5426,North edge of channel,37.23667,-76.44333,1,,S
+ACT5431,South edge of channel,37.22667,-76.44167,1,,S
+ACT5436,Yorktown,37.24167,-76.50833,1,,S
+ACT5441,"Gloucester Point, 150 yds. southeast of",37.2425,-76.50167,1,,S
+ACT5446,"Gloucester Point, 0.4 mile southwest of",37.24033,-76.51083,1,,S
+ACT5451,"Pages Rock, 1 mile SSE of",37.29333,-76.58,1,,S
+ACT5456,"Blundering Point, 0.9 mile SSW of",37.30217,-76.58467,1,,S
+ACT5461,"Clay Bank Pier, 100 yds. southwest of",37.34633,-76.61333,1,,S
+ACT5466,Allmondsville,37.4,-76.66667,1,,S
+ACT5471,"Purtan Island, 0.2 mile southwest of",37.41467,-76.687,1,,S
+ACT5476,"Goff Point, 0.8 mile SSW of",37.4995,-76.78383,1,,S
+ACT5481,"West Point, 0.8 mile below",37.515,-76.79167,1,,S
+ACT5486,"Lord Delaware Bridge, 100 yds. S of",37.537,-76.79083,1,,S
+ACT5491,"Wakema, Mattaponi River",37.65333,-76.9,1,,S
+ACT5496,"Walkerton, Mattaponi River",37.72333,-77.025,1,,S
+ACT5501,"Eltham Bridge, 100 yds. north of",37.535,-76.807,1,,S
+ACT5506,"Lester Manor, Pamunkey River",37.58167,-76.99,1,,S
+ACT5511,"Northbury, Pamunkey River",37.625,-77.12167,1,,S
+ACT5516,"New Point Comfort, 2.0 n.mi. WSW of",37.295,-76.32083,1,16.0,S
+ACT5521,"Bland Point, Piankatank River",37.53,-76.365,1,,S
+ACT5526,"Doctor Point, 0.4 mile west of",37.51833,-76.45,1,,S
+ACT5531,"Stingray Point, 1.2 n.mi. NE of",37.5755,-76.28467,1,28.0,S
+ACT5536,"Windmill Point, 1.0 n.mi SSW of",37.6,-76.29167,1,15.0,S
+ACT5541,"Mosquito Point, 0.9 mile SSE of",37.59533,-76.35133,1,,S
+ACT5551,"Orchard Point, 1.0 mile south of",37.63283,-76.4575,1,,S
+ACT5556,Towles Point,37.63,-76.50667,1,,S
+ACT5566,"Waterview, 1.3 miles NNE of",37.74917,-76.59867,1,,S
+ACT5571,"Tarpley Point, 1.5 miles south of",37.76917,-76.652,1,,S
+ACT5576,"Jones Point, 1.4 miles NNW of",37.8005,-76.693,1,,S
+ACT5581,"Sharps, 1.2 miles south of",37.803,-76.69867,1,,S
+ACT5586,"Bowlers Rock, 0.2 mile north of",37.82633,-76.73333,1,,S
+ACT5591,"Accaceek Point, 0.3 mile southwest of",37.87533,-76.77333,1,,S
+ACT5596,"Tappahannock Bridge, 1.8 miles SE of",37.91833,-76.82117,1,,S
+ACT5606,Port Royal,38.175,-77.19,1,,S
+ACT5611,Pocomoke Sound Approach,37.63333,-75.965,1,,S
+ACT5621,"Watts Island, 4 miles south of",37.72,-75.9,1,7.0,S
+ACT5626,"Watts Island, 2.3 n.mi. east of",37.79367,-75.84717,1,13.0,S
+ACT5631,"Long Point, 2.0 n.mi. northeast of",37.915,-75.79833,1,9.0,S
+ACT5636,"Pocomoke R., 0.5 mile below Shelltown",37.97167,-75.645,1,,S
+ACT5641,"Tangier Sound Light, 0.5 n.mi. east of",37.7875,-75.96383,1,16.0,S
+ACT5646,"Tangier Sound Light, 1.5 miles NE of",37.80833,-75.95667,1,,S
+ACT5651,"Clump Island, 2.5 n.mi. west of",37.90833,-75.957,1,15.0,S
+ACT5656,"Janes Island Light, 2.3 n.mi. NNE OF",38.00083,-75.90867,1,14.0,S
+ACT5661,Big Annemessex River Entrance,38.04883,-75.8575,1,12.0,S
+ACT5666,Kedges Strait Buoy '4',38.0575,-76.03217,1,12.0,S
+ACT5671,"Manokin R. Ent., 1.1 n.mi. E of Drum Pt",38.097,-75.89133,1,20.0,S
+ACT5676,"Deal Is., 0.6 n.mi. W. of, at Bouy '14'",38.14083,-75.97217,1,14.0,S
+ACT5681,"Frog Point, 1.6 miles south of",38.21,-75.955,1,,S
+ACT5686,"Long Point and Nanticoke Point, between",38.21333,-75.9,1,9.0,S
+ACT5691,"Victor Point, 0.8 mile southwest of",38.23833,-75.86333,1,,S
+ACT5696,Whitehaven,38.265,-75.79167,1,,S
+ACT5701,"Whitehaven, 2.5 miles above",38.29667,-75.75833,1,4.0,S
+ACT5706,"Salisbury, 2 miles below",38.34,-75.63833,1,4.0,S
+ACT5711,"Sandy Point, Nanticoke River",38.24667,-75.92833,1,,S
+ACT5716,"Roaring Point, WSW of Nanticoke River",38.26333,-75.92333,1,18.0,S
+ACT5721,"Chapter Point, Nanticoke River",38.37667,-75.86667,1,,S
+ACT5726,"Fishing Bay Entrance, at Buoy '2'",38.22467,-75.9895,1,15.0,S
+ACT5731,"Hooper Strait, at Buoy '4'",38.2175,-76.06383,1,14.0,S
+ACT5741,"Honga River Entrance, at Buoy '1A'",38.24667,-76.11667,1,26.0,S
+ACT5746,"Sandy Point, east of",37.82167,-76.3,1,,S
+ACT5751,"Point Lookout, 5.2 n.mi. SW of",37.96867,-76.39167,1,13.0,S
+ACT5756,"Point Lookout, 3.1 n.mi. SW of",37.99783,-76.3625,1,15.0,S
+ACT5761,"Point Lookout, 1.8 n.mi. SW of",38.01333,-76.34367,1,14.0,S
+ACT5766,"Point Lookout, 1.0 n.mi. south of",38.02083,-76.32417,1,15.0,S
+ACT5776,"Cornfield Point, midchannel",38.01832962036133,-76.3550033569336,1,,S
+ACT5781,"Cornfield Point, 3.8 miles south of",37.9900016784668,-76.35832977294922,1,,S
+ACT5786,"Fort Point, St. Marys River",38.13,-76.44833,1,,W
+ACT5791,Yeocomico River entrance,38.035,-76.52,1,,W
+ACT5796,"Piney Point, 0.2 mile south of",38.130001068115234,-76.53333282470703,1,,S
+ACT5806,"Piney Point, 2.2 miles south of",38.098331451416016,-76.55166625976562,1,,S
+ACT5811,Lower Machodoc Creek entrance,38.145,-76.655,1,,W
+ACT5816,"White Point, Nomini Creek entrance",38.135,-76.72167,1,,S
+ACT5821,Breton Bay entrance,38.24167,-76.695,1,,S
+ACT5826,St. Clements Bay entrance,38.24167,-76.72833,1,,W
+ACT5831,"St. Clements I., 1.8 miles southeast of",38.195,-76.70833,1,,S
+ACT5836,"St. Clements I., 1.1 miles southwest of",38.19283,-76.76117,1,,S
+ACT5841,"Rock Point, Wicomico River entrance",38.27333,-76.82167,1,,S
+ACT5846,Swan Point,38.27333,-76.945,1,,S
+ACT5851,Dahlgren Harbor Channel,38.315,-77.03217,1,,W
+ACT5861,Persimmon Point,38.36833,-76.99,1,,S
+ACT5866,"Potomac River Bridge, 0.4 mile south of",38.35633,-76.98667,1,,S
+ACT5871,"Chapel Point, Port Tobacco River",38.465,-77.03667,1,,W
+ACT5876,Maryland Point,38.34667,-77.19667,1,,S
+ACT5881,Quantico,38.52167,-77.27667,1,,S
+ACT5886,Quantico Creek entrance,38.52833,-77.28833,1,,S
+ACT5891,"Freestone Point, 2.3 miles east of",38.59633,-77.198,1,,S
+ACT5896,Hallowing Point,38.645,-77.1275,1,,S
+ACT5901,"Jones Point, Alexandria",38.79367,-77.03717,1,,S
+ACT5906,Hains Point,38.85133,-77.022,1,,S
+ACT5911,Anacostia River entrance,38.86333,-77.01,1,,W
+ACT5916,South Capitol Street Bridge,38.86783,-77.00633,1,,W
+ACT5921,"Washington Channel, Washington, D.C",38.86333,-77.02,1,,W
+ACT5931,"Hog Point, 0.6 n.mi. north of",38.318,-76.40117,1,13.0,S
+ACT5936,"Drum Point, 0.3 mile SSE of",38.3155,-76.41917,1,,S
+ACT5941,"Sandy Point, 0.5 mile south of",38.30833,-76.455,1,,S
+ACT5946,"Point Patience, 0.1 mile southwest of",38.32833,-76.48667,1,15.0,S
+ACT5951,"Broomes Island, 0.4 mile south of",38.395,-76.55417,1,,S
+ACT5956,"Sheridan Point, 0.1 mile southwest of",38.46617,-76.648,1,,S
+ACT5961,"Benedict, highway bridge",38.51167,-76.67217,1,,S
+ACT5966,Lyons Creek Wharf,38.74667,-76.685,1,,S
+ACT5971,"Hills Point, 1.0 mile south of",38.55,-76.31167,1,,W
+ACT5976,"Ragged Point, 1.5 miles east of",38.53,-76.24417,1,,S
+ACT5981,"Cook Point, 1.4 n.mi. NNW of",38.64717,-76.30667,1,15.0,S
+ACT5986,"Holland Point, 2.0 n.mi. SSW of",38.67383,-76.2575,1,14.0,S
+ACT5991,"Chlora Point, 0.5 n.mi. SSW of",38.62833,-76.15167,1,17.0,S
+ACT5996,"Martin Point, 0.6 n.mi. west of",38.62717,-76.13583,1,18.0,S
+ACT6001,"Howell Point, 0.5 n.mi. south of",38.60383,-76.1145,1,7.0,S
+ACT6006,"Cambridge hwy. bridge, W. of Swing Span",38.57967,-76.06117,1,18.0,S
+ACT6011,Off Jamaica Point,38.60967,-75.98283,1,,S
+ACT6016,"Poplar Point, south of",38.67533,-75.96633,1,,S
+ACT6021,Dover Bridge,38.75667,-75.99867,1,,S
+ACT6031,"Easton Pt., 0.5 mi. below, Tred Avon River",38.76333,-76.10333,1,,W
+ACT6041,"Bald Eagle Pt., east of, Harris Creek",38.72917,-76.305,1,,S
+ACT6046,"Poplar Island, east of south end",38.74833,-76.35333,1,,S
+ACT6051,"Kent Point, 1.4 n.mi. east of",38.83883,-76.3375,1,15.0,S
+ACT6056,"Long Point, 1 mile southeast of",38.84333,-76.32667,1,,S
+ACT6061,"Turkey Point, 1.3 miles WSW of",38.89467,-76.32583,1,,W
+ACT6066,"Parson Island, 1.4 miles west of",38.91383,-76.2795,1,,W
+ACT6081,"Wye River, west of Bruffs Island",38.85467,-76.198,1,9.0,S
+ACT6086,"Deepwater Point, Miles River",38.8055,-76.20917,1,,S
+ACT6096,"Cheston Point, south of, West River",38.8555,-76.52383,1,,W
+ACT6101,South River entrance,38.91283,-76.4905,1,,W
+ACT6106,"Greenbury Point, 1.8 miles east of",38.97333,-76.41667,1,8.0,S
+ACT6121,"Mountain Point, Magothy River entrance",39.05783,-76.43717,1,,S
+ACT6126,"Love Point, 1.6 n.mi. east of",39.03417,-76.26783,1,16.0,S
+ACT6131,Kent Island Narrows (highway bridge),38.9705,-76.24717,1,4.0,S
+ACT6136,"Hail Point, 0.7 n.mi.east of",39.0105,-76.1825,1,16.0,S
+ACT6141,Deep Point,39.10633,-76.1205,1,,S
+ACT6146,Chestertown,39.20717,-76.06117,1,,S
+ACT6151,"North Point, Brewerton Channel",39.17833,-76.44417,1,15.0,W
+ACT6156,Brewerton Angle,39.20133,-76.513,1,,W
+ACT6161,Fort McHenry Angle,39.2575,-76.5755,1,,W
+ACT6166,Bear Creek entrance,39.23,-76.49833,1,,W
+ACT6171,Curtis Creek entrance,39.21833,-76.57667,1,,W
+ACT6176,"Fort McHenry, NW Harbor entrance",39.26333,-76.575,1,,W
+ACT6181,Middle Branch entrance,39.25667,-76.61667,1,,W
+ACT6186,"Lynch Point, Back River",39.25,-76.43833,1,,S
+ACT6191,Gunpowder River entrance,39.31167,-76.30833,1,,S
+ACT6196,"Bush River, 0.4 mi. SW of Bush Point",39.35667,-76.25667,1,,S
+ACT6201,Grove Point,39.37833,-76.04333,1,,S
+ACT6206,"Ordinary Point, 0.4 mile west of",39.37417,-75.9875,1,,S
+ACT6211,Georgetown,39.36117,-75.88617,1,,S
+ACT6216,"Arnold Point, 0.4 mile west of",39.46383,-75.97417,1,,S
+ACT6221,"Old Town Point Wharf, northwest of",39.50383,-75.91867,1,17.0,S
+ACT6226,Hendersons Point,39.55333,-75.86,1,,S
+ACT6231,"Back Creek, 0.3 n.mi. W of Sandy Pt",39.52783,-75.86617,1,14.0,S
+ACT6241,"Chesapeake City Bridge, 0.45 n.mi. E of",39.52783,-75.80717,1,26.0,S
+ACT6246,"Conrail Bridge, east of",39.5425,-75.7025,1,17.0,S
+ACT6251,"St. George Bridge, 0.1 n.mi. ENE of",39.55283,-75.65,1,18.0,S
+ACT6256,"Reedy Point Radio Tower, south of",39.56033,-75.57,1,19.0,S
+ACT6261,"Cape Henry Light, 0.7 mile east of",36.92833,-75.99333,1,,S
+ACT6266,"Virginia Beach, south end",36.55,-75.86833,1,,S
+ACT6271,"Bodie Island-Pea Island, between",35.77667,-75.535,1,6.0,S
+ACT6276,"Coast Guard Tower, southwest of",35.76167,-75.53167,1,6.0,S
+ACT6281,"Herbert C. Bonner Bridge, WSW of",35.77,-75.54667,1,6.0,S
+ACT6286,Hatteras Inlet,35.2,-75.75,1,,S
+ACT6296,"Ocracoke Inlet, channel entrance",35.06529998779297,-76.018798828125,1,,S
+ACT6301,Teaches Hole Channel,35.07917,-76.00467,1,10.0,S
+ACT6306,Blair Channel,35.08133,-76.03383,1,10.0,S
+ACT6311,Wallace Channel,35.07967,-76.052,1,9.0,S
+ACT6316,Sheep Island Slue,35.06667,-76.1,1,,S
+ACT6326,"Shackleford Banks, 0.8 mile S of",34.66633,-76.6555,1,6.0,S
+ACT6331,Beaufort Inlet Approach,34.67169952392578,-76.66999816894531,1,,S
+ACT6336,"Fort Macon, 0.6 mile SE of",34.68579864501953,-76.66829681396484,1,6.0,S
+ACT6341,"Fort Macon, 0.2 mile NE of",34.69967,-76.67533,1,10.0,S
+ACT6346,"Tombstone Point, 0.1 mile E of",34.70383,-76.68617,1,15.0,S
+ACT6351,Turning Basin,34.713,-76.69417,1,6.0,S
+ACT6356,"Sugarloaf Island, 0.2 mile S of",34.7125,-76.71383,1,6.0,S
+ACT6361,"Morehead City, S of",34.71667,-76.73283,1,6.0,S
+ACT6366,"Morehead City, RR. bridge, N of",34.72283,-76.69383,1,6.0,S
+ACT6371,"Newport Marshes, SE of",34.73133,-76.68333,1,6.0,S
+ACT6376,"Newport Marshes, E of",34.73783,-76.6805,1,6.0,S
+ACT6381,"Radio Island, E of",34.71167,-76.67967,1,6.0,S
+ACT6391,"Bird Shoal, SE of",34.7005,-76.65383,1,6.0,S
+ACT6396,"Shackleford Point, NE of",34.69217,-76.65217,1,6.0,S
+ACT6401,Carrot Island,34.70217,-76.6175,1,6.0,S
+ACT6406,"Middle Marshes, S of",34.67833,-76.61383,1,6.0,S
+ACT6446,"Reaves Point, 0.3 mile east of",33.9986686706543,-77.94950103759766,1,6.0,S
+ACT6451,Reaves Point Channel,33.98466873168945,-77.93083190917969,1,6.0,S
+ACT6461,"Reaves Point, 0.4 mile north of",34.006168365478516,-77.95249938964844,1,6.0,S
+ACT6496,0.4 mile north of,34.18117141723633,-77.96582794189453,1,6.0,S
+ACT6501,1.8 miles north of mouth,34.205501556396484,-77.97450256347656,1,6.0,S
+ACT6531,Winyah Bay entrance,33.20717,-79.1845,1,,S
+ACT6536,"Range D, off Mosquito Creek",33.24417,-79.20583,1,,S
+ACT6541,"Frazier Point, south of",33.295,-79.27283,1,,S
+ACT6546,"Frazier Point, west of",33.30967,-79.28667,1,,S
+ACT6551,"Rabbit Island, northwest of",33.3395,-79.28133,1,,S
+ACT6556,Sampit River entrance,33.35133,-79.28033,1,,S
+ACT6561,"Georgetown, Sampit River",33.35917,-79.2875,1,,S
+ACT6566,"Pee Dee River, swing bridge",33.3705,-79.26383,1,,S
+ACT6571,"Lafayette swing bridge, Waccamaw River",33.36867,-79.252,1,,S
+ACT6576,"Butler Island, 0.3 mile south of",33.41667,-79.212,1,,S
+ACT6581,North Santee River entrance,33.13583,-79.24083,1,6.0,S
+ACT6586,South Santee River entrance,33.12,-79.275,1,5.0,S
+ACT6611,"Fort Sumter Range, Buoy 10",32.68299865722656,-79.72599792480469,1,,S
+ACT6616,"Fort Sumter Range, Buoy 14",32.69770050048828,-79.75569915771484,1,,S
+ACT6621,"Fort Sumter Range, Buoy 16",32.71500015258789,-79.79229736328125,1,,S
+ACT6626,"Fort Sumter Range, Buoy 18",32.724300384521484,-79.80999755859375,1,,S
+ACT6631,"North Jetty, 0.8 mile southeast of",32.7175,-79.8,1,,S
+ACT6636,Charleston Hbr. ent. (between jetties),32.73333,-79.83333,1,,S
+ACT6641,"Fort Sumter Range, Buoy 22",32.740501403808594,-79.84449768066406,1,,S
+ACT6646,"South Jetty, break in",32.73117,-79.85033,1,,S
+ACT6651,Charleston Harbor (off Fort Sumter),32.75600051879883,-79.87030029296875,1,,H
+ACT6656,"Ft. Sumter, 0.6 n.mi. NW of",32.76117,-79.86717,1,,S
+ACT6661,"South Chan., 0.8 mi. ENE of Ft. Johnson",32.75867,-79.88467,1,,S
+ACT6666,"South Chan., 0.4 mi. NW of Ft. Johnson",32.758,-79.90633,1,,S
+ACT6676,"Castle Pinckney, 0.4 mile south of",32.767,-79.91167,1,,S
+ACT6681,"South Channel, Buoy 4",32.76219940185547,-79.91100311279297,1,,S
+ACT6686,"Castle Pinckney, 0.6 mile southwest of",32.76633,-79.9195,1,,S
+ACT6691,"Shutes Folly Island, 0.4 mile west of",32.77633,-79.92083,1,,S
+ACT6696,"Customhouse Reach, off Customhouse",32.77949905395508,-79.92250061035156,1,,S
+ACT6701,Customhouse Reach,32.7825,-79.92,1,,S
+ACT6706,Lower Town Creek Reach,32.7925,-79.9245,1,,S
+ACT6711,"Town Creek, 0.2 mile above bridge",32.80533,-79.93167,1,,S
+ACT6716,"Rebellion Reach, 0.8 n.mi. N. of Ft. Sumter",32.76633,-79.87333,1,,S
+ACT6721,"The Cove, entrance on the Cove Range",32.7675,-79.872,1,,S
+ACT6726,Hog Island Channel,32.78117,-79.87633,1,,S
+ACT6731,"Folly I. Channel, N of Ft. Johnson",32.76967,-79.90117,1,,S
+ACT6736,"Bennis Range, Buoy 31",32.77629852294922,-79.89920043945312,1,,S
+ACT6741,"Bennis Range, Buoy 34",32.78219985961914,-79.91079711914062,1,,S
+ACT6746,Horse Reach,32.78617,-79.915,1,,S
+ACT6751,"Hog Island Reach, Buoy 38",32.794498443603516,-79.91500091552734,1,,S
+ACT6756,"Drum Island, 0.4 mile SSE of",32.7945,-79.92083,1,,S
+ACT6761,"Drum Island, east of (bridge)",32.8045,-79.91533,1,,S
+ACT6766,"Hog Island Reach, SW of Remley Point",32.81183,-79.912,1,,S
+ACT6771,"Drum Island Reach, marker 45",32.816200256347656,-79.92279815673828,1,,S
+ACT6776,"Drum Island, 0.2 mile above",32.81967,-79.92917,1,,S
+ACT6781,"Daniel Island Reach, Buoy 48",32.82720184326172,-79.92880249023438,1,,S
+ACT6786,Shipyard Creek entrance,32.83000183105469,-79.93499755859375,1,,S
+ACT6791,"Daniel Island Reach, Buoy 47A",32.832801818847656,-79.93000030517578,1,,S
+ACT6796,Daniel Island Bend,32.84833,-79.92917,1,,S
+ACT6806,North Charleston,32.86367,-79.95883,1,,S
+ACT6811,Filbin Creek Reach,32.88867,-79.96533,1,,S
+ACT6816,"Filbin Creek Reach, 0.2 mile east of",32.888,-79.9605,1,,S
+ACT6821,"Filbin Creek Reach, Buoy 58",32.89630126953125,-79.96119689941406,1,,S
+ACT6826,Ordnance Reach,32.90633,-79.95283,1,,S
+ACT6831,Yellow House Creek,32.90883,-79.93633,1,,S
+ACT6836,"Yellow House Landing, 1 mile NW of",32.91967,-79.9305,1,,S
+ACT6841,"Woods Point, SE of",32.92583084106445,-79.93283081054688,1,,S
+ACT6846,Woods Point,32.93167,-79.93833,1,,S
+ACT6851,"Snow Point, 0.5 mile north of",32.95167,-79.93,1,,S
+ACT6856,Back River entrance,32.96833,-79.93333,1,,S
+ACT6861,off Amoco Pier,32.95920181274414,-79.91799926757812,1,,S
+ACT6866,"Moreland, 0.5 n.mi. below",33.0005,-79.90467,1,,S
+ACT6871,"Hagan Island, 1 n.mi. below",33.03333,-79.91333,1,,S
+ACT6876,"The Tee, 0.4 mile southwest of",33.06333,-79.92967,1,,S
+ACT6881,The Tee,33.06583,-79.923,1,,S
+ACT6886,"Childsbury, S.A.L. RR. bridge",33.09383,-79.9425,1,,S
+ACT6891,"East Branch, 0.2 mile above entrance",33.06833,-79.92,1,,S
+ACT6896,"Bonneau Ferry, east of",33.07167,-79.88333,1,,S
+ACT6901,"Remley Point, 0.2 mile northwest of",32.81617,-79.9095,1,,S
+ACT6906,"Wando River Upper Reach, Turning Basin",32.83333,-79.89667,1,,S
+ACT6911,Rathall Creek entrance,32.8595,-79.89617,1,,S
+ACT6916,"Horlbeck Creek, 0.2 mile above entrance",32.885,-79.845,1,,S
+ACT6921,Nowell Creek entrance,32.87833,-79.875,1,,S
+ACT6926,"Nowell Creek, Southeast of",32.87200164794922,-79.8655014038086,1,,S
+ACT6931,"Anneville, marker 36",32.91830062866211,-79.83830261230469,1,,S
+ACT6936,"Battery, southwest of",32.76717,-79.93383,1,,S
+ACT6941,Wappoo Creek entrance,32.77299880981445,-79.94999694824219,1,,S
+ACT6946,"Ashley River Memorial Bridge, Highway 17",32.78200149536133,-79.95999908447266,1,,S
+ACT6951,"Trestle Ruins, marker 6A",32.795501708984375,-79.97329711914062,1,,S
+ACT6956,"Duck Island, Marker 15",32.81999969482422,-79.96499633789062,1,,S
+ACT6961,State Hwy. 7 bridge,32.83717,-79.982,1,,S
+ACT6966,"West Marsh Island, 0.1 mile east of",32.82833,-80.00833,1,,S
+ACT6971,"Drayton, Railroad Bridge",32.84669876098633,-80.05000305175781,1,,S
+ACT6976,Stono Inlet,32.62667,-79.99333,1,,S
+ACT6981,Snake Island,32.64,-80.02,1,12.0,S
+ACT6986,"Johns Island Airport, south of",32.68333,-80.00333,1,12.0,S
+ACT6991,Johns Island Bridge,32.75333,-80.01,1,14.0,S
+ACT6996,"Elliott Cut, west end",32.76667,-80.0,1,,S
+ACT7001,Johns Island. Main Road Bridge,32.78670120239258,-80.10669708251953,1,12.0,S
+ACT7006,Pleasant Point,32.75,-80.13333,1,12.0,S
+ACT7021,"Deveaux Banks, off North Edisto River entrance",32.545,-80.15667,1,12.0,S
+ACT7026,North Edisto River entrance,32.56167,-80.18667,1,,S
+ACT7031,"Wadmalaw Island, Wadmalaw River entrance",32.665,-80.235,1,12.0,S
+ACT7036,"Goshen Point, SE of, Wadmalaw River",32.71,-80.17167,1,12.0,S
+ACT7041,"Goshen Point, south of, Wadmalaw River",32.71333,-80.18667,1,12.0,S
+ACT7046,"White Point, south of, Dawho River",32.625,-80.28167,1,12.0,S
+ACT7051,"Whooping Island, Dawho River",32.63667,-80.34,1,12.0,S
+ACT7056,South Edisto River entrance,32.48833,-80.34833,1,,S
+ACT7061,"Pine Island, South Edisto River",32.50667,-80.36167,1,15.0,S
+ACT7066,"Fenwick Island Cut, South Edisto River",32.535,-80.41333,1,15.0,S
+ACT7071,"Sampson Island, S end, South Edisto Riv.",32.56330108642578,-80.3917007446289,1,15.0,S
+ACT7076,"Sampson Island, NE end, South Edisto Riv.",32.61669921875,-80.38670349121094,1,15.0,S
+ACT7081,"Jehossee Island, S tip, South Edisto River",32.60333,-80.42,1,15.0,S
+ACT7086,"Smuggedy Swamp, South Edisto River",32.66,-80.41167,1,6.0,S
+ACT7091,"Hutchinson Island, N. of, Ashepoo River",32.531700134277344,-80.43499755859375,1,10.0,S
+ACT7096,"Ashepoo Coosaw Cutoff, ICW marker 169",32.525001525878906,-80.45330047607422,1,6.0,S
+ACT7101,"Pelican Bank, St. Helena Sound",32.455,-80.42833,1,15.0,S
+ACT7106,"Ashepoo River, off Jefford Creek",32.50669860839844,-80.41000366210938,1,,S
+ACT7111,"Egg Bank, St. Helena Sound",32.435,-80.44333,1,10.0,S
+ACT7116,"Morgan Island, NE of, Coosaw River",32.48833,-80.47333,1,15.0,S
+ACT7121,"Ashepoo Coosaw Cutoff, south end",32.5099983215332,-80.50499725341797,1,15.0,S
+ACT7126,"Ashepoo Coosaw Cutoff, ICW marker 181",32.52000045776367,-80.48829650878906,1,6.0,S
+ACT7131,Combahee River entrance,32.52669906616211,-80.53669738769531,1,8.0,S
+ACT7136,"Combahee River, S. of Fields Point",32.54999923706055,-80.56330108642578,1,15.0,S
+ACT7141,"Parrot Creek, Coosaw Island",32.47333,-80.545,1,15.0,S
+ACT7146,"Morgan Island, North end, Coosaw River",32.50333,-80.53667,1,15.0,S
+ACT7151,Williman Creek,32.56167,-80.59167,1,10.0,S
+ACT7156,"Coosaw Island, South of, Morgan River",32.45167,-80.58333,1,10.0,S
+ACT7161,"Sams Point, Northeast of, Coosaw River",32.49330139160156,-80.59329986572266,1,10.0,S
+ACT7166,Whale Branch River,32.52667,-80.69167,1,10.0,S
+ACT7171,"Fripps Inlet, Fripps Island",32.34,-80.465,1,15.0,S
+ACT7181,"Southeast Channel, Buoy 8",32.13330078125,-80.58329772949219,1,,S
+ACT7186,"Port Royal Plantation Tower, east of",32.22333,-80.65667,1,15.0,S
+ACT7191,"Bay Point Island, S of, Broad River entrance",32.23333,-80.63,1,15.0,S
+ACT7196,"Broad River Entrance, Point Royal Sound",32.23167,-80.64,1,15.0,S
+ACT7201,Hilton Head,32.25,-80.66667,1,,S
+ACT7206,Beaufort River Entrance,32.28833,-80.65167,1,15.0,S
+ACT7211,"Parris Island, east of, Beaufort River",32.326698303222656,-80.65670013427734,1,10.0,S
+ACT7216,Chowan Creek,32.37,-80.63833,1,15.0,S
+ACT7221,"Parris Island, north of, Beaufort River",32.36000061035156,-80.67500305175781,1,15.0,S
+ACT7226,"Burkmeyer Bech, Beaufort River",32.40330123901367,-80.67169952392578,1,15.0,S
+ACT7231,"Beaufort, Beaufort River",32.43,-80.67667,1,12.0,S
+ACT7236,"Beaufort Airport, Beaufort River",32.45,-80.66333,1,15.0,S
+ACT7241,Brickyard Creek,32.47333,-80.69167,1,10.0,S
+ACT7246,"Skull Creek, north entrance",32.26333,-80.74167,1,,S
+ACT7251,"Daws Island, SE of, Broad River",32.30167,-80.725,1,15.0,S
+ACT7256,"Parris Island Lookout Tower, Broad River",32.31167,-80.70667,1,15.0,S
+ACT7261,"Daws Island, south of, Chechessee River",32.28667,-80.74333,1,15.0,S
+ACT7266,"Lemon Island South, Chechessee River",32.35,-80.80667,1,10.0,S
+ACT7271,"Broad River Bridge, S of, Broad River",32.38167,-80.77667,1,15.0,S
+ACT7276,"Boyd Creek Entrance, SE of, Broad River",32.45669937133789,-80.81829833984375,1,12.0,S
+ACT7281,"Little Barnwell I., E of, Whale Branch River",32.50167,-80.78667,1,6.0,S
+ACT7286,"Braddock Point, SW of, Calibogue Sound",32.105,-80.83667,1,10.0,S
+ACT7291,"Haig Point Light, NW of, Cooper River",32.14833,-80.84167,1,10.0,S
+ACT7296,"Ramshorn Creek Light, E of, Cooper River",32.13,-80.88167,1,6.0,S
+ACT7301,"Spanish Wells, Calibogue Sound",32.18667,-80.785,1,30.0,S
+ACT7306,"Skull Creek, south entrance",32.22333,-80.785,1,10.0,S
+ACT7311,"MacKay Creek, south entrance",32.22,-80.79,1,10.0,S
+ACT7316,"Bloody Pt., 0.5 mile north of, New River",32.08833,-80.88,1,,S
+ACT7321,"Bloody Pt., 0.5 mile west of, New River",32.08167,-80.88333,1,,S
+ACT7326,"Wright R., 0.2 mile above Walls Cut",32.085,-80.92167,1,,S
+ACT7336,"Walls Cut, Turtle Island",32.08167,-80.91667,1,6.0,S
+ACT7341,"Daufuskie Landing Light, south of",32.10167,-80.89833,1,10.0,S
+ACT7351,Savannah River Entrance (between jetties),32.035701751708984,-80.89029693603516,1,11.0,H
+ACT7356,Fort Pulaski,32.03667,-80.90167,1,,S
+ACT7361,"Fort Pulaski, 1.8 miles above",32.045,-80.93167,1,,S
+ACT7366,"Fort Pulaski, 4.8 miles above",32.075,-80.97667,1,,S
+ACT7371,McQueen Island Cut,32.065,-80.98667,1,10.0,S
+ACT7376,"Elba Island Cut, NE of, Savannah River",32.07333,-80.965,1,10.0,S
+ACT7381,"Elba Island, NE of, Savannah River",32.09,-80.99333,1,10.0,S
+ACT7386,"Elba Island, west of, Savannah River",32.095,-81.02,1,10.0,S
+ACT7391,"Fig Island, north of, Back River",32.085,-81.05,1,,S
+ACT7396,"South Channel, western end",32.08833,-81.01667,1,,S
+ACT7401,"Wilmington R. ent., south channel",32.07667,-81.00167,1,,S
+ACT7406,"Savannah, southeast of highway bridge",32.08667,-81.09667,1,10.0,S
+ACT7411,Savannah,32.08333,-81.08333,1,,S
+ACT7416,"Kings Island Channel, Savannah River",32.12667,-81.13667,1,10.0,S
+ACT7421,Seaboard Coast Line Railroad,32.10333,-81.11833,1,,S
+ACT7426,"King Island, west of",32.12333,-81.135,1,,S
+ACT7431,"Port Wentworth, 0.2 mile above",32.14667,-81.14,1,,S
+ACT7441,"Wassaw Island, N of E end, Wassaw Sound",31.915,-80.93833,1,10.0,S
+ACT7446,"Entrance, off Beach Hammock",31.94167,-80.93167,1,,S
+ACT7451,"Wilmington Island, SSE of, Bull River",31.96667,-80.93,1,10.0,S
+ACT7456,"Lazaretto Creek Entrance, N of, Bull River",32.0,-80.92833,1,10.0,S
+ACT7461,"Bull River, 2 miles below hwy. bridge",32.01833,-80.94,1,,S
+ACT7466,"Entrance, off Wassaw Island",31.91667,-80.94667,1,,S
+ACT7471,Wilmington River ent. off Cabbage Island,31.93833,-80.97667,1,,S
+ACT7476,"Joe's Cut, Wilmington River",31.94333,-80.985,1,10.0,S
+ACT7481,"Wilmington R., 0.5 mi. S of Turners Creek",32.005,-81.00333,1,,S
+ACT7486,"Thunderbolt, SE of, Wilmington River",32.02333,-81.045,1,10.0,S
+ACT7491,"Oatland Island, north tip",32.07333,-81.01,1,10.0,S
+ACT7496,"Skidaway River, north entrance",32.00833,-81.01667,1,,S
+ACT7501,"Skidaway Island, N End, Wilmington River",32.01,-81.00833,1,10.0,S
+ACT7506,"Dutch Island, SE of, Skidaway River",31.99167,-81.02,1,10.0,S
+ACT7511,"Isle of Hope City, SE of, Skidaway River",31.97667,-81.04667,1,10.0,S
+ACT7516,"Isle of Hope City, Skidaway River",31.98,-81.055,1,10.0,S
+ACT7521,"Burntpot Island, west of, Skidaway River",31.96833,-81.05333,1,6.0,S
+ACT7526,Skidaway Narrows,31.95333,-81.065,1,,S
+ACT7531,"Long Island, NNE of, Skidaway River",31.95667,-81.06,1,6.0,S
+ACT7536,"Long Island, south of, Skidaway River",31.94333,-81.07333,1,10.0,S
+ACT7541,"Pigeon Island, SSE of, Skidaway River",31.93667,-81.07667,1,10.0,S
+ACT7546,"Burnside Island, SE of, Burnside River",31.92167,-81.08,1,10.0,S
+ACT7551,"Little Don Island, east of, Vernon River",31.87,-81.07333,1,10.0,S
+ACT7556,Little Ogeechee River Entrance,31.88833,-81.09833,1,10.0,S
+ACT7561,"Montgomery, Vernon River",31.935,-81.12833,1,6.0,S
+ACT7566,Odingsell River Entrance,31.86829948425293,-81.0,1,10.0,S
+ACT7571,"Wassaw Island, SSW of",31.85667,-81.00833,1,10.0,S
+ACT7576,"Bradley Point, NNE of",31.83167,-81.03833,1,10.0,S
+ACT7581,Raccoon Key,31.86167,-81.055,1,10.0,S
+ACT7586,"Little Wassaw Island, SW of",31.87,-81.05,1,10.0,S
+ACT7591,"Vernon R., 1.2 miles S of Possum Point",31.89833,-81.09833,1,,S
+ACT7596,"Little Ogeechee River Entrance, north of",31.89667,-81.095,1,6.0,S
+ACT7601,"Raccoon Key & Egg Island Shoal, between",31.84283,-81.0675,1,10.0,S
+ACT7606,"Florida Passage, N of, Ogeechee River",31.85667,-81.14333,1,10.0,S
+ACT7611,Florida Passage (south),31.82967,-81.15783,1,6.0,S
+ACT7616,610 Statute Mile Mark,31.8105,-81.17667,1,6.0,S
+ACT7621,North of Big Tom Creek Entrance,31.78333,-81.16033,1,10.0,S
+ACT7626,South of Kilkenny Creek Entrance,31.75833,-81.17333,1,,S
+ACT7631,Northwest of Newell Creek Entrance,31.74883,-81.1655,1,10.0,S
+ACT7636,Medway River at Marsh Island,31.74333,-81.22,1,10.0,S
+ACT7641,St. Catherines Sound Entrance,31.715,-81.1405,1,10.0,S
+ACT7646,"Medway River, northwest of Cedar Point",31.7145,-81.19083,1,10.0,S
+ACT7651,"N. Newport River, NE of Vandyke Creek",31.69117,-81.187,1,10.0,S
+ACT7656,"N. Newport River, above Walburg Creek",31.67383,-81.19533,1,6.0,S
+ACT7661,"N. Newport River, NW of Johnson Creek",31.663,-81.2105,1,10.0,S
+ACT7666,"N. Newport River, ESE of S. Newport Cut",31.66533,-81.2645,1,6.0,S
+ACT7671,"S. Newport River, below S. Newport Cut",31.65033,-81.302,1,10.0,S
+ACT7676,"S. Newport River, above Swain River Ent",31.6245,-81.21667,1,10.0,S
+ACT7681,Entrance,31.54,-81.18,1,19.0,S
+ACT7686,"Johnson Creek, midway between ends",31.62667,-81.18833,1,,S
+ACT7691,"Cedar Hammock, south of",31.545,-81.24667,1,12.0,S
+ACT7696,Sapelo River Entrance,31.535,-81.27167,1,11.0,S
+ACT7701,"Sutherland Bluff, Sapelo River",31.54833,-81.33333,1,,S
+ACT7706,Front River,31.51333,-81.29833,1,13.0,S
+ACT7711,"New Teakettle Cr., 0.8 mi. N of",31.49667,-81.29,1,,S
+ACT7716,Crescent River,31.48667,-81.30667,1,11.0,S
+ACT7721,Old Teakettle Creek (north),31.47833,-81.32833,1,13.0,S
+ACT7726,Bar,31.345,-81.235,1,,S
+ACT7731,Entrance,31.34167,-81.26333,1,14.0,S
+ACT7736,"Old Teakettle Creek Entrance, south of",31.42,-81.315,1,15.0,S
+ACT7741,Old Teakettle Creek (south),31.43667,-81.30833,1,13.0,S
+ACT7746,"Folly River and Cardigan River, between",31.44167,-81.33667,1,10.0,S
+ACT7751,South River,31.36667,-81.31167,1,13.0,S
+ACT7756,North River at Darien River,31.38333,-81.335,1,9.0,S
+ACT7761,Doboy Island (North River),31.40333,-81.32833,1,12.0,S
+ACT7766,Buzzard Roost Creek,31.415,-81.375,1,13.0,S
+ACT7771,"Little Egg Island, northwest of",31.31833,-81.305,1,12.0,S
+ACT7776,Little Mud River Range,31.32667,-81.31833,1,9.0,S
+ACT7781,Little St. Simon Island (north),31.31167,-81.35333,1,11.0,S
+ACT7786,"Onemile Cut, 1 mile southeast of",31.31333,-81.35167,1,,S
+ACT7791,Broughton Island (south),31.31,-81.41333,1,9.0,S
+ACT7796,Bar Channel,31.105,-81.33833,1,12.0,S
+ACT7801,"Entrance, north of channel",31.1335,-81.404,1,13.0,S
+ACT7806,"Entrance, south of channel",31.12667,-81.40333,1,11.0,S
+ACT7811,Back River entrance,31.14833,-81.44167,1,10.0,S
+ACT7816,"Mackay R., 0.5 mi. N of Troup Creek entrance",31.225,-81.43333,1,,S
+ACT7821,"Brunswick River, off Quarantine Dock",31.11167,-81.47333,1,,S
+ACT7826,"Brunswick River Bridge, southeast of",31.115,-81.47667,1,13.0,S
+ACT7831,"Brunswick, off Prince Street Dock",31.13833,-81.49667,1,,S
+ACT7836,"Turtle River, off Allied Chemical Corp",31.17667,-81.525,1,,S
+ACT7841,"Turtle River, off Andrews Island",31.14333,-81.52667,1,20.0,S
+ACT7846,Entrance,30.98667,-81.405,1,,S
+ACT7851,"Jekyll Creek, south entrance",31.035,-81.43333,1,,S
+ACT7856,"Cumberland River, north entrance",30.95833,-81.43167,1,,S
+ACT7861,"Cabin Bluff, Cumberland River",30.88167,-81.51333,1,,S
+ACT7886,"Fort Clinch, 1.1 n.mi. NW of",30.709,-81.47267,1,14.0,S
+ACT7896,"Drum Point Island, Range D Channel",30.759,-81.48533,1,12.0,S
+ACT7906,"Stafford Island, west of",30.81,-81.49167,1,,S
+ACT7921,"Kingsley Creek, highway bridge",30.62833,-81.485,1,,S
+ACT7926,"Midsound, 1 mi. N of Sawpit Creek entrance",30.52333,-81.45167,1,,S
+ACT7931,"South Amelia River, off Walker Creek",30.53667,-81.465,1,,S
+ACT7936,"Nassau River, SW of Mesa Marsh",30.53333,-81.48,1,,S
+ACT7941,Ft. George River,30.45667,-81.45167,1,,S
+ACT7971,Mayport,30.39333,-81.43333,1,7.0,S
+ACT7986,Pablo Creek bascule bridge,30.32333,-81.43833,1,3.0,S
+ACT7991,Sisters Creek entrance (bridge),30.39,-81.46167,1,4.0,S
+ACT8016,"Drummond Point, channel south of",30.40917,-81.60283,1,7.0,S
+ACT8031,Terminal Channel (north end),30.357,-81.618,1,7.0,S
+ACT8036,"Commodore Point, terminal channel",30.3175,-81.62633,1,7.0,S
+ACT8041,"Jacksonville, off Washington St",30.32167,-81.65333,1,,S
+ACT8051,Winter Point,30.30833,-81.675,1,,S
+ACT8056,Mandarin Point,30.155,-81.685,1,6.0,S
+ACT8061,"Red Bay Point, draw bridge",29.985,-81.63,1,4.0,S
+ACT8106,"Pier 2, 1.3 miles east of",26.09383,-80.09633,1,,W
+ACT8126,"Fort Lauderdale, New River",26.11217,-80.11967,1,,S
+ACT8141,Bakers Haulover Cut,25.9,-80.12333,1,,S
+ACT8211,"Fowey Rocks Light, 1.5 miles SW of",25.58333,-80.11667,1,,W
+ACT8216,"Caesar Creek, Biscayne Bay",25.38667,-80.22667,1,,S
+ACT8221,"Long Key, drawbridge east of",24.84,-80.77,1,,S
+ACT8226,Long Key Viaduct,24.80167,-80.865,1,,S
+ACT8241,"No Name Key, northeast of",24.705,-81.31333,1,,S
+ACT8261,"Ft. Taylor, 0.6 mile N of",24.55833,-81.81,1,,S
+ACT8291,Isaac Shoal,24.55833,-82.53667,1,,S
+ACT8296,Southeast Channel,24.627,-82.85117,1,,S
+ACT8301,Southwest Channel,24.61533,-82.91167,1,,S
+ACT8306,"Point Ybel, 0.4 mile northwest of",26.45667,-82.01867,1,,S
+ACT8311,Captiva Pass,26.60933,-82.22233,1,,S
+ACT8316,"Boca Grande Pass, Charlotte Harbor",26.71433,-82.25667,1,,S
+ACT8331,"Cape Haze, 2.3 mi. S of, Charlotte Hbr",26.745,-82.15167,1,,S
+ACT8346,Gasparilla Pass,26.81233,-82.281,1,,S
+ACT8351,Venice Inlet,27.11333,-82.46667,1,,S
+ACT8356,"Blackburn Bay, south end, bridge",27.12333,-82.47,1,,S
+ACT8361,"Little Sarasota Bay, south end, bridge",27.18,-82.495,1,,S
+ACT8371,Big Sarasota Pass,27.3,-82.56333,1,,S
+ACT8376,"Sarasota Bay, south end, bridge",27.30167,-82.54667,1,,S
+ACT8381,New Pass,27.33167,-82.58167,1,,S
+ACT8386,"Golden Gate Point, off",27.32833,-82.55667,1,,S
+ACT8391,Longboat Pass,27.44167,-82.69,1,,S
+ACT8396,"Cortez, north of bridge",27.47,-82.69333,1,,S
+ACT8401,"Egmont Channel, marker '10'",27.6005,-82.86767,1,15.0,S
+ACT8406,Egmont Channel (3 mi. W of Egmont Key Lt.),27.60833,-82.81833,1,,S
+ACT8411,Tampa Bay Entrance (Egmont Channel),27.604299545288086,-82.76029968261719,1,15.0,H
+ACT8416,Southwest Channel (S of Egmont Key),27.56167,-82.76733,1,15.0,S
+ACT8421,Mullet Key Channel entrance,27.6045,-82.72383,1,,S
+ACT8426,Passage Key Inlet (off Bean Pt.),27.53933,-82.74767,1,15.0,S
+ACT8431,"Rattlesnake Key, 3.1 miles west of",27.55333,-82.68833,1,,S
+ACT8436,"Rattlesnake Key, 1.1 miles northwest of",27.57083,-82.64383,1,,S
+ACT8441,"Mullet Key Channel, marker '24'",27.60833,-82.694,1,15.0,S
+ACT8446,Bunces Pass (West of Bayway bridge),27.647,-82.7395,1,,S
+ACT8451,Pine Key (Pinellas Bayway bridge),27.6925,-82.71717,1,,S
+ACT8456,Cats Point (bridge west of),27.70833,-82.72467,1,,S
+ACT8466,"Cut A & B, Channel Junction",27.63883,-82.6255,1,,S
+ACT8471,"Joe Island, 1.8 miles northwest of",27.6125,-82.625,1,,S
+ACT8476,"Harbor Key, 1.3 miles west of",27.61117,-82.5945,1,,S
+ACT8481,2 miles southwest of,27.67583,-82.65883,1,,W
+ACT8486,"Pinellas Point, 2.6 miles south of",27.660499572753906,-82.6417007446289,1,,S
+ACT8491,"Pinellas Point, 0.5 mile southeast of",27.69700050354004,-82.63249969482422,1,,S
+ACT8496,"Pinellas Point, 1.9 miles SE of",27.68470001220703,-82.60970306396484,1,,S
+ACT8511,"Port Manatee Channel, marker '4'",27.6535,-82.58983,1,15.0,S
+ACT8516,"Piney Point, 0.6 mile NNW of",27.65367,-82.56217,1,,S
+ACT8521,"Lewis Island, 0.9 mile east of",27.7245,-82.60967,1,,S
+ACT8526,"Camp Key, 1.9 miles northwest of",27.70783,-82.55,1,,S
+ACT8531,"Shell Point, 1.1 miles west of",27.72133,-82.50367,1,,W
+ACT8536,"Cut E Channel, marker '2E'",27.72533,-82.53567,1,15.0,S
+ACT8541,"Port of St. Petersburg approach, marker 'S'",27.75917,-82.61017,1,12.0,W
+ACT8546,"Snell Isle, 1.8 miles east of",27.79367,-82.57217,1,,S
+ACT8551,"Ross Island, 1 mile east of, marker '4'",27.837,-82.57317,1,15.0,S
+ACT8561,"Weedon I. powerplant channel, marker '10'",27.862,-82.58533,1,23.0,S
+ACT8566,"Gandy Bridge, west channel",27.87917,-82.5805,1,,S
+ACT8571,"Gandy Bridge, east channel",27.88317,-82.55233,1,6.0,S
+ACT8576,W Howard Frankland Bridge,27.92583,-82.58617,1,,S
+ACT8581,Courtney Campbell Parkway,27.968,-82.62417,1,,S
+ACT8586,Gadsden Pt. Cut-Cut G Channel junction,27.786,-82.522,1,15.0,W
+ACT8591,"Cut A Channel, marker '10', Hillsborough Bay",27.81183,-82.44733,1,15.0,S
+ACT8596,"Cut C Channel, marker '21', Hillsborough Bay",27.846,-82.44367,1,15.0,S
+ACT8601,"Alafia River ent., 1.2 miles west of",27.8495,-82.42133,1,,W
+ACT8606,Pass-a-Grille Channel,27.685,-82.735,1,,S
+ACT8611,"Bridge, 0.8 mi. south of Maximo Pt.",27.69333,-82.68,1,,S
+ACT8616,"Gulfport, south of",27.72833,-82.70667,1,,W
+ACT8621,Blind Pass (north end),27.75667,-82.76167,1,,S
+ACT8626,Treasure Island Causeway,27.77,-82.755,1,,W
+ACT8646,"Treasure Island, 3.5 miles southwest of",27.75,-82.83333,1,,W
+ACT8651,The Narrows (Indian Rocks Beach Bridge),27.876670837402344,-82.8499984741211,1,,S
+ACT8656,"Clearwater Pass, 0.2 mi. NE of Sand Key",27.95667,-82.82333,1,,S
+ACT8666,St. Marks River approach,30.04667,-84.18,1,,S
+ACT8671,"Four Mile Point, St. Marks River",30.11167,-84.20333,1,,S
+ACT8676,"St. Marks, St. Marks River",30.155,-84.20167,1,,S
+ACT8716,"Pensacola Bay entrance, midchannel",30.335,-87.3,1,,S
+ACT8731,"Channel, 6 miles N of Mobile Point",30.33,-88.02833,1,,S
+ACT8736,"Great Point Clear, channel west of",30.49,-88.01833,1,,W
+ACT8741,Mobile River entrance,30.67,-88.03333,1,,S
+ACT8746,Tensaw River entrance (bridge),30.68167,-88.01167,1,,S
+ACT8771,"Quatre Bayoux Pass, Barataria Bay",29.31,-89.85167,1,,S
+ACT8776,"Pass Abel, Barataria Bay",29.295,-89.90333,1,,S
+ACT8781,"Barataria Pass, Barataria Bay",29.27167,-89.94833,1,,S
+ACT8786,"Barataria Bay, 1.1 mi. NE of Manilla",29.43667,-89.96,1,,S
+ACT8791,"Caminada Pass, Barataria Bay",29.19833,-90.04667,1,,S
+ACT8801,"Cat Island Pass, Terrebonne Bay",29.08,-90.57333,1,6.0,S
+ACT8806,Wine Island Pass,29.07,-90.63333,1,,S
+ACT8811,"Caillou Boca, Caillou Bay",29.05833,-90.80833,1,4.0,S
+ACT8821,"Calcasieu Pass, 35 miles south of",29.16917,-93.3205,1,,W
+ACT8826,"Calcasieu Pass, 67 miles south of",28.66333,-93.3325,1,,W
+ACT8831,"Texas Point, 1.7 miles SSE of",29.649999618530273,-93.82669830322266,1,,S
+ACT8851,Galveston Bay Ent. (between jetties),29.34869956970215,-94.71420288085938,1,5.0,S
+ACT8856,Bolivar Roads,29.343299865722656,-94.78130340576172,1,8.0,S
+ACT8876,"Houston Channel, W of Port Bolivar",29.36467,-94.79667,1,3.0,S
+ACT8881,Houston Ship Channel (Red Fish Bar),29.50733,-94.87467,1,7.0,S
+ACT8916,Las Mareas,17.9235,-66.16167,1,,W
+ACT8921,"Punta Ostiones, 1.5 miles west of",18.08667,-67.22667,1,,S
+ACT8926,Vieques Passage,18.18829917907715,-65.61830139160156,1,,H
+ACT8931,Vieques Sound,18.2645,-65.57,1,,S
+ACT8936,"Largo Shoals, west of",18.31667,-65.58333,1,,S
+ACT8951,Fajardo Harbor (channel),18.33333,-65.61667,1,,S
+ACT8971,Bahia de San Juan,18.45383,-66.11,1,,W
+BOS1101,Little Misery Island,42.54217,-70.80013,1,50.0,H
+BOS1102,Haste Shoal,42.53935,-70.84496,2,15.0,H
+BOS1103,Abbot Rock,42.52962,-70.85992,1,,W
+BOS1104,"Fort Pickering, 0.2nm south of",42.52238,-70.86795,1,29.0,W
+BOS1105,Marblehead Channel,42.5007,-70.82023,1,30.0,W
+BOS1106,Northeast Grave,42.37176,-70.8618,1,45.0,H
+BOS1107,Commissioners Ledge,42.33584,-70.91296,1,16.0,H
+BOS1108,"Lovell Island, 1.3nm north of",42.35498,-70.9319,1,30.0,H
+BOS1109,South Channel Aldridge Ledge,42.34958,-70.91286,1,30.0,H
+BOS1110,"Deer Island, 0.7 nm ESE of",42.34413,-70.93888,1,36.0,H
+BOS1111,Boston Harbor (Deer Island Light),42.33778,-70.95578,1,51.0,H
+BOS1112,"Spectacle Island, 0.4nm north of",42.33422,-70.98598,1,33.0,H
+BOS1113,Boston Channel Light No.5,42.33578,-71.00028,3,33.0,H
+BOS1114,"Fort Independence, 0.1nm north of",42.3418,-71.00892,2,26.0,H
+BOS1115,Ted William Tunnel,42.3517,-71.02611,1,26.0,H
+BOS1117,Charles River Entrance,42.3705,-71.05181,1,,W
+BOS1118,Charlestown Pier 1,42.37996,-71.04502,1,57.0,W
+BOS1119,Nixes Mate,42.33248,-70.9394,1,27.0,H
+BOS1120,Lovell Island Narrows,42.32817,-70.93313,1,25.0,H
+BOS1121,"Fort Warren, Georges Island, 0.2nm east of",42.3218,-70.92098,1,,W
+BOS1122,"Georges Island, 0.4nm southeast of",42.31293,-70.91995,1,72.0,H
+BOS1123,Hull Gut,42.30338,-70.92492,1,35.0,H
+BOS1124,"The Piglets, 0.4 n.mi. northest of",42.28338,-70.93093,1,30.0,H
+BOS1125,Jacknife Ledge,42.25878,-70.94102,1,32.0,H
+BOS1126,Weymouth Harbor Entrance,42.2482,-70.96072,1,29.0,H
+BOS1127,"Point Allerton, 0.65 n.mi. NNW of",42.31926,-70.88706,1,30.0,H
+BOS1128,"Minots Ledge Light, 3.3 miles north of",42.3186,-70.75083,1,,W
+BOS1129,"Minots Ledge Light, 6.5 miles north of",42.36325,-70.73805,1,,W
+BOS1130,"Stellwagen Basin, east end",42.33813,-70.532,1,240.0,H
+BOS1131,"Stellwagen Bank, 16nm North of Race Point",42.32397,-70.29397,1,90.0,H
+BOS1132,"Stellwagen Bank, 15nm NNE of Race Point",42.31213,-70.11202,1,210.0,H
+BOS1133,"Stellwagen Bank, 13.4nm SE of Eastern Pt. Light",42.4224,-70.44982,1,71.0,H
+BOS1134,"Stellwagen Basin, 13.8nm SE of Eastern Pt. Light",42.38818,-70.48302,1,245.0,H
+BOS1135,"Stellwagen Bank, 17nm ESE of Eastern Pt. Light",42.47305,-70.31203,1,308.0,H
+CAB1401,Portland Harbor Entrance,43.628,-70.2095,2,39.0,H
+CAB1402,"Spring Point, NE of",43.65367,-70.22267,1,36.0,H
+CAB1403,"Portland Breakwater Light, 0.3 n.mi east of",43.65534,-70.22783,2,36.0,H
+CAB1404,Diamond Island Roads,43.66253,-70.21567,3,34.0,H
+CAB1405,Ocean Gate Terminal,43.661,-70.24,1,21.0,H
+CAB1406,"State Pier, Portland Harbor",43.65466,-70.245,1,30.0,H
+CAB1407,"Fore River, Portland River Bridge",43.64583,-70.25733,2,21.0,H
+CAB1409,"Chandler Cove, S. Ent",43.70698,-70.1323,1,37.0,H
+CAB1410,"Hussey Sound, Between Long and Peaks Island",43.670799255371094,-70.17632293701172,1,70.0,H
+CAB1411,"Long Island, Mariner Ledge",43.702,-70.16417,4,26.0,H
+CAB1412,"Hussey Sound, Cow Island",43.68983,-70.17834,1,57.0,H
+CAB1413,"Cow Island, NE of",43.69417,-70.181,2,39.0,H
+CAB1414,Lucksee Sound Between Hope and Cliff Is.,43.69838,-70.11567,1,40.0,H
+CAB1415,Stepping Stones,43.69583,-70.13267,1,42.0,H
+CAB1416,"Eagle Island W. of., Broad Sound",43.71,-70.06283,3,91.0,H
+CAB1417,"Littlejohn Island, South of Town Ledge",43.75417,-70.12767,1,36.0,H
+CAB1418,"Maine Kennebec Bridge, 0.2 n.mi. SW of",44.088,-69.78517,1,19.0,H
+CAB1419,"Goose Cove, south of Chops Passage, Kennebec River",43.97516,-69.82667,1,27.0,H
+CAB1420,"Bath Iron Works, Kennebec River",43.90383,-69.80933,1,36.0,H
+CAB1421,"Merrymeeting Bay, N of Chops Pass., Kennebec River",43.98433,-69.83617,1,40.0,H
+CAB1423,"Seal Cove, Cape Elizabeth",43.55233,-70.21767,4,16.0,W
+CAB1425,Saco River Entrance,43.4621,-70.35116,4,13.0,W
+CAM0001,Cape May Harbor entrance,38.9475,-74.87267,2,28.0,H
+CFR1601,"Hilton RR Bridge, 0.1 nm N of",34.25918960571289,-77.94805908203125,1,31.1,H
+CFR1602,Isabel Holmes Bridge,34.252410888671875,-77.95008850097656,1,29.2,H
+CFR1603,"Wilmington, Northeast River",34.241939544677734,-77.95394134521484,1,33.8,H
+CFR1604,Point Peter,34.242488861083984,-77.95768737792969,1,23.0,H
+CFR1605,"Wilmington, USS North Carolina",34.23347854614258,-77.9503173828125,3,25.0,H
+CFR1607,"State Pier, N end, sidelooking",34.207801818847656,-77.9554214477539,1,20.0,H
+CFR1608,Dram Tree Point,34.190608978271484,-77.9577407836914,2,32.0,H
+CFR1609,"Port of Wilmington, South End",34.17580032348633,-77.9569091796875,3,14.0,H
+CFR1610,Lower Brunswick Range,34.155941009521484,-77.95828247070312,1,39.0,H
+CFR1611,Upper Big I Range,34.135501861572266,-77.94210052490234,1,36.0,H
+CFR1612,"Campbell Island, East Side",34.119911193847656,-77.93521881103516,1,35.0,H
+CFR1613,"Keg Island, West Side",34.09700012207031,-77.93463897705078,1,30.0,H
+CFR1614,"Doctor Point, 0.6 NM NNW of",34.07883071899414,-77.93205261230469,1,32.0,H
+CFR1615,"Myrtle Sound, south end, ICW",34.07929992675781,-77.8843994140625,1,16.0,H
+CFR1616,"Snows Cut, ICW",34.05580139160156,-77.89900207519531,4,3.0,H
+CFR1617,"Orton Point, 0.5 NM S of",34.047340393066406,-77.94104766845703,1,38.0,H
+CFR1618,Upper Midnight Channel,34.02907943725586,-77.94080352783203,2,33.0,H
+CFR1619,"Reaves Point, 0.9 NM NE of",34.005950927734375,-77.94020080566406,1,33.0,H
+CFR1620,"Sunny Point, 0.5 nm SE of",33.978248596191406,-77.94994354248047,1,12.0,H
+CFR1621,Snows Marsh Channel,33.93717956542969,-77.9778823852539,1,12.0,H
+CFR1622,"Southport at Dutchman Creek, ICW",33.91761016845703,-78.0430679321289,1,12.0,H
+CFR1623,"Oak Island Bridge, ICW",33.921661376953125,-78.07276153564453,3,11.0,H
+CFR1624,Southport,33.91537857055664,-78.01215362548828,1,37.0,H
+CFR1625,Fort Caswell,33.888328552246094,-78.00763702392578,1,12.0,H
+CFR1626,Bald Head Shoal,33.8543586730957,-78.0271987915039,1,12.0,H
+CHB0301,"Cedar Point, 4.7 n.mi. east of",38.2985,-76.273,6,15.0,H
+CHB0302,"Love Point, 2.0 nmi north of",39.074,-76.30317,10,15.0,H
+CHB0303,"Smith Point Light, 5.0 n.mi. NW of",37.93652,-76.26135,7,15.0,H
+CHB0304,"James Island, 1.6 n.mi. SW of",38.48573,-76.36457,4,15.0,H
+CHB9902,"0.75nm west, Thimble Shoal Channel",36.97739,-76.1242,1,39.0,H
+CHB9903,"Hampton Roads entrance, midchannel",36.99428,-76.30527,1,61.0,H
+CHB9904,0.15nm WSW of Pier No.2,36.97925,-76.44348,1,42.0,H
+CHB9905,Craney Island Reach,36.89053,-76.33575,1,43.0,H
+COD0901,"Cape Cod Canal, east end",41.77553,-70.49932,2,34.0,H
+COD0902,Sagamore Bridge,41.77617,-70.5433,1,42.0,H
+COD0903,Bournedale,41.76654,-70.56702,1,46.0,H
+COD0904,"Cape Cod Canal, Railroad Bridge, midchannel",41.74268,-70.61418,15,13.0,H
+COD0905,Hog Neck,41.72389,-70.63938,1,28.0,H
+COD0906,Abiels ledge,41.68973,-70.67081,1,31.0,H
+COD0907,Cleveland Ledge,41.63223,-70.69685,1,34.0,H
+COD0908,"West Island, 1 mile Southeast of",41.5657,-70.81098,1,27.0,H
+COD0909,New Bedford Hurricane Barrier,41.62324,-70.90509,1,24.0,H
+COD0910,North end,41.52297,-70.693,1,17.0,H
+COD0911,"Woods Hole, The Strait",41.51929,-70.68289,1,21.0,H
+COD0912,Juniper Point,41.51588,-70.67167,1,29.0,H
+COD0913,"Robinsons Hole, Nashuon Point",41.44972,-70.8067,1,24.0,H
+COD0914,Middle,41.44269,-70.84825,1,40.0,H
+COD0915,Canapitsit Channel,41.42414,-70.90788,1,4.0,H
+COI0206,"Point Woronzof, 1.2nm NE of",61.21685,-149.98435,3,85.0,H
+COI0207,"Fire Island, 1.0nm east of",61.17923,-150.12553,2,28.0,H
+COI0211,Port Mackenzie,61.26765,-149.91688,7,13.0,S
+COI0213,"Fire Island, 1.0nm north of",61.19218,-150.17585,2,41.0,H
+COI0301,"Knik Arm, NW of Anchorage",61.27822,-149.89452,5,23.0,H
+COI0302,"Knik Arm, east side",61.27463,-149.88222,4,30.0,H
+COI0303,"Port Mackenzie, south of",61.25225,-149.92067,1,71.0,H
+COI0306,"Fire Island Shoal, northwest of",61.16085,-150.56492,6,22.0,H
+COI0307,"Beluga Shoal, south of",61.10137,-150.56155,5,31.0,H
+COI0418,Kennedy Entrance,59.0658,-151.98232,15,100.0,H
+COI0419,"Anchor Point, 15nm west of",59.83933,-152.36833,9,75.0,H
+COI0420,"Anchor Point, 8nm west of",59.8187,-152.15553,7,59.0,H
+COI0421,Barabara Point,59.57542,-151.6519,1,147.0,H
+COI0422,Glacier Spit,59.66667,-151.19163,1,146.0,H
+COI0502,The Forelands,60.72067,-151.55733,1,66.0,H
+COI0503,East Foreland,60.71727,-151.43297,1,119.0,H
+COI0504,"Nikiski, 0.8 mile west of",60.68338,-151.41787,1,92.0,H
+COI0505,"West Foreland, south of",60.59667,-151.73981,1,38.0,H
+COI0506,"Kenai River, north of",60.58083,-151.44453,1,45.0,H
+COI0507,Drift River Terminal,60.5517,-152.12773,3,42.0,H
+COI0508,"Kalgin Island, east of",60.48295,-151.67325,1,117.0,H
+COI0509,"Harriot Point, west of",60.37918,-152.1817,1,259.0,H
+COI0510,"Kalgin Island, southeast of",60.24802,-151.75453,1,58.0,H
+COI0511,"Cape Ninilchik, west of",60.02327,-152.12018,1,184.0,H
+COI0513,Seldovia,59.4828,-151.75505,1,56.0,H
+COI0514,Augustine Island,59.3018,-152.93028,1,208.0,H
+COI0515,"Kachemak Bay, southwest of",59.31487,-152.36497,1,244.0,H
+COI0516,Port Graham,59.40002,-151.9659,1,114.0,H
+COI0517,Cape Douglas,58.89005,-153.1842,1,455.0,H
+COI0519,Stevenson Passage,58.808,-152.40778,3,388.0,H
+COI0520,"West Amatuli Island, North",59.049198150634766,-152.15185546875,20,238.0,H
+COI0521,Cape Elizabeth,59.12072,-151.89483,1,229.0,H
+COI0522,Port Chatham,59.21125,-151.78703,1,70.0,H
+COI0523,Chugach Passage,59.16658,-151.77543,1,221.0,H
+COI0524,"Chugach Passage, east of",59.13387,-151.7055,1,52.0,H
+COI0801,Tesoro Pier,60.6869,-151.4037,1,55.0,H
+COI0802,"Unocal Pier, south of",60.66782,-151.39162,1,51.0,H
+COI1201,Homer Spit,59.5925,-151.40017,1,198.0,H
+COI1202,"Point Pogishi, southwest of",59.42247,-151.91688,1,101.0,H
+COI1203,"Anchor Point, west of",59.74383,-152.03417,1,104.0,H
+COI1204,"North Forelands, 2.5nm northeast of",61.05982,-151.08065,1,66.0,H
+COI1205,"Kalgin Island, 4nm east of",60.47183,-151.70633,1,169.0,H
+COI1207,"Point Possession, northeast of",61.0566,-150.36035,1,137.0,H
+COI1208,"Fire Island, 1.2nm south of",61.1036,-150.26492,1,80.0,H
+COI1209,"Fire Island, 0.8nm north of",61.18483,-150.2015,2,49.0,H
+COI1210,"Middle Ground Shoal, east of",60.88697,-151.23268,1,102.0,H
+COR0301,Corson's Inlet Entrance,39.20863,-74.6519,5,15.0,S
+DEB0002,Delaware Bay Entrance,38.85362,-75.07703,7,96.0,H
+DEB2101,Delaware Bay Entrance Channel,38.78129959106445,-75.04299926757812,1,44.0,H
+DEB2102,"Cape Henlopen, 2 mi NE of",38.81990051269531,-75.05280303955078,2,78.0,H
+DEB2103,"Cape Henlopen, 5 mi north of",38.883399963378906,-75.08329772949219,1,61.0,H
+DEB2104,"Cape May Canal, West End",38.96839904785156,-74.97239685058594,3,16.0,H
+DEB2105,"Brandywine Shoal Light, 0.5 nm west of",38.98820114135742,-75.12650299072266,1,41.0,H
+DEB2106,"Big Stone Beach Anchorage, buoy ""G""",38.963199615478516,-75.17939758300781,2,41.0,H
+DEB2107,Brandywine Range at Miah Maull Range,39.087501525878906,-75.19129943847656,1,36.0,H
+DEB2108,Cross Ledge Light,39.17470169067383,-75.2699966430664,1,39.0,H
+DEB2109,"Ben Davis Point, 3.2 nm southwest of",39.2681999206543,-75.34539794921875,3,26.0,H
+DEB2110,"Arnold Point, 1.8 nm WSW of",39.376800537109375,-75.46620178222656,1,35.0,H
+DEB2111,Baker Range Channel,39.469398498535156,-75.55999755859375,1,11.0,H
+DEB2112,Reedy Island Wreck,39.537498474121094,-75.54180145263672,1,48.0,H
+DEB2113,Chesapeake and Delaware Canal Entrance,39.56439971923828,-75.55490112304688,2,12.0,H
+DEB2114,"Salem River Entrance, east of marker 11",39.57080078125,-75.502197265625,1,20.0,H
+DEB2115,Pea Patch Island,39.592201232910156,-75.56069946289062,1,37.0,H
+DEB2116,"Kelly Point, 0.7nm N of",39.65679931640625,-75.54100036621094,1,7.0,H
+DEB2117,"Deepwater Point, 0.5 nm NW of",39.70130157470703,-75.5105972290039,1,47.0,H
+DEB2118,Edgemoor,39.747501373291016,-75.49089813232422,2,11.0,H
+DEB2119,Marcus Hook Bar (north),39.79330062866211,-75.43379974365234,1,23.0,H
+DEB2121,Eddystone,39.850399017333984,-75.33480072021484,1,34.0,H
+DEB2122,"Crab Point, 0.5 mi East of",39.8468017578125,-75.28299713134766,1,48.0,H
+DEB2123,Mantua Creek US 44 Bridge Paulsboro,39.83150100708008,-75.23600006103516,16,13.0,H
+DEB2124,Mantua Creek Anchorage,39.856998443603516,-75.2417984008789,1,34.0,H
+DEB2126,Girard Point,39.89250183105469,-75.19509887695312,3,6.0,H
+DEB2128,Gloucester Point,39.897300720214844,-75.1322021484375,1,44.0,H
+DEB2129,Kaighn Point,39.928199768066406,-75.13529968261719,1,37.0,H
+DEB2130,Fisher Point,39.97850036621094,-75.07599639892578,1,7.0,H
+DEB2131,Frankford Range at Tacony Range,40.01530075073242,-75.03230285644531,1,7.0,H
+DEB2132,Edgewater Range at Devlin Range,40.077598571777344,-74.8865966796875,1,32.0,H
+DEB2133,Florence Bend,40.12730026245117,-74.81580352783203,1,11.0,H
+DEB2134,"Newbold Island north of, Main Channel",40.13370132446289,-74.75890350341797,1,7.0,H
+EPT0003,"Estes Head, Eastport",44.88793,-66.99565,4,78.0,H
+EPT0004,"Robbinston, St. Croix River",45.0763,-67.10097,4,58.0,H
+FEB1102,St. Mary's River Entrance,30.70792,-81.44463,1,42.0,H
+FEB1103,"Quarantine Reach, 0.4nm W of Fort Clinch",30.7047,-81.462,1,46.0,H
+FEB1104,"Old Fernandina, Amelia River, Old Town Reach",30.68604,-81.46074,1,24.0,H
+FEB1107,"Fernandina Beach, City Front Reach, Amelia River",30.67019,-81.46789,1,29.0,H
+FEB1108,south jetty,30.70693,-81.39861,1,34.0,H
+FLK1301,"Key West, 0.3 mi. W of Ft. Taylor",24.54798,-81.81686,1,14.0,H
+FLK1302,Main Ship Channel Entrance,24.47071,-81.81177,2,17.0,H
+FLK1303,"Key West Channel, Cut-A Cut-B Turn",24.52603,-81.81819,1,26.0,H
+FLK1304,Southwest channel,24.53421,-81.83212,1,20.0,H
+FLK1306,Key West Harbor Range channel,24.56301,-81.80934,1,19.0,H
+FLK1307,Turning Basin,24.56389,-81.80622,1,23.0,H
+FLK1308,Man of War Harbor,24.58701,-81.80624,1,16.0,H
+FLK1309,"Fleming Key, North of",24.59673,-81.7986,1,9.0,H
+FLK1310,Fleming Key Cut,24.56814,-81.80182,1,17.0,H
+FLK1311,"Safe Habor Entrance, Stock Island",24.55583,-81.73446,1,11.0,W
+FLK1313,"Northwest Channel, W of Calda Bank",24.61539,-81.87154,1,22.0,H
+FLK1315,"Northwest Channel, W of Middle Ground",24.56827,-81.83502,1,17.0,H
+FLK1316,Boca Grande Channel,24.56656,-82.06678,1,12.0,H
+FLK1317,New Ground,24.65071,-82.4162,1,32.0,H
+FLK1324,"Moser Channel, between Molasses and Pigeon Keys",24.698169708251953,-81.16924285888672,1,9.0,H
+FLK1325,"Loggerhead Key, East of",24.61617,-81.45322,1,8.0,H
+FLK1327,Bahia Honda Harbor,24.6563,-81.28848,4,4.0,H
+FPI0901,Fort Pierce Inlet Entrance,27.47114,-80.29258,1,33.0,H
+FPI0902,"Inner Range, north of USCG station",27.46641,-80.30824,1,21.0,H
+FPI0903,South Bridge (ICW),27.45997,-80.3192,1,16.0,H
+FPI0904,Turning Basin,27.46014,-80.32093,1,19.0,H
+HAI1101,Nawiliwili Harbor,21.95492,-159.34718,9,,W
+HAI1102,Port Allen,21.89638,-159.59232,6,,W
+HAI1103,Barbers Point Entrance,21.31235,-158.13288,1,166.0,H
+HAI1104,Barbers Point Jetty,21.32258,-158.12183,9,,W
+HAI1105,South of Barbers Point,21.2696,-158.10157,1,224.0,H
+HAI1106,Diamond Head,21.2395,-157.8058,1,186.0,H
+HAI1107,Approach to Honolulu Harbor,21.29147,-157.87377,11,,W
+HAI1108,Honolulu Harbor Entrance,21.30173,-157.86772,8,,W
+HAI1109,Pearl Harbor Entrance,21.29853,-157.95658,13,,W
+HAI1110,"Iroquois Point, Pearl Harbor",21.33498,-157.97023,1,64.0,W
+HAI1111,Makapu'u Point,21.26423,-157.60542,1,257.0,H
+HAI1112,Kahuku Point,21.72998,-157.98995,1,189.0,H
+HAI1113,"Laau Point, Southwest of",21.07645,-157.3616,1,181.0,H
+HAI1114,Kaunakakai Harbor,21.07643,-157.0315,7,,W
+HAI1115,Pailalo Channel,21.08695,-156.73148,1,244.0,H
+HAI1116,Kalohi Channel,21.0033,-156.95883,1,237.0,H
+HAI1117,"Kaumalapau Harbor, Lanai Island",20.78462,-156.99242,12,,W
+HAI1118,Hawea Point,21.00178,-156.69182,1,243.0,H
+HAI1119,Auau Channel,20.86727,-156.74717,1,210.0,H
+HAI1120,Lahaina,20.86845,-156.68528,1,49.0,H
+HAI1121,Alalakeiki Channel,20.61252,-156.50812,28,,H
+HAI1122,Maalaea Bay,20.76525,-156.49235,18,,W
+HAI1123,Kahului Harbor,20.90213,-156.47175,8,,W
+HAI1124,Hana Bay,20.76123,-155.9781,14,,W
+HAI1125,Approach to Hilo Harbor,19.74517,-155.08198,15,,W
+HAI1126,Hilo Harbor,19.74167,-155.06997,9,,W
+HAI1127,Upolu Point,20.26502,-155.90157,1,204.0,H
+HAI1128,Kawaihae Entrance,20.04108,-155.84163,17,,W
+HAI1129,Kailua Kona,19.6351,-155.99915,17,,W
+HAI1130,Honokohau,19.6678,-156.0319,21,,W
+HUB0202,"Humboldt Bay Entr., 0.1nm NE of South Spit Light",40.75792,-124.23278,4,30.0,H
+HUB0203,"North Bay Channel, west of Eureka",40.78715,-124.19268,2,28.0,H
+HUB0207,"South Spit, 0.1 n.mi. E of",40.74785,-124.2241,3,15.0,H
+HUB0401,"Humboldy Bay Bar Channel, 0.4 nm WNW of",40.76688,-124.25298,1,31.0,H
+HUB0402,Humboldt Bay Entrance Channel,40.7651,-124.23753,1,34.0,H
+HUR0401,Haverstraw,41.20917,-73.95133,1,20.0,H
+HUR0502,Tappan Zee Bridge,41.06743,-73.88154,1,35.0,H
+HUR0503,Stony Point,41.24158,-73.96668,1,83.0,H
+HUR0504,Bear Mountain Bridge,41.31592,-73.98385,1,88.0,H
+HUR0506,Newburgh Beacon Bridge,41.51658,-73.99168,1,24.0,H
+HUR0507,Roseton,41.56247,-73.97053,1,41.0,H
+HUR0509,"Kingston Point, south of",41.91827,-73.9595,1,30.0,H
+HUR0611,George Washington Bridge,40.84958,-73.94982,1,63.0,H
+HUR0612,Kingston-Rhinecliff Bridge,41.97708,-73.95225,1,27.0,H
+HUR0613,"Silver Point, south of",42.13818,-73.90852,1,31.0,H
+HUR0614,Hudson,42.24792,-73.8184,1,40.0,H
+HUR0615,Coxsackie,42.35135,-73.78992,1,31.0,H
+HUR0616,"Houghtaling Island, south of",42.42258,-73.77995,1,27.0,H
+HUR0617,Castleton-on-Hudson Bridge,42.50435,-73.77738,1,32.0,H
+HUR0618,Port of Albany,42.62317,-73.75558,1,30.0,H
+HUR0620,Mid-Hudson Suspension Bridge,41.70182,-73.94593,1,48.0,H
+JOP1101,Johns Pass Entrance,27.77815,-82.78722,1,8.0,H
+JOP1103,"Johns Pass Bridge, north span",27.78331,-82.78216,1,16.0,H
+JOP1104,"Johns Pass Bridge, 0.3nm north of",27.78499,-82.77988,1,11.0,H
+KOD0901,"Cliff Point, 1.8miles NE of",57.73559,-152.38463,1,208.0,H
+KOD0902,St. Paul Harbor,57.77457,-152.43469,9,,W
+KOD0903,Kodiak Harbor Narrows,57.78918,-152.394,1,33.0,H
+KOD0904,"Woody Island, north of",57.80578,-152.33434,1,99.0,H
+KOD0905,Woody Channel,57.78043,-152.36638,1,85.0,H
+KOD0906,Cape Chiniak,57.60784,-152.08979,1,223.0,H
+KOD0907,Ugak Bay Entrance,57.3995,-152.53466,15,112.0,W
+KOD0910,"Left Cape, east of",57.23088,-152.88443,19,,W
+KOD0911,"Cathedral Island, east of",57.1978,-153.10517,20,,W
+KOD0912,Old Harbor,57.17866,-153.32511,25,,W
+KOD0913,Natalia Point,57.07323,-153.45106,19,,W
+KOD0914,Geese Channel,56.77892,-153.80912,25,,W
+KOD0915,"Geese Island, south of",56.68618,-153.92006,1,79.0,H
+KOD0916,"Cape Sitkinak, east of",56.57744,-153.79126,1,169.0,H
+KOD0917,"Sitkinak Strait, southwest entrance",56.65504,-154.13396,1,81.0,H
+KOD0918,Cape Trinity,56.74982,-154.201,1,185.0,H
+KOD0919,Russian Harbor,56.73967,-154.03397,1,93.0,H
+KOD0920,Approach to Alitak Bay,56.78384,-154.64118,1,89.0,H
+KOD0921,"Cape Ikolik, Shelikof Strait",57.28605,-154.82843,1,197.0,H
+KOD0922,"Cape Grant, Shelikof Strait",57.41718,-154.76648,1,164.0,H
+KOD0923,"Uyak Anchorage, Uyak Bay",57.63732,-153.99539,1,56.0,H
+KOD0924,"Larsen Bay, Uyak Bay",57.54221,-153.98831,1,33.0,H
+KOD0925,"Cape Kuliuk, Shelikof Strait",57.79352,-154.03236,1,169.0,H
+KOD0926,"Steep Cape, Shelikof Strait",58.21452,-153.22028,11,88.0,W
+KOD0927,"Raspberry Cape, south of",58.01902,-153.43005,22,,W
+KOD0928,2.5nm east of Outlet Cape,57.99757,-153.15648,1,156.0,H
+KOD0929,"Chernof Point, 0.8mile off",57.96041,-152.90063,1,71.0,H
+KOD0930,"Whale Passage, Northwest Entrance",57.93959,-152.86278,1,83.0,H
+KOD0931,"Whale Passage, off Bird Point",57.91885,-152.79529,1,73.0,H
+KOD0932,Shag Rocks,57.90752,-152.77663,1,169.0,H
+KOD0933,"Narrow Strait, off Ouzinkie Point",57.9121,-152.52407,1,84.0,H
+KOD0934,"Afognak Strait, East Entrance",57.99474,-152.68417,1,97.0,H
+KOD0935,"Raspberry Strait, south of Muskomee Bay",58.07176,-153.06462,1,169.0,H
+KOD0936,"Black Cape, Shelikof Strait",58.40572,-152.90728,1,95.0,W
+KOD0937,"Alligator Island, Shelikof Strait",58.46107,-152.82645,7,61.0,W
+KOD0938,"Lighthouse Point, Shuyak Island",58.48523,-152.67029,12,188.0,W
+KOD0939,"Cape Current Narrows, Shuyak Strait",58.46688,-152.49512,1,99.0,H
+KOD0940,East Shuyak Strait Entrance,58.4579,-152.42785,11,133.0,W
+KOD0941,"Tonki Cape, east of",58.34598,-151.91508,1,138.0,H
+KOD0942,"Marmot Island, west of",58.24443,-151.93232,1,169.0,H
+KOD0943,"Marmot Island, southwest of",58.17085,-151.96862,1,180.0,H
+KOD0944,"North of Perevalnie Island, Shuyak Island",58.65111,-152.39663,1,144.0,H
+LIS1001,The Race,41.22818,-72.06252,1,45.0,H
+LIS1002,"Wicopesset island, NE of",41.29841,-71.90096,1,44.0,H
+LIS1003,Thames River Approach,41.29387,-72.07842,1,35.0,H
+LIS1004,New London Harbor entrance,41.31875,-72.08173,1,31.0,H
+LIS1005,Fort Trumbull State Park,41.34544,-72.08629,1,31.0,H
+LIS1006,New London State Pier,41.35728,-72.08673,1,57.0,H
+LIS1007,U.S. Coast Guard Academy,41.37373,-72.0895,1,32.0,H
+LIS1008,Smith Cove,41.39658,-72.09592,1,31.0,H
+LIS1009,Allyn Point,41.44296,-72.0856,1,19.0,H
+LIS1010,"Great Gull Island, SW of",41.19444,-72.13363,1,29.0,H
+LIS1011,"Plum Island, 3nm. North of, Buoy PI",41.22245,-72.17709,1,131.0,H
+LIS1012,Plum Gut,41.15917,-72.2075,1,158.0,H
+LIS1013,Saybrook Breakwater Light,41.2582,-72.34207,1,19.0,H
+LIS1014,I-95 Bridge,41.3182,-72.34583,1,23.0,H
+LIS1015,Saybrook Channel,41.2833,-72.34757,1,13.0,H
+LIS1016,"Cornfield Point, 4 miles south of, Buoy CF",41.18945,-72.3696,1,124.0,H
+LIS1017,"Six Mile Reef, 2 miles south of, Buoy TE",41.1345,-72.48927,1,88.0,H
+LIS1018,"Six mile Reef, 1 mile south of",41.16835,-72.4994,1,58.0,H
+LIS1019,"Six Mile Reef, 1 mile west of",41.17973,-72.55177,1,36.0,H
+LIS1020,"Roanoke Point, 2 miles NE of",41.00697,-72.66322,1,62.0,H
+LIS1021,"Branford Reef, 5.0 miles south of",41.14443,-72.82798,1,69.0,H
+LIS1022,"New Haven Harbor, Tanker Terminal",41.29507,-72.909,1,30.0,W
+LIS1023,New Haven Harbor entrance,41.22238,-72.90932,1,31.0,H
+LIS1024,"New Haven Harbor, Gateway Terminal Approach",41.28267,-72.91197,1,31.0,H
+LIS1025,Port Jefferson Harbor entrance,40.9699,-73.09165,1,31.0,H
+LIS1026,"Stratford Point, 3.5 miles south of",41.08998,-73.10452,1,43.0,H
+LIS1027,"Stratford Shoal, 2 miles south of",41.02297,-73.10477,1,114.0,H
+LIS1028,"Bridgeport Harbor, Tongue Point",41.16668,-73.17533,1,30.0,H
+LIS1029,Bridgeport Harbor Entrance,41.12138,-73.18945,1,31.0,H
+LIS1030,"Eatons Neck, 2.5 miles east of",40.95742,-73.34198,1,41.0,H
+LIS1031,Norwalk Harbor,41.08535,-73.4024,1,11.0,H
+LIS1032,"Eatons Neck, 3 miles north of",41.00505,-73.405,1,92.0,H
+LIS1033,"The Cows, 2 miles SE of",40.98858,-73.49582,1,86.0,H
+LIS1034,Stamford Harbor entrance,41.01535,-73.53695,1,14.0,H
+LIS1035,"Matinecock Point, 1.7 miles northwest of",40.92455,-73.65585,1,46.0,H
+LIS1036,Execution Rocks,40.87325,-73.7334,1,96.0,H
+LIS1037,"Hart Island, southeast of",40.8432,-73.76225,1,98.0,H
+LIS1038,Throgs Neck Bridge,40.80105,-73.7921,1,59.0,H
+LWI0901,Lake Worth Inlet Entrance,26.77298,-80.0362,1,28.0,H
+LWI0904,North Turning Basin,26.77126,-80.0504,1,8.0,H
+MIH0802,South Jetty,25.760429,-80.126877,1,38.0,H
+MIH0804,"West entrance, south side",25.7646,-80.137428,1,34.0,H
+MIH0805,Fisher Island Turning Basin,25.767771,-80.143417,1,36.0,H
+MIH0806,Pilot House,25.765779,-80.145821,1,31.0,H
+MIH0807,Norris Cut,25.764971,-80.151131,1,34.0,H
+MIH0808,Main Ship Channel,25.77335,-80.156921,1,33.0,H
+MIH0809,"Lummus Island, SW corner",25.765129,-80.161552,2,14.0,H
+MIH0810,Lummus Island Turning Basin,25.767651,-80.167747,1,34.0,H
+MIH0811,"Dodge Island Cut, west end",25.772949,-80.178497,1,28.0,H
+MIH0812,"Dodge Island, SE Turning Basin",25.78178,-80.180603,1,30.0,H
+MIH0813,"Dodge Island, NW Turning Basin",25.7855,-80.183952,1,30.0,W
+MIH0814,Miami River Entrance,25.77038,-80.187477,1,12.0,H
+MIH0901,Miami Harbor Entrance,25.76405,-80.13394,1,35.0,H
+MOB1101,"Mobile Bay Entrance, off Mobile Point",30.22703,-88.03458,2,11.0,H
+MOB1104,"Petit Bois Island, Dauphin Island, between",30.22178,-88.3708,3,5.0,H
+MOB1105,"Horn Island, Petit Bois Island, between",30.22569,-88.53994,3,7.0,H
+MOB1106,Dauphin Island Causeway,30.28926,-88.1287,4,7.0,H
+NYH1901,"Sandy Hook Channel, Front Range Light",40.48740005493164,-73.99330139160156,1,31.0,H
+NYH1902,"Chapel Hill Channel, South End",40.475799560546875,-74.04969787597656,1,7.0,H
+NYH1903,Ambrose Channel,40.516700744628906,-73.97470092773438,1,28.0,H
+NYH1904,"Rockaway Inlet Jetty, 1 nm SW of",40.53300094604492,-73.96080017089844,1,40.0,H
+NYH1905,Rockaway Inlet Entrance,40.562198638916016,-73.9365005493164,1,23.0,H
+NYH1906,Ward Point Bend,40.493099212646484,-74.25070190429688,1,7.0,H
+NYH1908,Tremley Point,40.58890151977539,-74.20600128173828,2,27.0,H
+NYH1909,"Gulfport, Arthur Kill",40.62889862060547,-74.20320129394531,6,21.0,H
+NYH1913,"Middle Reach, Newark Bay",40.676300048828125,-74.13520050048828,4,30.0,H
+NYH1914,Constable Hook Approach,40.650699615478516,-74.06060028076172,1,35.0,H
+NYH1915,"Robbins Reef Light, 0.6 nm E of",40.65520095825195,-74.05069732666016,2,11.0,H
+NYH1917,Gowanus Bay Entrance,40.662498474121094,-74.01809692382812,1,28.0,H
+NYH1918,Red Hook Channel,40.672298431396484,-74.0239028930664,1,3.0,H
+NYH1919,Dimond Reef,40.697898864746094,-74.02130126953125,3,11.0,H
+NYH1920,Brooklyn Bridge,40.70600128173828,-73.9977035522461,1,44.0,H
+NYH1921,Corlears Hook,40.70949935913086,-73.97640228271484,1,39.0,H
+NYH1922,Newtown Creek,40.73469924926758,-73.9656982421875,1,28.0,H
+NYH1924,Hell Gate,40.77830123901367,-73.93830108642578,1,32.0,H
+NYH1926,"Harlem River, south end",40.78609848022461,-73.93689727783203,5,5.0,H
+NYH1927,Hudson River Entrance,40.70759963989258,-74.02529907226562,2,43.0,H
+NYH1928,"Hudson River, Pier 92",40.77069854736328,-74.00279998779297,3,35.0,H
+NYH1930,Spuyten Duyvil,40.877899169921875,-73.92870330810547,3,45.0,H
+NYH1931,"Marine Parkway Bridge, Rockaway Inlet",40.57149887084961,-73.88369750976562,6,30.0,H
+NYH1932,"Raritan River Entrance, Victory Bridge",40.50920104980469,-74.29060363769531,9,14.0,H
+NYH1933,"Highlands Bridge, Shrewsbury River",40.396400451660156,-73.97979736328125,5,16.0,H
+NYH1934,"Canarsie (midchannel), Jamaica Bay",40.62699890136719,-73.88200378417969,9,15.0,H
+PCT0016,Magdalena Bay entrance,24.53333,-112.03333,1,,S
+PCT0026,"Point Loma Light, 0.8 nmi. east of",32.66583,-117.22617,1,15.0,S
+PCT0031,San Diego Bay Entrance,32.68170166015625,-117.2300033569336,1,,H
+PCT0036,"Ballast Point, south of",32.6845,-117.23217,1,5.0,S
+PCT0041,"Ballast Point, 100 yards north of",32.68333,-117.23333,1,,S
+PCT0046,"Ballast Point, 0.55 nmi. north of",32.69583,-117.2325,1,14.0,S
+PCT0051,"Quarantine Station, La Playa",32.7,-117.23333,1,,S
+PCT0056,North Island,32.713,-117.21283,1,14.0,S
+PCT0061,"Harbor Island (east end), SSW of",32.71917,-117.19167,1,15.0,S
+PCT0066,"San Diego, 0.5 mile west of",32.71667,-117.18333,1,,S
+PCT0071,"Airport CGS, 0.3 nmi. SE of",32.722,-117.17783,1,14.0,W
+PCT0076,B St. Pier (San Diego),32.717,-117.17633,1,34.0,W
+PCT0081,"G St. Pier (San Diego), 0.22 nmi. SW of",32.70833,-117.1775,1,14.0,S
+PCT0091,"Coronado, off northeast end",32.698,-117.16383,1,14.0,S
+PCT0096,"28th St. Pier (San Diego), 0.92 nmi. SW",32.67467,-117.1495,1,7.0,S
+PCT0101,"28th St. Pier (San Diego), 0.35 nmi. SW",32.68283,-117.14283,1,14.0,S
+PCT0106,National City,32.65,-117.11667,1,,S
+PCT0111,"National City, WSW of Pier 12",32.66217,-117.1255,1,32.0,S
+PCT0116,"Sweetwater Channel, southwest of",32.645,-117.12283,1,14.0,S
+PCT0156,Point Pinos,36.63333,-121.95,1,,W
+PCT0161,"Point Santa Cruz, 2 miles south of",36.91667,-122.01667,1,,W
+PCT0166,"Ano Nuevo Island, 2 miles SW of",37.08333,-122.36667,1,,W
+PCT0171,"Point Montara, 2 miles west of",37.53333,-122.56667,1,,W
+PCT0181,"Point Bonita Lt., 5.27 nmi. WSW of",37.8045,-122.63883,1,39.0,S
+PCT0191,"Point Lobos, 3.73 nmi. W of",37.7875,-122.58867,1,46.0,S
+PCT0201,"Point Lobos, 1.3 nmi. SW of",37.77167,-122.5355,1,46.0,S
+PCT0206,South Channel,37.75,-122.53333,1,,S
+PCT0211,"Point Lobos, 5.47 nmi. SW of",37.7205,-122.59783,1,39.0,S
+PCT0231,"Point Bonita, 0.8 nmi. NE of",37.82083,-122.51617,1,22.0,S
+PCT0236,"Point Bonita Lt., 0.4 nmi. SSE of",37.812,-122.52117,1,43.0,S
+PCT0246,"Mile Rock Lt., 0.2 nmi. NW of",37.79533,-122.51133,1,15.0,S
+PCT0251,"Point Diablo, 0.2 mile SE of",37.81783,-122.49667,1,,S
+PCT0256,"Baker Beach (South Bay), 0.3 nmi. NW of",37.79783,-122.4885,1,31.0,S
+PCT0261,"Fort Point, 0.3 nmi. west of",37.80917,-122.48283,1,75.0,S
+PCT0281,"Golden Gate Bridge, 0.8 mile east of",37.82167,-122.46167,1,,S
+PCT0286,"Fort Point, 0.5 nmi. east of",37.81167,-122.46633,1,55.0,S
+PCT0291,"Alcatraz Island, 0.2 mile west of",37.82783,-122.43033,1,,S
+PCT0301,"Alcatraz Island, south of",37.81833,-122.422,1,,S
+PCT0321,"Treasure Island, 0.8 mile west of",37.82167,-122.39167,1,8.0,S
+PCT0326,"Treasure Island, 0.2 mile west of",37.82167,-122.37833,1,8.0,S
+PCT0336,"Oakland, Yerba Buena Island",37.80979919433594,-122.35070037841797,1,13.0,H
+PCT0346,"Treasure Island, 0.5 mile north of",37.8405,-122.36833,1,8.0,S
+PCT0351,"Treasure Island, 0.85 nmi. east of",37.825,-122.34633,1,11.0,S
+PCT0356,"Treasure Island, 0.3 mile east of",37.82667,-122.355,1,8.0,S
+PCT0361,"Yerba Buena Island, 0.3 nmi. SE of",37.80417,-122.35717,1,23.0,S
+PCT0371,Oakland Inner Harbor entrance,37.80167,-122.34,1,8.0,S
+PCT0386,"Oakland Harbor, Webster Street",37.79167,-122.2745,1,,S
+PCT0396,"Oakland 7th St. Marine, 0.6 nmi. SSW of",37.7945,-122.34417,1,21.0,S
+PCT0406,"Rincon Point, midbay",37.78333,-122.35383,1,11.0,S
+PCT0411,"Mission Rock, 0.6 mile east of",37.77333,-122.36833,1,,S
+PCT0416,"Mission Rock, 1.3 mile east of",37.775,-122.35333,1,8.0,S
+PCT0421,"Mission Rock, 2.0 miles east of",37.77667,-122.33833,1,,S
+PCT0426,"Potrero Point, 1.08 nmi. east of",37.7575,-122.35783,1,20.0,S
+PCT0431,"Potrero Point, 2 miles  east of",37.75,-122.33333,1,,S
+PCT0436,"Alameda Radar Tower, 0.9 nmi. SSW of",37.7455,-122.283,1,4.0,S
+PCT0441,"Point Avisadero, 0.3 mile east of",37.73,-122.34833,1,8.0,S
+PCT0446,"Point Avisadero, 1 mile east of",37.73,-122.33667,1,8.0,S
+PCT0451,"Point Avisadero, 2 miles east of",37.73167,-122.31333,1,6.0,S
+PCT0456,"Point Avisadero, 0.6 nmi. ESE of",37.723,-122.32383,1,21.0,S
+PCT0461,"Point Avisadero, 1.25 nmi. SSE of",37.70783,-122.3495,1,20.0,S
+PCT0466,"Oakland Airport, southwest of",37.68217,-122.23083,1,3.0,S
+PCT0471,"Sierra Point, 1.3 miles ENE of",37.68467,-122.35667,1,,S
+PCT0476,"Sierra Point, 1.2 nmi. east of",37.678,-122.3175,1,18.0,S
+PCT0481,"Oyster Point, 2.8 miles east of",37.665,-122.32333,1,8.0,S
+PCT0486,"Sierra Point, 4.4 miles east of",37.67333,-122.295,1,8.0,S
+PCT0491,"Point San Bruno, 0.51 nmi. east  of",37.65417,-122.36383,1,10.0,S
+PCT0501,"Little Coyote Pt., 3.4 nmi. NNE of",37.62383,-122.23133,1,4.0,S
+PCT0506,"Little Coyote Pt., 3.1 nmi. ENE of",37.598,-122.2055,1,4.0,S
+PCT0511,"Little Coyote Pt., 1.2 nmi. NE of",37.59033,-122.24867,1,10.0,S
+PCT0521,"Redwood Pt., Blair I., 1.15 nmi. NNE of",37.558,-122.19883,1,19.0,S
+PCT0531,"Dumbarton Hwy. Bridge, 0.28 nmi. SE of",37.50133,-122.1155,1,25.0,S
+PCT0536,"Dumbarton Point, 1.15 nmi. SE  of",37.4875,-122.08133,1,17.0,S
+PCT0541,"Dumbarton Point, 2.25 miles SE of",37.475,-122.07,1,8.0,S
+PCT0546,"Yellow Bluff, 0.8 nmi. NE of",37.8455,-122.45717,1,19.0,S
+PCT0551,"Yellow Bluff, 0.8 mile east of",37.835,-122.455,1,8.0,S
+PCT0556,"Point Cavallo, 1.3 miles east of",37.83167,-122.44333,1,8.0,S
+PCT0561,"Point Blunt, Angel I., 0.5 nmi. SW of",37.8455,-122.423,1,21.0,S
+PCT0566,"Point Blunt, Angel I., 0.25 mile S of",37.84667,-122.41667,1,8.0,S
+PCT0571,"Pt. Blunt, Angel I., 0.8 mi. SE of",37.845,-122.405,1,,S
+PCT0576,"Pt. Blunt, Angel I., 0.25 nmi. east of",37.85283,-122.41217,1,21.0,S
+PCT0581,"Angel Island, off Quarry Point",37.86333,-122.41333,1,,S
+PCT0586,"Angel Island, 0.75 mile east of",37.86333,-122.40167,1,,S
+PCT0591,"Point Simpson, Angel I., 1.05 nmi. E of",37.87383,-122.40283,1,21.0,S
+PCT0596,"Fleming Point, 1.72 nmi. SW of",37.877,-122.35883,1,3.0,S
+PCT0606,"Raccoon Strait, off Point Stuart",37.86117,-122.452,1,15.0,S
+PCT0621,"Bluff Point, 0.1 mile east of",37.88333,-122.435,1,8.0,S
+PCT0626,"Bluff Point, 1.15 nmi. east of",37.88717,-122.413,1,21.0,S
+PCT0631,"Southampton Shoal Light, 0.2 mile E of",37.8825,-122.39583,1,10.0,S
+PCT0641,"Point Chauncey, 0.75 nmi. NW of",37.903,-122.45883,1,19.0,S
+PCT0651,Point Potrero Reach (buoy 10),37.903,-122.3725,1,,W
+PCT0656,"Point Richmond, 0.5 mile west of",37.905,-122.4,1,6.0,S
+PCT0661,"Point Richmond, 0.8 nmi. NNW of",37.92083,-122.39667,1,4.0,S
+PCT0666,Richmond,37.929298400878906,-122.42500305175781,1,7.0,S
+PCT0671,"Red Rock, east of",37.9295,-122.42833,1,11.0,S
+PCT0676,"Red Rock, 0.60 nmi. NNE of",37.94,-122.42667,1,17.0,S
+PCT0681,"Point San Quentin, 0.82 nmi. east  of",37.94117,-122.46167,1,15.0,S
+PCT0686,"Point San Quentin, 1.3 nmi. east of",37.94217,-122.45267,1,23.0,S
+PCT0691,"Point San Quentin, 1.9 miles east of",37.95,-122.44,1,8.0,S
+PCT0701,"Point San Pedro, 0.55 nmi. SE of",37.97967,-122.43667,1,20.0,S
+PCT0706,"Pinole Point, 1.18 nmi. west of",38.008,-122.38967,1,19.0,S
+PCT0711,"Pinole Point, 3.0 nmi. WNW of",38.02667,-122.42467,1,8.0,S
+PCT0721,"Pinole Point, 1.42 nmi. NNW of",38.03383,-122.37917,1,21.0,S
+PCT0731,Petaluma River approach,38.07,-122.42,1,4.0,S
+PCT0736,Petaluma River entrance,38.1105,-122.493,1,7.0,S
+PCT0741,"Wilson Point, 1.55 nmi. north of",38.0375,-122.1505,1,10.0,S
+PCT0746,"Wilson Point, 3.90 nmi. NNW of",38.0745,-122.3425,1,4.0,S
+PCT0756,"Davis Point, (midchannel)",38.06333,-122.25833,1,8.0,S
+PCT0766,"Mare Island Strait (Buoy ""4"")",38.07417,-122.24283,1,20.0,S
+PCT0781,"Martinez Marina, 0.65 nmi. NW of",38.033,-122.14967,1,20.0,S
+PCT0786,"Martinez Marina, 0.50 nmi. west of",38.02867,-122.14867,1,30.0,S
+PCT0791,"Martinez Marina, 0.61 nmi. NNW of",38.03633,-122.14467,1,23.0,S
+PCT0796,Army Pt. Pier Lt. 0.2 nmi. SE of,38.03883,-122.13367,1,21.0,S
+PCT0801,1 mile inside west entrance,38.14717,-122.05633,1,22.0,S
+PCT0806,West entrance,38.132,-122.058,1,6.0,S
+PCT0811,1 mile inside entrance,38.13783,-122.08133,1,15.0,S
+PCT0816,Entrance,38.12117,-122.0675,1,3.0,S
+PCT0821,0.5 nmi. east of entrance,38.11883,-122.05333,1,4.0,S
+PCT0831,"Avon Pier, 0.15 nmi. north of",38.05167,-122.09033,1,30.0,S
+PCT0836,"Pt. Edith, 1.7 nmi. NNW of",38.07867,-122.08383,1,24.0,S
+PCT0841,"Seal Island, south of",38.05333,-122.0495,1,24.0,S
+PCT0851,"Roe Island, Gilbert Pt., 0.15 nmi. NW of",38.07367,-122.02167,1,16.0,S
+PCT0856,Suisun Cutoff,38.08883,-122.00717,1,24.0,S
+PCT0861,"Middle Point Lt., 0.18 nmi. NNW of",38.0575,-121.99283,1,20.0,S
+PCT0866,"Stake Point, 0.9 nmi. NNW of",38.06467,-121.9555,1,4.0,S
+PCT0871,"Simmons Pt., Chipps Is., 0.6 nmi. ESE of",38.0645,-121.92167,1,12.0,S
+PCT0876,"Spoonbill Creek, near bridge",38.05883,-121.90467,1,3.0,S
+PCT0881,"Montezuma Slough, east end, near bridge",38.07783,-121.88383,1,6.0,S
+PCT0886,"New York Slough, 0.6miles E of Pt. Emmet",38.0325,-121.8695,1,7.0,S
+PCT0891,"New York Slough, Winter Island",38.02833,-121.84633,1,15.0,S
+PCT0896,"Entrance, 0.7 mile SW of Chain Island",38.05833,-121.8705,1,7.0,S
+PCT0901,"Point Sacramento, 0.3 mile NE OF",38.06667,-121.83333,1,7.0,S
+PCT0906,"Sherman Island East, 0.2 mile north of",38.05867,-121.80417,1,14.0,S
+PCT0911,"Pt. San Joaquin, 0.45 nmi. ENE of",38.06167,-121.85,1,18.0,S
+PCT0916,"Point Beenar, 0.7 nmi. north of",38.04217,-121.838,1,5.0,S
+PCT0921,"Point Beenar, 100 yds., NE of",38.0325,-121.8355,1,14.0,S
+PCT0926,"Antioch Point, 0.3 mile east of",38.03333,-121.81667,1,,S
+PCT0931,"West Island Lt., 0.5 mile SE of",38.02117,-121.762,1,5.0,S
+PCT0936,"Vulcan Island, 0.5 mile east of",37.98533,-121.39083,1,17.0,S
+PCT1021,North Bay Channel at Fairhaven,40.78733,-124.19433,1,13.0,S
+PCT1026,North Bay Channel at Samoa Channel,40.79617,-124.18733,1,15.0,S
+PCT1056,Coquille River entrance,43.121700286865234,-124.4197006225586,1,,S
+PCT1061,Coos Bay entrance,43.35499954223633,-124.34120178222656,1,,S
+PCT1066,Umpqua River entrance,43.67829895019531,-124.19329833984375,1,,S
+PCT1071,Heceta Head,44.13330078125,-124.13330078125,1,,S
+PCT1076,Yaquina Bay entrance,44.61669921875,-124.06670379638672,1,,S
+PCT1081,"Yaquina Bay, Highway Bridge",44.62329864501953,-124.05699920654297,1,,S
+PCT1086,"Yaquina, Yaquina River",44.60200119018555,-124.01129913330078,1,,S
+PCT1091,"Yaquina River, 1 mile below Toledo",44.60049819946289,-123.94170379638672,1,,S
+PCT1096,Tillamook Bay entrance,45.562198638916016,-123.93830108642578,1,,S
+PCT1106,"Sand Island Tower, 1nm SE of (midchannel)",46.25283,-123.99083,1,15.0,S
+PCT1111,"Sand Island Tower, 0.9nm SE of (north channel)",46.25783,-123.9945,1,15.0,S
+PCT1116,"Baker Bay entrance, E of Sand Island Tower",46.262,-123.998,1,23.0,S
+PCT1121,"Clatsop Spit, NNE of",46.24617,-123.99417,1,15.0,S
+PCT1126,"Sand Island, SSE of",46.2555,-123.968,1,12.0,S
+PCT1146,Youngs Bay Bridge,46.17783,-123.86833,1,9.0,S
+PCT1151,"Hammond, northeast of ship channel",46.21117,-123.9345,1,15.0,S
+PCT1156,"McGowan, SSW of",46.2395,-123.91533,1,14.0,S
+PCT1161,"Point Ellice, east of",46.24167,-123.84833,1,17.0,S
+PCT1166,"Point Adams, NNE OF",46.22783,-123.9675,1,14.0,S
+PCT1171,"Chinook Point, WSW of",46.24217,-123.96417,1,14.0,S
+PCT1176,"Tongue Point, northwest of",46.21917,-123.76667,1,15.0,S
+PCT1186,Woody Island Channel,46.2395,-123.67333,1,15.0,S
+PCT1191,Woody Island Channel (off Seal Island),46.2175,-123.62917,1,12.0,S
+PCT1201,"Quinn Island, Prairie Channel",46.23717,-123.50333,1,8.0,S
+PCT1206,Clifton Channel,46.21783,-123.46533,1,10.0,S
+PCT1216,"Hunting Island, south of",46.20717,-123.40417,1,20.0,S
+PCT1231,"Cathlamet Channel, SE of Nassa Point",46.15617,-123.315,1,19.0,S
+PCT1251,"Walker Island, south of",46.14117,-123.04583,1,12.0,S
+PCT1271,"South Bend, Willapa River",46.66467,-123.80133,1,,S
+PCT1276,"Entrance, 0.2 mile south of north jetty",46.92633,-124.16133,1,,S
+PCT1281,"Entrance, Point Chehalis Range",46.90833,-124.1555,1,,S
+PCT1286,"Entrance, 0.6 mile WNW of Westport",46.91467,-124.125,1,,S
+PCT1291,Grays Harbor Entrance,46.92250061035156,-124.13300323486328,1,,H
+PCT1296,"Entrance, 1.1 miles NW of Westport",46.91667,-124.13333,1,,S
+PCT1301,"Channel, 1.5 miles north of Westport",46.93333,-124.1,1,,S
+PCT1306,"Channel, 2.1 miles NNE of Westport",46.93333,-124.08333,1,,S
+PCT1316,"Westport, channel 0.4 mile NE of",46.91417,-124.10833,1,,S
+PCT1321,Quillayute River entrance,47.91667,-124.63333,1,,S
+PCT1371,Port Angeles,48.13333,-123.41667,1,,W
+PCT1376,"Ediz Hook Light, 1.4 miles southeast of",48.11667,-123.4,1,,W
+PCT1391,"Trial Island, 5.2 miles SSW of",48.31666946411133,-123.36666870117188,1,15.0,S
+PCT1401,"New Dungeness Light, 6 miles NNE of",48.26667022705078,-123.05000305175781,1,15.0,S
+PCT1411,"Discovery Island, 3 miles SSE of",48.383331298828125,-123.19999694824219,1,15.0,S
+PCT1416,"Cattle Point, 2.8 miles SSW of",48.400001525878906,-123.0,1,,S
+PCT1451,"Smith Island, 1.4 miles SSW of",48.29999923706055,-122.8499984741211,1,,S
+PCT1466,"Point Partridge, 3.7 miles west of",48.23332977294922,-122.86666870117188,1,,S
+PCT1496,"Point Wilson, 0.8 mile east of",48.150001525878906,-122.73332977294922,1,,S
+PCT1501,"Port Townsend, 0.5 mile S of Pt. Hudson",48.11667,-122.75,1,,W
+PCT1511,"Marrowstone Point, 1.1 miles northwest of",48.116668701171875,-122.69999694824219,1,,S
+PCT1571,"Port Gamble Bay, 0.5 mile N of entrance",47.8645,-122.57717,1,,W
+PCT1596,Chinom Point,47.53333,-123.03333,1,,W
+PCT1606,Useless Bay,47.97833,-122.49533,1,,W
+PCT1636,"Agate Passage, north end",47.722,-122.555,1,,S
+PCT1646,Port Orchard,47.6375,-122.58467,1,,W
+PCT1651,"Port Orchard, off Keyport",47.70033,-122.60833,1,,W
+PCT1661,Shilshole Bay,47.68333,-122.41667,1,,W
+PCT1671,"West Point, 1.2 miles west of",47.6595,-122.46533,1,,W
+PCT1676,Elliott Bay entrance,47.612,-122.40717,1,,W
+PCT1701,Off Pleasant Beach,47.58332824707031,-122.53333282470703,1,,S
+PCT1711,"Port Orchard, southwest of Waterman",47.56667,-122.6,1,,W
+PCT1861,Eld Inlet entrance,47.146331787109375,-122.9333267211914,1,15.0,S
+PCT1896,"Hammersley Inlet, west of Skookum Point",47.207000732421875,-123.03949737548828,1,15.0,S
+PCT1916,"Case Inlet, 1 mile SE of McMicken Island",47.23833,-122.84367,1,,W
+PCT1926,Port Susan,48.1,-122.36667,1,,W
+PCT1966,"Iceberg Point, 2.1 miles SSW of",48.383331298828125,-122.91667175292969,1,,S
+PCT1971,"Colville Island, 1 mile SSE of",48.400001525878906,-122.8166732788086,1,,S
+PCT2006,"Burrows Bay, 0.5 mile east of Allan I",48.46282958984375,-122.68283081054688,1,,S
+PCT2026,"Green Point, 0.8 mile northwest of",48.504669189453125,-122.70616912841797,1,,S
+PCT2046,"Frost-Willow Island, between",48.53916931152344,-122.8308334350586,1,,S
+PCT2071,"Barnes Island, 0.8 mile southwest of",48.685829162597656,-122.78883361816406,1,,S
+PCT2076,"Raccoon Point, 0.6 mile NNE of",48.706329345703125,-122.82917022705078,1,,S
+PCT2086,"Matia Island, 0.8 mile west of",48.74882888793945,-122.86582946777344,1,,S
+PCT2106,"Huckleberry Island, 0.5 mile north of",48.54583,-122.56633,1,,S
+PCT2116,"Eliza Island, 0.5 mile southeast of",48.65,-122.56667,1,,W
+PCT2126,"Towhead Island, 0.4 mile east of",48.6121711730957,-122.7021713256836,1,,S
+PCT2166,"Puffin Island Light, 4.8 miles north of",48.82217025756836,-122.8083267211914,1,,S
+PCT2191,"Kings Point, Lopez Island, 1 mile NNW of",48.48332977294922,-122.9558334350586,1,15.0,S
+PCT2236,East Sound entrance,48.587,-122.857,1,,W
+PCT2241,"East Sound, 0.2 mile SW of Rosario Point",48.64417,-122.88133,1,,W
+PCT2266,"Johns Island, 0.8 mile north of",48.68333053588867,-123.1500015258789,1,,S
+PCT2276,"Skipjack Island, 1.5 miles northwest of",48.7495002746582,-123.06082916259766,1,15.0,S
+PCT2281,"Point Hammond, 1.1 miles northwest of",48.731998443603516,-123.02532958984375,1,15.0,S
+PCT2286,"Alden Point, Patos Island, 2 miles S of",48.75783157348633,-122.98033142089844,1,,S
+PCT2301,Drayton Harbor Entrance,48.99082946777344,-122.76782989501953,1,,S
+PCT2576,"Meyers Narrows, Meyers Passage",52.61667,-128.65,1,,S
+PCT2586,Grenville Channel (narrow portion),53.6,-129.68333,1,,S
+PCT2591,"Skeena River, Middle Passage",54.1,-130.21667,1,,S
+PCT2601,"Tuck Narrows, Prince Rupert Harbor",54.4,-130.25,1,,S
+PCT2606,Between Rose Spit and Overfall Shoal,54.23333,-131.58333,1,,S
+PCT2611,"Naden Harbor, Alexandria Narrows",54.0365,-132.574,1,,S
+PCT2616,"Masset Harbor, 5 miles Inside",54.01667,-132.16667,1,,S
+PCT2621,"Cape Muzon, 4 miles south from",54.6,-132.68333,1,,S
+PCT2626,"Point Marsh, 5 miles south from",54.63333,-132.3,1,,S
+PCT2636,"West Devil Rock, 2 miles north of",54.7,-131.6,1,,S
+PCT2641,"Barren Island Light, 2 miles south from",54.7,-131.35,1,,S
+PCT2646,"East Devil Rock, 1 mile north of",54.7,-131.08333,1,,S
+PCT2651,Between Dundas Island and Cape Fox,54.7,-130.83333,1,,S
+PCT2656,"Tongass Islands, east of, Nakat Bay",54.78233,-130.73717,1,,S
+PCT2661,"Boston Islands, 1 mile south from",54.68333,-130.56667,1,,S
+PCT2666,"Portland Inlet, 2 miles S. of Wales Pt",54.66667,-130.48333,1,,S
+PCT2671,"Haystack Island, Tongass Passage",54.71667,-130.61667,1,,S
+PCT2676,Point Phipp,54.78333,-130.63333,1,,S
+PCT2681,Narrows,54.83467,-130.4855,1,,S
+PCT2686,Blaine Point,55.03333,-130.21667,1,,S
+PCT2691,"Wales Point, 2 miles south from",54.66667,-130.48333,1,,S
+PCT2696,"Cliff Point, 1 mile east from",54.8,-130.31667,1,,S
+PCT2701,"Flat Point , 1 mile east of",54.91667,-130.16667,1,,S
+PCT2706,"Tree Point, 1 mile east of",55.03333,-130.16667,1,,S
+PCT2711,Dickens Point,55.15,-130.15,1,,S
+PCT2716,White Point,55.56667,-130.11667,1,,S
+PCT2721,Camp Point,55.28333,-129.98333,1,,S
+PCT2726,Miners Point,55.71667,-130.15,1,,S
+PCT2731,Lion Point,55.88333,-130.03333,1,,S
+PCT2736,"Duke Point, 3.5 miles northeast of",54.95,-131.1,1,,W
+PCT2741,"Middy Point, 2.9 miles ENE of",55.18333,-131.25,1,,W
+PCT2746,"Walker Island, 1.1 miles north of",55.2,-131.33333,1,,W
+PCT2756,"Reef Point, 0.7 mile northeast of",55.25,-131.46667,1,,W
+PCT2761,"Race Point, 0.7 mile ENE of",55.28583,-131.546,1,,S
+PCT2766,"Carroll Point, 0.7 mile northwest of",55.3,-131.5,1,,W
+PCT2781,"Saxman Spire, 0.2 mile south of",55.3155,-131.60267,1,,S
+PCT2786,Ketchikan,55.33617,-131.64417,1,,S
+PCT2796,"Rosa Reef, 0.5 mile north of",55.41667,-131.8,1,,W
+PCT2806,"Hotspur Island, 0.5 mile southeast of",54.96667,-131.48333,1,,S
+PCT2811,"Point Davidson, 1 mile south of",54.98333,-131.6,1,,S
+PCT2816,Harris Island,55.0,-131.53333,1,,S
+PCT2821,Ajax Reef,55.0,-131.46667,1,,S
+PCT2831,Snipe Island,55.0,-131.38333,1,,S
+PCT2836,"Grass Rock, Tamgas Harbor entrance",55.02167,-131.52233,1,,S
+PCT2841,Indian Reef,55.03333,-131.35,1,,S
+PCT2856,"Kwain Bay,2.0 miles east of",55.08333,-131.31667,1,,W
+PCT2861,"Beaver Creek, Mary Island, 0.6 mile W of",55.08333,-131.25,1,,W
+PCT2866,"Customhouse Cove, 1 mile west of",55.1,-131.26667,1,,S
+PCT2871,"Hid Reef, 2.7 miles south of",55.03333,-131.66667,1,,S
+PCT2876,Point McCartey Light,55.11667,-131.7,1,,S
+PCT2881,"Point McCartey Light, 1.5 miles east of",55.11667,-131.66667,1,,W
+PCT2886,"Village Point, Metlakatla, 0.2 mile N of",55.13333,-131.56667,1,,W
+PCT2891,Wharburton Island,55.1335,-131.62867,1,,S
+PCT2896,Driest Point,55.18333,-131.6,1,,S
+PCT2901,"Bostwick Point, 0.6 mile southeast of",55.21667,-131.68333,1,,W
+PCT2906,"Bostwick Point, 2.1 miles east of",55.21667,-131.63333,1,,W
+PCT2911,Blank Point,55.24867,-131.66933,1,,S
+PCT2921,Point Sykes,55.2,-131.11667,1,,S
+PCT2926,Point Nelson,55.3,-130.95,1,,W
+PCT2931,Short Pass,55.38133,-130.97583,1,,W
+PCT2936,Behm Narrows,55.91367,-131.532,1,,S
+PCT2941,Helm Point,55.6,-131.83333,1,,S
+PCT2946,"Guard Islands, 2 miles northwest of",55.46667,-131.9,1,,S
+PCT2961,"Grass Rock, 1 mile south of",55.0,-131.55,1,,S
+PCT2966,"Moira Rock, 2 miles east of",55.08333,-131.93333,1,,S
+PCT2971,Moira Sound entrance,55.094,-132.00233,1,,W
+PCT2976,"Halibut Creek, 1 mile east of",55.25,-131.96667,1,,W
+PCT2986,Cholmondeley Sound entrance,55.28333,-132.06667,1,,W
+PCT2991,"Skin Island, 3 miles east from",55.3,-131.98333,1,,S
+PCT3001,"Skowl Arm, Kasaan Bay",55.43333,-132.31667,1,,W
+PCT3011,"Guard Island Lighthouse, 5.1 miles SW of",55.4,-132.0,1,,S
+PCT3016,"Guard Islands, 2 miles west of",55.45,-131.95,1,,S
+PCT3021,Ship Island,55.6,-132.25,1,,S
+PCT3026,Narrow Point,55.78333,-132.41667,1,,S
+PCT3031,"Mabel Island, 3 miles west from",55.91667,-132.5,1,,S
+PCT3036,"Lincoln Rock Light, 1 mile west from",56.05,-132.71667,1,,S
+PCT3041,"McHenry Ledge, 1 mile north of",55.8,-132.3,1,,S
+PCT3046,"Vixen Point, 3 miles west of",55.85,-132.18333,1,,S
+PCT3051,Eaton Point,55.95283,-132.09,1,,S
+PCT3056,Niblack Islands,56.03333,-132.08333,1,,S
+PCT3061,Blanche Rock,56.08333,-132.08333,1,,S
+PCT3066,Point Warde,56.18333,-131.96667,1,,S
+PCT3071,Blake Island,56.223,-131.90883,1,,S
+PCT3076,Berg Bay,56.34367,-132.00767,1,,S
+PCT3081,The Narrows,56.36783,-132.10267,1,,S
+PCT3086,"Channel Island, north of",56.37517,-132.16967,1,,S
+PCT3091,Mill Creek,56.45,-132.21667,1,,S
+PCT3096,Point Highfield,56.5,-132.38333,1,,S
+PCT3101,"Found Island, 1 mile northwest of",56.11667,-132.1,1,,S
+PCT3106,"No Name Island, near Thoms Place",56.15,-132.15,1,,S
+PCT3111,Village Islands,56.21667,-132.31667,1,,S
+PCT3116,"Young Rock, 2 miles south of",56.33333,-132.38333,1,,S
+PCT3121,"East Point, east of",56.38333,-132.4,1,,S
+PCT3126,Wrangell Harbor entrance,56.46667,-132.4,1,,W
+PCT3131,"Wrangell Harbor, 1.6 miles west of",56.46667,-132.45,1,,S
+PCT3136,"Point Shekesti, 2.3 miles west of",56.46667,-132.43333,1,,W
+PCT3141,Key Reef,56.16667,-132.83333,1,,S
+PCT3151,"Snow Passage, north entrance",56.3,-133.03333,1,,S
+PCT3161,"Kashevarof Passage, north entrance",56.25,-133.05,1,,S
+PCT3176,"Steamer Point, 1 mile west of",56.21667,-132.73333,1,,S
+PCT3181,Round Point,56.28333,-132.61667,1,,S
+PCT3186,South Craig Point,56.38333,-132.6,1,,S
+PCT3191,"Vank Island, off Neal Point",56.4425,-132.59183,1,,S
+PCT3196,"Cape Muzon, 5 miles east of",54.66667,-132.53333,1,,S
+PCT3201,"Dewey Rocks, 2 miles west of",54.75,-132.53333,1,,S
+PCT3211,"Boat Rocks, 2 miles west of",54.81667,-132.56667,1,,S
+PCT3221,"Webster Point, 1 mile west of",54.96667,-132.63333,1,,S
+PCT3226,"Mellen Rock, 1 mile east of",55.03333,-132.65,1,,S
+PCT3231,"Shoe Rock, 1 mile north of",54.96667,-132.73333,1,,S
+PCT3236,"Grand Island, 2 miles north of",55.0,-132.86667,1,,S
+PCT3241,"High Point, 1 mile east of",55.01667,-132.93333,1,,S
+PCT3246,McFarland Islands,55.06667,-132.95,1,,S
+PCT3251,Corlies Islands,55.13333,-132.96667,1,,S
+PCT3256,Sukkwan Narrows,55.19833,-132.824,1,,S
+PCT3261,"The Sentinels, 1 mile west of",55.18333,-133.01667,1,,S
+PCT3266,Halibut Nose,55.21667,-133.06667,1,,S
+PCT3271,"Lively Islands, west of",55.23317,-133.09233,1,,S
+PCT3281,"Meares Island, south of",55.25783,-133.18283,1,,S
+PCT3291,Millar Rocks,55.2,-133.25,1,,S
+PCT3296,Diver Islands,55.18333,-133.28333,1,,S
+PCT3301,Cape Flores,55.35,-133.31667,1,,S
+PCT3311,Waterfall Cannery,55.3,-133.25,1,,S
+PCT3316,"Cape Bartolome, 2 miles east of",55.23333,-133.55,1,,S
+PCT3326,"Point Arboleda, 1 mile west of",55.31667,-133.48333,1,,S
+PCT3331,"Cabras Islands, 1 mile west of",55.35,-133.41667,1,,S
+PCT3336,"Cape Flores, 1 mile north of",55.36667,-133.3,1,,S
+PCT3346,"Toti Island, 1.1 miles west of",55.41667,-133.15,1,,S
+PCT3351,"Coronados Islands, 2 miles west of",55.43333,-133.16667,1,,S
+PCT3356,Craig Cannery,55.48333,-133.15,1,,S
+PCT3456,"Tuxekan Passage, 0.2 mile S of Tuxekan",55.88267,-133.24233,1,,S
+PCT3476,Skookumchuck Pass,55.91467,-133.31233,1,,S
+PCT3481,"Brockman Island, east of",55.96683,-133.30483,1,,S
+PCT3486,Off Tunga Inlet,55.97249984741211,-133.26600646972656,1,,W
+PCT3491,"Tenass Island, 0.3 mile  SSW of",55.98667,-133.30483,1,,S
+PCT3496,1.2 miles south of,56.13333,-133.28333,1,,W
+PCT3501,1 mile WNW of,56.1535,-133.30067,1,,W
+PCT3506,"The Narrows, west of",56.16017,-133.338,1,,S
+PCT3521,"Cora Point, 2 miles east of",55.91667,-134.05,1,,S
+PCT3551,"Point St. Albans, 3 miles SSE of",56.03333,-133.95,1,,S
+PCT3556,"Point St. Albans, 4 miles east of",56.08333,-133.85,1,,S
+PCT3561,"Ruins Point, 2 miles west of",56.06667,-133.75,1,,S
+PCT3576,"Shakan Light, 2.8 miles WNW of",56.16667,-133.7,1,,S
+PCT3581,Shakan Bay entrance,56.16383,-133.63167,1,,W
+PCT3616,"Beauclerc Island Light, 1 mile east of",56.25,-133.81667,1,,S
+PCT3636,"Sumner Island, 1.8 miles south of",56.36667,-133.81667,1,,S
+PCT3681,"Blaquiere Point, 1 mile SSW of",56.55,-132.56667,1,,S
+PCT3686,"Conclusion Island, west of",56.46667,-133.83333,1,,W
+PCT3691,"Conclusion Island, east of",56.48333,-133.76667,1,,W
+PCT3696,"Skiff Island, 2.1 miles northwest of",56.53333,-133.73333,1,,W
+PCT3701,Southern entrance to Keku Strait,56.56667,-133.71667,1,,S
+PCT3706,"Eagle Island, 0.5 mile southeast of",56.60733,-133.68217,1,,S
+PCT3711,Devils Elbow,56.63617,-133.6895,1,,S
+PCT3716,"Summit Island, west of",56.6765,-133.7325,1,,S
+PCT3721,"High Island, 1.1 miles south of",56.70233,-133.733,1,,S
+PCT3726,"High Island, northwest of",56.75,-133.73333,1,,S
+PCT3731,"Cucumber Reef, 0.2 mile northwest of",56.79,-133.767,1,,S
+PCT3741,Point Alexander,56.51033,-132.95833,1,,S
+PCT3746,Point Deception,56.53333,-132.96667,1,,S
+PCT3751,Point Lockwood,56.55583,-132.96183,1,,S
+PCT3756,Spike Rock,56.601,-132.976,1,,S
+PCT3766,Anchor Point,56.6395,-132.93117,1,,S
+PCT3771,"Vexation Point, Woody Island",56.65783,-132.927,1,,S
+PCT3781,Green Point,56.7,-132.95,1,,S
+PCT3786,Mountain Point,56.73333,-132.95,1,,S
+PCT3791,Blunt Point,56.77833,-132.97933,1,,S
+PCT3796,Turn Point,56.80783,-132.9835,1,,S
+PCT3806,Prolewy Rocks,56.82233,-132.94833,1,,S
+PCT3811,"Cosmos Point, 0.5 mile east of",56.66667,-132.6,1,,S
+PCT3826,"The Brothers, 2 miles east of",57.3,-133.71667,1,,S
+PCT3841,"Point Gambier, 2 miles east of",57.43333,-133.76667,1,,S
+PCT3846,Point Hugh,57.61667,-133.76667,1,,S
+PCT3866,Midway Island,57.83333,-133.83333,1,,S
+PCT3876,Point Arden,58.15,-134.13333,1,,S
+PCT3886,SE of Cooper Point,58.23667,-134.07633,1,25.0,W
+PCT3896,0.2 mile off Flat Point,58.33333,-134.05,1,,S
+PCT3901,0.2 mile off Taku Point,58.4,-134.01667,1,,S
+PCT3916,"Douglas, north of",58.283,-134.39367,1,15.0,S
+PCT3921,"Juneau Harbor, S of",58.29117,-134.407,1,25.0,S
+PCT3926,Juneau Harbor,58.29367,-134.40667,1,15.0,W
+PCT3936,"West Juneau, NE of",58.29633,-134.4245,1,25.0,S
+PCT3946,"Aurora Basin, SW of",58.305,-134.44083,1,15.0,S
+PCT3966,"Horse Island, east of",58.25633,-134.70967,1,25.0,W
+PCT3986,"Sentinel Island, south of",58.53617,-134.93383,1,25.0,W
+PCT4006,"Point Bridget, NW of",58.69917,-135.03333,1,70.0,W
+PCT4011,"Point Sherman, WSW of",58.84667,-135.197,1,,S
+PCT4026,"Seduction Pt., NE of, Chilkoot Inlet",59.10667,-135.24333,1,25.0,W
+PCT4041,"Tanani Point, Lutak Inlet",59.282,-135.44967,1,70.0,W
+PCT4056,Hazy Islands,55.88333,-134.6,1,,S
+PCT4061,"Cape Ommaney Light, 5 miles east of",56.16667,-134.51667,1,,S
+PCT4066,"Port Walter Light, 3 miles east of",56.38333,-134.53333,1,,S
+PCT4071,"Point Ellis, 4 miles west of",56.56667,-134.45,1,,S
+PCT4076,"Kingsmill Point Light, 3 miles west of",56.83333,-134.51667,1,,S
+PCT4081,"Point Gardner Light, 2 miles west of",57.01667,-134.66667,1,,S
+PCT4086,"Point Caution, 3 miles west of",57.25,-134.73333,1,,S
+PCT4091,"Point Thatcher, 3 miles east of",57.41667,-134.73333,1,,S
+PCT4101,"Danger Point Light, 3 miles west of",57.51667,-134.7,1,,S
+PCT4106,"Turn Point, Kootznahoo Inlet",57.5,-134.58333,1,,S
+PCT4111,"South Passage Point, 3 miles east of",57.76667,-134.83333,1,,S
+PCT4116,"Point Augusta, ESE of",58.025,-134.87333,1,70.0,S
+PCT4131,Biorka Channel,56.83333,-135.5,1,,S
+PCT4136,Entrance,56.96667,-135.61667,1,,W
+PCT4151,"Vitskari Island, 3 miles northeast of",57.03333,-135.48333,1,,W
+PCT4156,Silver Bay entrance,57.03333,-135.23333,1,,W
+PCT4166,"Sitka Harbor, channel off Harbor Island",57.05,-135.33333,1,,S
+PCT4171,West Channel (narrows),57.15,-135.58333,1,,S
+PCT4176,East Channel (narrows),57.16667,-135.55,1,,S
+PCT4186,"Nakwasina Sound, South entrance",57.18333,-135.41667,1,,W
+PCT4191,"Allan Pt., 1.5mile W of, Nakwasina Passage",57.25,-135.43333,1,,S
+PCT4211,Wyvill Reef,57.26667,-135.58333,1,,S
+PCT4216,"Highwater Island, west of",57.28333,-135.6,1,,S
+PCT4231,North of Kane Islands,57.33333,-135.66667,1,,W
+PCT4236,"Sea Rock, 1 mile north of",57.35,-135.88333,1,,S
+PCT4241,"Kalinin Point, 1 mile north of",57.35,-135.8,1,,S
+PCT4246,Sinitsin Island,57.35,-135.76667,1,,S
+PCT4266,Point Siroi,57.41667,-135.58333,1,,S
+PCT4271,Middle Point,57.43333,-135.58333,1,,S
+PCT4286,"Otstoia Island Light, 1 mile north of",57.58333,-135.45,1,,S
+PCT4291,"Nismeni Point, 1 mile north of",57.58333,-135.41667,1,,S
+PCT4296,"Peschani Point, 1 mile east of",57.53333,-135.3,1,,S
+PCT4301,"Point Elizabeth, 1 mile northeast of",57.51667,-135.26667,1,,S
+PCT4306,"Point Benham, 1 mile east of",57.48333,-135.18333,1,,S
+PCT4311,"False Linderberg Head, 1 mile south of",57.45,-135.08333,1,,S
+PCT4316,Lindenberg Head,57.45,-135.03333,1,,S
+PCT4321,Eva Islands,57.45,-134.93333,1,,S
+PCT4326,Fairway Island,57.45,-134.88333,1,,S
+PCT4331,"Morris Reef, south of",57.45,-134.81667,1,,S
+PCT4361,"North Inian Pass, middle",58.28329849243164,-136.38330078125,1,,S
+PCT4406,"Claybluff Point Light, 3.5 nmi. south of",59.91,-141.595,1,75.0,S
+PCT4411,"Claybluff Point Light, 2.3 nmi. SE of",59.94667,-141.52,1,206.0,S
+PCT4416,"Carson Creek Entrance, 1.4 nmi. ESE of",59.98333,-141.47,1,15.0,S
+PCT4421,"Carson Creek Entrance, 3.3 nmi. SE of",59.97,-141.41333,1,78.0,S
+PCT4426,"Carson Creek Entrance, 2.4 nmi. ESE of",59.98667,-141.43667,1,50.0,S
+PCT4436,"Wingham Island, off northeast corner",60.05,-144.38333,1,,S
+PCT4441,"Kanak Island, southeast of",60.08333,-144.3,1,,S
+PCT4466,"Cape Hinchinbrook, SW of, Hinchinbrook I",60.18667,-146.74833,1,20.0,S
+PCT4471,"Bear Cape and Zaikof Point, between",60.31167,-146.81333,1,70.0,S
+PCT4501,"Cape Puget, east of, Port Bainbridge",59.95367,-148.32417,1,69.0,W
+PCT4506,"Montague Strait, NW of Pt. Woodcock",59.94783,-147.86117,1,70.0,S
+PCT4546,Bainbridge Passage (mid-passage),60.12667,-148.20383,1,21.0,S
+PCT4596,"Johnston Point, 7 nmi. northwest of",60.55167,-146.78333,1,71.0,S
+PCT4671,"Salmo Point, N of, Hawkins Island",60.59917,-145.80667,1,20.0,W
+PCT4711,"Perry I. and Lone I., between",60.68917,-147.8,1,75.0,W
+PCT4751,"Ship Chan., between Naked I-Goose I",60.69333,-147.0375,1,87.0,W
+PCT4756,Culross Passage,60.71667,-148.25,1,,W
+PCT4761,"Storey Island, northeast of",60.78917,-147.28833,1,69.0,W
+PCT4766,"Bligh I. and Porcupine Pt., between",60.7675,-146.74667,1,20.0,W
+PCT4771,"Fish Bay, southwest of",60.79417,-146.465,1,20.0,W
+PCT4776,"Ship Channel, west of Bligh Island",60.84717,-147.01167,1,18.0,W
+PCT4781,"Port Wells, southeast of Battles Bay",60.89583,-148.18,1,70.0,W
+PCT4786,"Unakwik Inlet, northeast of Olsen Island",60.88167,-147.5305,1,82.0,W
+PCT4791,"Glacier Island, west of",60.887,-147.32917,1,69.0,W
+PCT4796,"Busby Island, WNW of",60.89417,-146.87083,1,15.0,W
+PCT4801,"Valdez Arms, west of Rocky Point",60.96083,-146.82117,1,69.0,W
+PCT4806,"Shoup Bay, southeast of",61.1155,-146.555,1,19.0,W
+PCT4811,"Salmo Point, Hawkins I., 1.2 miles SE of",60.6,-145.75,1,,S
+PCT4816,"Shepard Point, 0.9 mile southwest of",60.61667,-145.7,1,,W
+PCT4831,"Cape Douglas, northeast of",58.94083,-152.89,1,22.0,S
+PCT4841,"Ushagat Island, northwest of",59.00617,-152.56333,1,22.0,S
+PCT4846,"Ushagat Island, north of",59.08333,-152.255,1,22.0,S
+PCT4886,"Augustine Island, northwest of",59.40833,-153.62033,1,22.0,S
+PCT4896,"Chinitna Point, southeast of",59.57167,-152.825,1,22.0,S
+PCT4916,Iniskin Bay,59.66667,-153.45,1,,S
+PCT4926,Kachemak Bay Entrance,59.555,-151.79667,1,22.0,S
+PCT4931,"Kachemak Bay, west of",59.56667,-152.27167,1,22.0,S
+PCT4941,"Anchor Point, 5 miles northwest of",59.85167,-152.00833,1,22.0,S
+PCT4946,"Anchor Point, WNW of",59.85917,-152.205,1,22.0,S
+PCT4956,"Cape Starichkof, northwest of",59.9675,-151.95083,1,20.0,S
+PCT4966,"Chisik Island, 5 nmi. east of",60.12667,-152.40167,1,20.0,S
+PCT4971,Tuxedni Channel (South Entrance),60.09667,-152.57417,1,20.0,S
+PCT4976,"Ninilchik Harbor, northwest of",60.13333,-151.93417,1,20.0,S
+PCT4981,"Redoubt Point, southeast of",60.23167,-152.26417,1,20.0,S
+PCT5006,"Cape Kasilof, 3 miles west of",60.36667,-151.46667,1,,S
+PCT5011,"Kenai, 6 miles southwest of",60.48333,-151.43333,1,,S
+PCT5016,Kenai City Wharf,60.55,-151.23333,1,,S
+PCT5046,"West Foreland, 1 nmi. east of",60.73917,-151.64167,1,20.0,S
+PCT5056,"East Foreland, 1.5 nmi. west of",60.72333,-151.46667,1,20.0,S
+PCT5066,"Middle Ground Shoal, southeast of",60.84583,-151.33667,1,20.0,S
+PCT5071,"North Foreland, southeast of",61.00333,-151.07833,1,20.0,S
+PCT5076,"Moose Point, NNW of",61.01583,-150.7,1,20.0,S
+PCT5081,"Moose Point, northwest of",61.0775,-150.75,1,20.0,S
+PCT5091,"Point Possession, WNW of",61.05,-150.46167,1,20.0,S
+PCT5096,"Point Possession, northwest of",61.0875,-150.47167,1,20.0,S
+PCT5111,"Fire Island, west of",61.1625,-150.5125,1,20.0,S
+PCT5126,"Point Woronzof, southwest of",61.18717,-150.0625,1,20.0,S
+PCT5131,"Point Woronzof, west of",61.207,-150.06117,1,20.0,S
+PCT5141,"Anchorage, west of",61.22783,-149.94833,1,20.0,S
+PCT5146,"Anchorage, 0.2 mile offshore",61.225,-149.90633,1,15.0,S
+PCT5151,"Anchorage Shipdock, northwest of",61.24583,-149.90833,1,20.0,S
+PCT5161,"Cairn Point, northwest of (east side)",61.26717,-149.90083,1,20.0,S
+PCT5166,"Cairn Point, northwest of (west side)",61.26717,-149.89333,1,20.0,S
+PCT5186,"Knik Arm Mud Flats, south of",61.33167,-149.79367,1,10.0,S
+PCT5221,"Kukak Bay, Shelikof Strait",58.33333,-154.11667,1,,W
+PCT5406,Popof Strait,55.33333,-160.51667,1,,S
+PCT5411,Unga Strait (1.4 miles N of Unga Spit),55.43333,-160.73333,1,,S
+PCT5416,"Ukolnoi Island, 3.3 miles northeast of",55.266700744628906,-161.4333038330078,1,,W
+PCT5421,"Seal Cape Light, 0.8 mile south of",55.33330154418945,-161.25,1,,W
+PCT5426,"Amak Island, 5 miles north of",55.5,-163.1667022705078,1,,S
+PCT5431,"Amak Island, 5 miles southeast of",55.349998474121094,-163.01669311523438,1,,S
+PCT5441,"Otter Point, off of, north side",55.06669998168945,-163.78329467773438,1,15.0,S
+PCT5451,"Bechevin Bay, off Rocky Point",54.983299255371094,-163.4333038330078,1,,S
+PCT5481,"Unimak Pass, 2.4 miles N of Tanginak I",54.23333,-165.3,1,,S
+PCT5511,Ugamak Strait (North end),54.2,-164.91667,1,,S
+PCT5546,"Umnak Pass, south approach",53.25,-167.91667,1,,S
+PCT5561,"Umnak Pass, northwest of Ship Rock",53.38333,-167.85,1,,S
+PCT5611,"Fenimore Rock, 1.2 miles southwest of",51.96667,-175.56667,1,,S
+PCT5616,"Igitkin Pass, 0.8 mile N of Tanager Pt",51.95,-175.86667,1,,S
+PCT5621,"Chugul Pass, 0.8 mile SW of Tanager Pt",51.93333,-175.88333,1,,S
+PCT5626,"Chugul Pass, 2 miles NE of Cape Ruin",51.93333,-175.93333,1,,S
+PCT5631,"Chugul Pass, 0.5 mile NE of Cape Ruin",51.91667,-175.96667,1,,S
+PCT5636,"Umak Pass, off Narrows Point",51.85,-176.06667,1,,S
+PCT5641,"Little Tanaga Strait, off Tana Pt",51.81667,-176.23333,1,,S
+PCT5646,"Kagalaska Strait, off Galas Point",51.8,-176.41667,1,,S
+PCT5656,"Adak Strait, 4 miles ENE of Naga Point",51.78333,-177.0,1,,S
+PCT5661,"Adak Strait, off Argonne Point",51.8,-176.95,1,,S
+PCT5666,"Kanaga Pass, 0.3 mile NW of Annoy Rock",51.71667,-177.8,1,,S
+PCT5671,"Kanaga Pass, 2.2 miles NE of Annoy Rock",51.75,-177.75,1,,S
+PCT5681,"Ogliuga Island, pass East of, Delarof Is",51.61667,-178.6,1,,S
+PCT5691,"Ulak Pass, Delarof Islands",51.31667,-179.03333,1,,S
+PCT5721,"Krysi Pass, Rat Islands",51.85,178.11667,1,,S
+PCT5726,"Sea Lion Pass, Rat Islands",51.9,177.9,1,,S
+PCT5741,"Cape Lieskof, 3 miles west of",55.75,-162.2,1,,S
+PCT5746,"Entrance Point, 3 miles west of",56.0,-160.65,1,,S
+PCT5751,Entrance Point,55.98333,-160.58333,1,,S
+PCT5756,Harbor Point,55.91667,-160.6,1,,S
+PCT5761,"Hague Channel, east of Doe Point",55.9,-160.76667,1,,S
+PCT5766,"Johnston Channel, off Halftide Rock",55.83333,-160.78333,1,,S
+PCT5771,Port Heiden,56.98333,-158.88333,1,,S
+PCT5776,Kvichak Bay (off Naknek River entrance),58.70000076293945,-157.25,1,,H
+PCT5781,"Morakas Point, Naknek River",58.73333,-156.93333,1,,S
+PCT5791,"Cape Constantine, 4 miles Southeast of",58.33333,-158.76667,1,,S
+PCT5796,"Protection Point, 2.5 miles east of",58.5,-158.61667,1,,S
+PCT5801,Nushagak Bay entrance,58.56667,-158.41667,1,,S
+PCT5806,"Etolin Point, 8.5 miles west of",58.63333,-158.58333,1,,S
+PCT5811,"Clarks Point, 1 mile west of",58.83333,-158.58333,1,,S
+PCT5821,Goodnews Bay entrance,59.06667,-161.78333,1,,S
+PCT5826,"Carter Bay, west of",59.28333,-162.36667,1,,S
+PCT5831,"Warehouse Bluff, southwest of",59.78333,-162.23333,1,,S
+PCT5836,Apokak Creek entrance,60.13333,-162.16667,1,,S
+PCT5841,"Walrus Island, 0.5 mile west of",57.18333,-169.95,1,,S
+PCT5861,"SW Point, St. Paul Island, 1 mile off",57.15,-170.45,1,,S
+PCT5866,Hooper Bay entrance,61.5,-166.0500030517578,1,15.0,S
+PCT5871,"St. Mathew I., southwest coast",60.35,-172.71667,1,,S
+PCT5881,"Apavawook Cape, 1 mile south of",63.11667,-168.93333,1,,S
+PCT5886,Off Northeast Cape,63.33330154418945,-168.8332977294922,1,,S
+PEB0604,"Snub Point, Penobscot River",44.70945,-68.84107,1,26.0,H
+PEB0605,"Winterport, Penobscot River",44.63132,-68.8424,1,14.0,H
+PEB0606,"Frankfort Flats at Marsh River, Penobscot River",44.6049,-68.84673,1,11.0,H
+PEB0607,"Bucksport, Penobscot River",44.57132,-68.8077,2,45.0,H
+PEB0608,Penobscot Narrows Bridge,44.56227,-68.80053,1,36.0,H
+PEB0609,"Odom Ledge, Penobscot River",44.51673,-68.80317,4,29.0,H
+PEB0610,"Fort Point Ledge, Penobscot Bay",44.46425,-68.81155,1,71.0,H
+PEB0611,"Hosmer Ledge, Castine Harbor",44.38345,-68.79,1,52.0,H
+PEV0901,Port Everglades Entrance,26.09318,-80.10549,1,35.0,H
+PEV0902,Turning Basin,26.09486,-80.11741,10,4.0,H
+PEV0903,17th Street Bridge,26.09973,-80.1191,1,12.0,H
+PEV0904,South Entrance (ICW),26.08733,-80.11312,1,31.0,H
+PEV0905,"South Port, at the terminals",26.0744,-80.11385,1,26.0,H
+PIR0701,Portsmouth Harbor Entrance,43.06237,-70.70532,1,44.0,H
+PIR0702,Fort Point,43.0745,-70.70675,1,39.0,H
+PIR0703,Little Harbor entrance,43.0554,-70.71568,1,12.0,H
+PIR0704,"Henderson Point, west of",43.07488,-70.73838,1,59.0,H
+PIR0705,Memorial Bridge,43.07938,-70.75208,1,58.0,H
+PIR0706,Sara Long Bridge,43.0887,-70.76198,1,33.0,H
+PIR0707,I-95 Bridge,43.09282,-70.76708,1,48.0,H
+PIR0708,Schiller Station,43.09738,-70.78108,1,52.0,H
+PIR0709,"Frankfort Island, south of",43.11412,-70.80525,1,37.0,H
+PIR0710,General Sullivan Bridge,43.11785,-70.82608,1,15.0,H
+PIR0711,Furber Strait,43.09112,-70.86135,1,25.0,H
+PUG1501,"Agate Passage, south end",47.711021423339844,-122.56714630126953,1,25.0,H
+PUG1502,"Alki Point, 1 mile West of",47.58367919921875,-122.45175170898438,13,483.0,H
+PUG1503,"Edmonds, 2.5 miles West of",47.80712127685547,-122.44412994384766,15,317.0,H
+PUG1504,Entrance to Ballard Locks,47.67097854614258,-122.40699768066406,7,9.0,W
+PUG1505,Entrance to Eagle Harbor,47.619571685791016,-122.49530029296875,1,32.0,W
+PUG1506,Harbor Island East,47.58845138549805,-122.3439712524414,12,6.0,W
+PUG1507,Harbor Island West,47.5831298828125,-122.36022186279297,9,22.0,H
+PUG1508,"Liberty Bay (entrance), Port Orchard",47.70682144165039,-122.62825012207031,1,37.0,H
+PUG1509,"Point Jefferson, East of",47.744468688964844,-122.468017578125,1,71.0,H
+PUG1510,"Port Washington Narrows, Warren Ave. Bridge",47.57957077026367,-122.63065338134766,1,21.0,H
+PUG1511,"President Point, 1.5 miles east of",47.76712,-122.4319,20,308.0,H
+PUG1512,Restoration Point,47.57884979248047,-122.46871948242188,1,140.0,H
+PUG1513,"Rich Passage, East end",47.57001876831055,-122.52980041503906,1,70.0,H
+PUG1514,"Rich Passage, West end",47.58993148803711,-122.56233215332031,1,57.0,H
+PUG1515,"West Point, West of",47.662071228027344,-122.44168090820312,1,108.0,H
+PUG1516,"Alki Point, West of",47.57606887817383,-122.4278335571289,5,195.0,H
+PUG1517,"Blake Island, S of",47.52027893066406,-122.48792266845703,8,172.0,H
+PUG1518,"Anderson Point, East of, Colvos Passage",47.43943,-122.52578,10,154.0,H
+PUG1519,"Point Richmond, East of, Colvos Passage",47.37662124633789,-122.52867126464844,3,241.0,H
+PUG1520,"Dolphin Point, 1.3 miles East of",47.501548767089844,-122.42357635498047,28,139.0,H
+PUG1521,"Browns Point, 1.6 miles North of",47.32870101928711,-122.45404815673828,14,290.0,H
+PUG1522,Dalco Passage,47.32511901855469,-122.5246810913086,3,187.0,H
+PUG1523,Gig Harbor Entrance,47.32415008544922,-122.57186889648438,1,54.0,H
+PUG1524,"The Narrows, North end - midstream",47.305999755859375,-122.55003356933594,1,139.0,H
+PUG1526,"The Narrows, North End (west side)",47.30400085449219,-122.55674743652344,5,193.0,H
+PUG1527,"The Narrows, 0.3 miles North of Bridge",47.27431869506836,-122.54531860351562,1,141.0,H
+PUG1528,"The Narrows, South end (midstream)",47.26129913330078,-122.55828094482422,1,131.0,H
+PUG1529,"Hale Passage, East end",47.24789810180664,-122.59559631347656,1,77.0,H
+PUG1530,"Hale Passage, West end",47.28137969970703,-122.66311645507812,1,70.0,H
+PUG1531,"Gibson Point, 0.8 miles East of",47.21913146972656,-122.58866882324219,6,149.0,H
+PUG1532,"Steilacoom, 0.8 miles North of",47.18238067626953,-122.60559844970703,6,177.0,H
+PUG1533,"Ketron Island, West of",47.14860153198242,-122.6594009399414,10,143.0,H
+PUG1534,"Nisqually Reach, 0.5 miles South of Lyle Point",47.11692810058594,-122.6988525390625,1,177.0,H
+PUG1535,"Balch Passage, NE of Eagle Island",47.19062042236328,-122.6915512084961,1,60.0,H
+PUG1536,"Pitt Passage, NE of Pitt Island",47.22383117675781,-122.71137237548828,1,23.0,H
+PUG1537,Drayton Passage,47.17258071899414,-122.7414779663086,5,118.0,H
+PUG1538,"Devils Head, West of",47.16067123413086,-122.78936767578125,5,191.0,H
+PUG1539,Dana Passage,47.16310119628906,-122.86810302734375,1,88.0,H
+PUG1540,Budd Inlet Entrance,47.140159606933594,-122.92144775390625,1,71.0,H
+PUG1541,"Peale Passage, South end",47.174949645996094,-122.88697052001953,1,35.0,H
+PUG1542,"Peale Passage, North end",47.21752166748047,-122.9146499633789,1,17.0,H
+PUG1543,"Squaxin Passage, North of Hunter Point",47.17626953125,-122.91899871826172,1,32.0,H
+PUG1544,Totten Inlet Entrance,47.18825149536133,-122.94537353515625,3,67.0,H
+PUG1545,"Libby Point, Hammersley Inlet",47.19892120361328,-122.98899841308594,1,19.0,H
+PUG1546,"Pickering Passage, West of Squaxin Island",47.21928024291992,-122.93451690673828,1,52.0,H
+PUG1547,"Pickering Passage, off Graham Point",47.247249603271484,-122.92591857910156,1,59.0,H
+PUG1548,"Pickering Passage, North end",47.305721282958984,-122.85092163085938,1,78.0,H
+PUG1601,Hazel Point,47.69123840332031,-122.76278686523438,1,154.0,H
+PUG1602,South Point,47.821659088134766,-122.67671966552734,1,178.0,H
+PUG1603,Hood Canal Bridge,47.854740142822266,-122.6294174194336,1,209.0,H
+PUG1604,Port Gamble Bay Entrance,47.85472106933594,-122.57817840576172,1,32.0,H
+PUG1605,Possession Sound Entrance,47.89929962158203,-122.36009979248047,20,322.0,H
+PUG1606,"Point No Point, 1.2 mi. E of",47.91249084472656,-122.50196838378906,1,567.0,H
+PUG1607,"Point No Point, 2.1 mi. E of",47.918880462646484,-122.484130859375,1,240.0,H
+PUG1608,"Hood Canal Entrance, Foulweather Bluff",47.92837905883789,-122.6388168334961,1,255.0,H
+PUG1609,West of Mukilteo,47.948951721191406,-122.32846069335938,20,272.0,H
+PUG1610,"Foulweather Bluff, 1.9 mi. NE of",47.95429992675781,-122.57859802246094,17,125.0,H
+PUG1611,"Olele Point, 1.8 mi. ENE of",47.97880935668945,-122.64549255371094,10,148.0,H
+PUG1612,Clinton Ferry Terminal,47.96899,-122.34507,1,80.0,H
+PUG1613,Everett,47.97623825073242,-122.23822021484375,29,25.0,W
+PUG1614,Port Townsend Canal,48.032470703125,-122.73261260986328,1,15.0,H
+PUG1615,"Nodule Point, 0.5 mi. SE of",48.028709411621094,-122.660888671875,1,65.0,H
+PUG1616,Admiralty Inlet (off Bush Point),48.03348159790039,-122.63764953613281,6,193.0,H
+PUG1617,"Bush Point Light, 0.5 mile NW of",48.03084182739258,-122.61334228515625,14,208.0,H
+PUG1618,"Camano Head-Sandy Point, passage",48.0478515625,-122.38896942138672,15,209.0,H
+PUG1619,"Marrowstone Point, 0.8 mi. NE of",48.10633087158203,-122.67247009277344,9,151.0,H
+PUG1620,"Marrowstone Point, 1.65 mi. NE of",48.119300842285156,-122.66226959228516,10,144.0,H
+PUG1622,West of Camano Island,48.169681549072266,-122.5531997680664,3,180.0,H
+PUG1623,"Point Wilson, 0.6 mi. NE of",48.150108337402344,-122.745361328125,14,118.0,H
+PUG1624,"Point Wilson, 1.6 mi. NE of",48.156898498535156,-122.72599792480469,8,149.0,H
+PUG1625,"Point Wilson, 2.7 mi. NE of",48.16706848144531,-122.70738983154297,15,118.0,H
+PUG1626,"Skagit Bay, 1 mi. north of Rocky Point",48.2671012878418,-122.52960205078125,7,54.0,H
+PUG1627,"Skagit Bay, 1 mi. south of Goat Island",48.34477996826172,-122.54505157470703,5,52.0,H
+PUG1628,"Skagit Bay channel, SW of Hope Island",48.397830963134766,-122.57955169677734,4,39.0,H
+PUG1629,"Yokeko Point, Deception Pass",48.4127197265625,-122.61316680908203,3,27.0,H
+PUG1630,"Kanem Point, 1.5 mi. SW of Protection Island",48.10765075683594,-122.97364807128906,30,97.0,H
+PUG1631,"Violet Point, 3.7 mi. NW of Protection Island",48.161399841308594,-122.96810150146484,4,112.0,H
+PUG1632,"Smith Island, 5.5 mi. WNW of",48.32455062866211,-122.96475219726562,14,220.0,H
+PUG1634,"Smith Island, 3.4 mi. ESE of",48.29637908935547,-122.77632141113281,1,134.0,H
+PUG1635,"New Dungeness Light, 2.8 mi. NNW of",48.23347854614258,-123.13343048095703,11,360.0,H
+PUG1636,"Discovery Island, 7.6 mi. SSE of",48.30015182495117,-123.16716003417969,1,244.0,H
+PUG1637,"Ediz Hook Light, 5.3 mi. ENE of",48.18227005004883,-123.28150177001953,5,179.0,H
+PUG1638,"Ediz Hook Light, 1.2 miles N of",48.166690826416016,-123.41581726074219,7,184.0,H
+PUG1639,"Angeles Pt., 2 mi. NNE of",48.176998138427734,-123.52694702148438,1,61.0,H
+PUG1640,"Race Rocks, 4.5 mi. S of",48.223201751708984,-123.53230285644531,9,237.0,H
+PUG1641,"Pillar Point, 6 mi. NNE of",48.29999923706055,-124.03739929199219,36,297.0,H
+PUG1642,Strait of Juan de Fuca Entrance,48.449981689453125,-124.58380126953125,49,102.0,H
+PUG1701,Deception Pass (Narrows),48.40618896484375,-122.64311981201172,18,67.0,H
+PUG1702,Rosario Strait,48.458091735839844,-122.75006866455078,9,116.0,H
+PUG1703,"San Juan Channel, south entrance",48.46100997924805,-122.9520263671875,13,114.0,H
+PUG1704,"Peavine Pass, west entrance",48.58707809448242,-122.81925964355469,1,48.0,H
+PUG1705,"Obstruction Pass, north of Obstruction Island",48.603271484375,-122.81272888183594,1,54.0,H
+PUG1706,"Peapod Rocks Light, 1.2 nm south of",48.62239074707031,-122.74761962890625,1,170.0,H
+PUG1707,"Sinclair Island, 1.0 nm NE of",48.64419937133789,-122.65872192382812,6,171.0,H
+PUG1708,"Lawrence Point, Orcas Island, 1.3 nm NE of",48.67940902709961,-122.71466827392578,10,115.0,H
+PUG1709,"Clark Island, 1.6 nm north of",48.731258392333984,-122.77337646484375,10,180.0,H
+PUG1710,"Hale Passage, east of Lummi Point",48.7348518371582,-122.68016815185547,3,44.0,H
+PUG1711,"Matia Island, west of",48.774879455566406,-122.84097290039062,4,336.0,H
+PUG1712,"Parker Reef Light, north of",48.73263931274414,-122.88638305664062,10,130.0,H
+PUG1713,"Patos Island, south of Toe Point",48.77206039428711,-122.93370056152344,10,63.0,H
+PUG1714,"Patos Island Light, 1.4 nm west of",48.773128509521484,-123.00579071044922,16,191.0,H
+PUG1715,"President Channel, East of Point Disney",48.6733512878418,-123.00598907470703,35,108.0,H
+PUG1716,"Waldron Island, 1.7 nm west of",48.704219818115234,-123.10476684570312,3,159.0,S
+PUG1717,"Turn Point, Boundary Pass",48.69121170043945,-123.24501037597656,28,208.0,H
+PUG1718,"Haro Strait, 1.2 nm west of Kellett Bluff",48.58871841430664,-123.225830078125,29,204.0,H
+PUG1719,"Spieden Channel, north of Limestone Point",48.627830505371094,-123.11164855957031,7,205.0,H
+PUG1720,"Spring Passage, south entrance",48.611541748046875,-123.03410339355469,11,62.0,H
+PUG1721,Wasp Passage narrows,48.59246826171875,-122.98957061767578,2,60.0,H
+PUG1722,"Harney Channel, north of Point Hudson",48.5897216796875,-122.9217300415039,6,82.0,H
+PUG1723,Upright Channel narrows,48.55384063720703,-122.92262268066406,7,97.0,H
+PUG1724,"South Haro Strait, south of Lime Kiln Light",48.49797058105469,-123.15989685058594,27,212.0,H
+PUG1725,"Cherry Point, 1.8 nm southeast of",48.83378982543945,-122.7279281616211,10,41.0,H
+PUG1726,"Strait of Georgia, 4.5 nm SW of Point Roberts",48.93888854980469,-123.16513061523438,11,189.0,H
+PUG1727,"Point Colville, 3.0 nm east of (Lawson Reef, 1 nm",48.41249084472656,-122.7402572631836,10,165.0,H
+PUG1728,"Point Colville, 1.4 nm east of",48.41809844970703,-122.78119659423828,10,134.0,H
+PUG1729,"Belle Rock Light, east of",48.49679183959961,-122.73079681396484,7,115.0,H
+PUG1730,Lopez Pass,48.479740142822266,-122.81890869140625,4,58.0,H
+PUG1731,"Fauntleroy Point Light, east of",48.52158,-122.77066,7,93.0,H
+PUG1732,"Strawberry Island, west of",48.56095886230469,-122.75430297851562,5,164.0,H
+PUG1733,Thatcher Pass,48.52743148803711,-122.80397033691406,4,146.0,H
+PUG1734,"Guemes Channel, West Entrance",48.521240234375,-122.65218353271484,1,53.0,H
+PUG1735,"Guemes Channel, East Entrance",48.52769088745117,-122.60601043701172,1,52.0,H
+PUG1736,Saddle Bag Island Passage,48.535919189453125,-122.56391143798828,24,87.0,H
+PUG1737,Allan Pass,48.471588134765625,-122.69982147216797,1,93.0,H
+PUG1738,Burrows Pass,48.48952102661133,-122.68672180175781,1,100.0,H
+PUG1739,Bellingham Channel South,48.53963088989258,-122.68343353271484,1,118.0,H
+PUG1740,"Bellingham Channel, off Cypress Head Light",48.55854034423828,-122.66175842285156,10,119.0,H
+PUG1741,Bellingham Channel North Entrance,48.592811584472656,-122.65767669677734,5,171.0,H
+PUG1742,"Cattle Point, 1.2 nm SE of",48.43436813354492,-122.94660949707031,15,117.0,H
+PUG1743,"Cattle Point, 4.6 nm SW of",48.384010314941406,-123.01567077636719,14,187.0,H
+PUG1744,"Discovery Island, 3.0 nm NE of",48.45206832885742,-123.15544128417969,13,160.0,H
+PUG1745,"Point George, west of",48.55670928955078,-122.99848175048828,10,283.0,H
+PUG1746,"Pear Point, east of",48.51139831542969,-122.9529037475586,4,112.0,H
+PWS0701,College Fiord,60.98983,-148.0467,1,163.0,H
+PWS0702,"Esther Pass, North Entrance",60.93072,-148.07088,27,,W
+PWS0703,Blackstone Point,60.77342,-148.35264,22,,W
+PWS0704,Point Culross,60.75442,-148.12186,1,381.0,H
+PWS0705,"Esther Pass, South Entrance",60.80512,-147.88943,20,,W
+PWS0706,Perry Passage,60.67099,-148.01548,9,225.0,W
+PWS0707,Culross Pass Entrance,60.61083,-148.16669,14,,W
+PWS0708,Crafton Island - Knight Island Pass,60.50249,-147.89787,3,255.0,H
+PWS0709,Dangerous Pass,60.37463,-148.07217,19,,W
+PWS0710,W. of Johnson Bay,60.35899,-147.93291,1,282.0,H
+PWS0711,Chenega South,60.26789,-148.09789,18,,W
+PWS0712,Bainbridge Pass North,60.18291,-148.10109,19,35.0,W
+PWS0713,Bainbridge Pass,60.1291,-148.20235,1,131.0,H
+PWS0714,Prince of Wales Pass,60.0362,-148.13448,1,237.0,H
+PWS0715,"Sawmill Bay Entr., Evans Island",60.0591,-147.97423,1,158.0,H
+PWS0716,Elrington Passage,59.97951,-148.1167,1,295.0,H
+PWS0717,Latouche Pass,59.97666,-148.04645,1,108.0,H
+PWS0719,Montague Strait,59.9146,-147.96072,1,290.0,H
+PWS0721,Wooded Island,59.86825,-147.28112,1,156.0,H
+PWS0723,Snug Harbor,60.2758,-147.63456,10,162.0,H
+PWS0724,Green Island Pass,60.26732,-147.30157,3,163.0,H
+PWS0725,Montague Point,60.39838,-147.09389,1,277.0,H
+PWS0726,Bear Cape,60.35199,-146.74626,1,566.0,H
+PWS0727,Johnstone Point,60.48874,-146.61651,1,231.0,H
+PWS0729,Cape Hinchinbrook Approach,60.22488,-146.22623,1,181.0,H
+PWS0731,"Middle Ground Shoal, north of",60.55797,-146.36622,1,185.0,H
+PWS0732,Channel Island,60.60438,-145.84024,1,150.0,H
+PWS0733,Salmo Point,60.61672,-145.77075,1,75.0,H
+PWS0734,Old Log Boom,60.5723,-145.74343,1,44.0,H
+PWS0735,Mud Bay,60.54765,-145.84088,1,40.0,H
+PWS0736,Port Gravina,60.60636,-146.38952,1,312.0,W
+PWS0738,Tatitlek Narrows,60.90865,-146.75947,13,,W
+PWS0739,Between Naked and Eleanor Islands,60.607669830322266,-147.4893341064453,1,244.0,H
+PWS0740,"Storey Island and Peak Island, between",60.72666931152344,-147.30482482910156,1,292.0,W
+PWS0741,"Storey Island, north of",60.75041,-147.40586,2,261.0,H
+PWS0742,Outpost Island,60.83539,-147.44942,1,319.0,W
+PWS0743,Slipper Point,60.90998,-147.26555,2,235.0,H
+PWS0744,Finski Point,60.90195,-147.06415,3,223.0,H
+PWS0745,Valdez Narrows,61.06976,-146.66077,5,329.0,H
+PWS0746,Valdez Boat Harbor Approach,61.12126,-146.36412,25,,W
+PWS0747,Valdez Terminal,61.09171,-146.3858,26,,W
+SAB0803,St. Andrew Bay Entrance,30.121771,-85.729721,1,31.0,H
+SAB0805,Paper Mill,30.130449,-85.631622,1,27.0,H
+SAB0806,Redfish Point,30.14402,-85.6668,1,32.0,H
+SAB0807,"Courtney Point, 0.75mi. SE of",30.138729,-85.699181,1,30.0,H
+SAB0808,"Courtney Point, 0.4mi. ESE of",30.14423,-85.703331,1,17.0,W
+SAB0809,"Bear Point, 0.6nm E of",30.164351,-85.713417,1,27.0,H
+SAB0812,"Long Point, West Bay",30.23925,-85.749832,1,4.0,H
+SEA0103,Wrangell Narrows (off Petersburg),56.815,-132.96278,2,25.0,H
+SEA0104,South Ledge,56.62056,-132.96344,2,23.0,H
+SEA0202,Sergius Narrows,57.40702,-135.63115,5,44.0,H
+SEA0203,Kakul Narrows,57.3699,-135.6925,16,58.0,H
+SEA0204,"Whitestone Narrows, S of Whitestone Point",57.24495,-135.5639,2,43.0,H
+SEA0205,"Creek Point, 0.44 n.mi. SE of",57.21014,-135.49492,5,15.0,H
+SEA0302,"Povorotni Island, 0.23 n.mi. WSW of",57.5105,-135.56167,6,89.0,H
+SEA0303,"Big Rose Island, 0.2 n.mi. SE of",57.45308,-135.5373,3,92.0,H
+SEA0304,"Suloia Point, 0.32 n.mi. ENE of",57.39217,-135.64105,12,92.0,H
+SEA0305,"Kane Island, 0.29 n.mi. East of",57.3221,-135.6535,19,,W
+SEA0306,"Zeal Point, 0.34 n.mi. SSW of",57.2869,-135.6079,7,48.0,H
+SEA0307,Tracy Arm Bar,57.77973,-133.63224,18,32.0,H
+SEA0401,"Shrubby Island, east of",56.22667,-132.90867,1,308.0,H
+SEA0402,"Snow Passage, southern approach",56.25633,-132.9405,1,260.0,H
+SEA0403,Snow Passage Narrows,56.279,-132.953,1,299.0,H
+SEA0404,Round Island Light,56.31417,-133.094,1,104.0,H
+SEA0405,Vichnefski Rock Light,56.446,-133.0195,1,289.0,H
+SEA0406,Killisnoo Harbor,57.46322,-134.56463,1,90.0,H
+SEA0407,Eastern Channel,57.01453,-135.35922,25,,W
+SEA0408,Middle Channel,57.02728,-135.3916,20,,W
+SEA0409,Western Channel,57.0503,-135.39578,1,110.0,H
+SEA0502,"The Brother, east of",57.32245,-133.7334,1,488.0,H
+SEA0503,The Five Fingers,57.26632,-133.60353,1,250.0,H
+SEA0504,Turnabout Island,57.11598,-133.92482,1,,H
+SEA0505,Kake Harbor,56.96571,-133.95223,1,98.0,H
+SEA0507,"Hawk Inlet, Hawk Point",58.09733,-134.77512,2,78.0,H
+SEA0601,The Eye Opener,56.37623,-133.24576,1,108.0,H
+SEA0602,Red Bay Entrance,56.32918,-133.30283,1,95.0,H
+SEA0603,"Sumner Island, east of",56.40549,-133.74774,1,328.0,H
+SEA0604,Helm Rock,56.37537,-133.66786,2,128.0,H
+SEA0605,"Mariposa Reef, 3 miles south of",56.33161,-133.72589,1,322.0,H
+SEA0606,Port Protection,56.33142,-133.64065,25,,W
+SEA0607,Port Beauclerc,56.27313,-133.8968,14,,W
+SEA0608,Calder Rocks,56.23982,-133.73993,1,186.0,H
+SEA0609,"Amelius Island, 1 mile east of",56.17779,-133.84177,1,105.0,H
+SEA0610,"Shakan Light, 2.4 miles west of",56.1455,-133.69709,1,,W
+SEA0611,Shipley Bay Entrance,56.09037,-133.68957,1,153.0,H
+SEA0612,"Shakan Strait, west end",56.12992,-133.57493,1,41.0,H
+SEA0613,Shakan Strait Rock,56.12743,-133.49875,1,70.0,H
+SEA0614,"El Capitan Strait, northwest entrance",56.15352,-133.45707,1,20.0,H
+SEA0615,"The Quarries, Shakan Bay",56.17308,-133.48422,3,,W
+SEA0616,Dry Pass,56.16123,-133.39945,5,16.0,H
+SEA0617,Affleck Canal,56.10349,-134.06615,8,229.0,H
+SEA0618,"Fairway Island, 2nm east of",56.04959,-133.98963,1,110.0,H
+SEA0619,"Fairway Island, SW of",56.03688,-134.07526,1,182.0,H
+SEA0621,"Coronation Island - Spanish Island, between",55.92551,-134.12815,1,129.0,H
+SEA0622,Warren Channel,55.93346,-133.83525,1,92.0,H
+SEA0623,Davidson Inlet,55.90483,-133.5347,17,,W
+SEA0624,"Whale Rock, 1.0 nm SE of",55.83345,-133.67503,1,252.0,H
+SEA0625,Tokeen Bay,56.00262,-133.45682,1,58.0,H
+SEA0626,South entrance,55.89663,-133.36525,1,278.0,H
+SEA0627,"Tuxekan Passage, north of Kutegi Point",55.908,-133.27065,1,64.0,H
+SEA0628,Sea Otter Sound,55.84245,-133.51345,1,266.0,H
+SEA0629,"Karheen Passage, west of Cob Island",55.79676,-133.30957,1,76.0,H
+SEA0630,Tonowek Narrows,55.75918,-133.33546,2,108.0,H
+SEA0631,Tonowek Bay,55.71887,-133.44645,11,,W
+SEA0632,Boca de Finas,55.69768,-133.58734,12,60.0,H
+SEA0633,Dead Tree Point,55.74561,-133.67059,2,102.0,H
+SEA0634,Timbered Island,55.69388,-133.78426,1,79.0,H
+SEA0635,"Saint Nicholas Channel, north",55.52955,-133.56271,2,121.0,H
+SEA0636,"Saint Nicholas Channel, south end",55.45502,-133.63084,2,146.0,H
+SEA0637,Portillo Channel,55.49249,-133.42566,1,74.0,H
+SEA0638,"San Christoval Chanel, Larz Lt., 0.25nm N of",55.58824,-133.3305,1,104.0,H
+SEA0639,San Christoval Rock,55.562721,-133.29922,1,42.0,H
+SEA0641,"Arriaga Passage, west end",55.57189,-133.73307,1,95.0,H
+SEA0642,Ursua Channel,55.45814,-133.31621,13,,W
+SEA0702,"San Juanito Islands, 1 mile south of",55.393,-133.26567,15,,W
+SEA0703,"Point Rosary, west of",55.27037,-133.5224,9,196.0,W
+SEA0704,Point Verde,55.29915,-133.26773,1,93.0,H
+SEA0705,Eagle Point,55.22023,-133.24109,2,246.0,W
+SEA0706,"Tlevak Narrows, Turn Point, east of",55.26486,-133.12236,1,77.0,H
+SEA0708,"Cape Chacon, south of",54.62556,-132.05715,1,357.0,H
+SEA0709,"Happy Harbor, Kasaan Island, Kasaan Bay",55.50378,-132.3162,1,295.0,W
+SEA0710,"Grindall Island, south of",55.41102,-132.12643,1,220.0,H
+SEA0711,east of the airport,55.35408,-131.69973,1,87.0,H
+SEA0712,"Pennock Island, East Channel",55.31227,-131.59635,1,101.0,W
+SEA0713,"Walden Rocks, 0.4 mile north of",55.2785,-131.61152,1,115.0,H
+SEA0714,"Pennock Island, West Channel",55.30143,-131.61598,1,80.0,W
+SEA0801,"Juneau Harbor, N of",58.29641,-134.42468,1,79.0,W
+SEA0802,"Juneau Harbor, NW of Ferry Pier",58.296791,-134.40733,9,13.0,W
+SEA0803,"Juneau Harbor, S of",58.284779,-134.39763,1,53.0,H
+SEA0804,N of Ship Creek,58.257439,-134.33604,1,81.0,H
+SEA0805,"Point Salisbury, west of",58.209221,-134.24968,9,67.0,W
+SEA0806,SE of Bishop Point,58.193779,-134.1326,21,,W
+SEA0807,WNW of Jaw Point,58.292839,-134.09891,11,,W
+SEA0809,Taku Harbor Entrance,58.0604,-134.03592,14,,W
+SEA0810,"Point Coke, SE of, Tracy Arm",57.776031,-133.64967,1,289.0,H
+SEA0811,"Point Astley, NE of, Tracy Arm",57.730019,-133.63124,1,289.0,H
+SEA0812,"Tantallon Point, SW of",58.172871,-134.2881,1,184.0,H
+SEA0813,Point Young,58.20903,-134.55865,1,81.0,H
+SEA0814,"Portland Island, SW of",58.31937,-134.7119,1,175.0,H
+SEA0815,"Coghland Island, east of, Auke Bay",58.355431,-134.67911,16,,W
+SEA0816,"Piling Point, east of",58.3281,-134.78336,1,138.0,H
+SEA0817,"Point Lena, Favorite Channel",58.39267,-134.80048,19,20.0,W
+SEA0818,"Saginaw Channel, 2 miles E of Point Retreat",58.405,-134.885,1,106.0,H
+SEA0819,"North Pass, Lincoln Island",58.474739,-134.9323,1,230.0,H
+SEA0820,"Point Retreat, 1 mile west of",58.416779,-134.9666,12,232.0,H
+SEA0822,"Vanderbilt Reef, 2 miles west of",58.603531,-135.04314,10,298.0,W
+SEA0823,Berners Bay,58.710918,-134.99263,14,52.0,W
+SEA0824,Skagway Harbor,59.44717,-135.33127,15,22.0,W
+SEA0825,"Low Point, Taiya Inlet entrance",59.267231,-135.38091,9,106.0,W
+SEA0826,"Battery Point, Chilkoot Inlet",59.216881,-135.35043,1,241.0,H
+SEA0827,"Glacier Point, Chilkat Inlet",59.104671,-135.3732,1,341.0,H
+SEA0828,Eldred Rock,58.965271,-135.21248,11,14.0,W
+SEA0830,"South Inian Pass, west end",58.227909,-136.35449,1,139.0,H
+SEA0831,"Port Althrop entr, east of George Island",58.201672,-136.36292,1,239.0,H
+SEA0832,"Cape Spencer, 3 miles south of",58.150318,-136.63261,1,236.0,H
+SEA0833,"Yakobi Rock, 1 mile west of",58.082668,-136.59917,8,235.0,H
+SEA0834,"Point Theodore, SW of",57.813171,-136.4752,1,,W
+SEA0835,"Point Hogan, South Passage",57.68816,-136.256,1,138.0,W
+SEA0836,Ogden Passage,57.632191,-136.16418,18,33.0,W
+SEA0837,"Elbow Passage, south of Klag Island",57.613762,-136.09943,1,83.0,H
+SEA0838,Lituya Bay Entrance,58.614288,-137.6601,1,29.0,H
+SEA0839,Sisters Reef,58.184361,-135.32483,9,195.0,H
+SEA0840,Porpoise Island,58.340248,-135.43272,14,93.0,W
+SEA0843,South Passage,58.235569,-136.09892,1,229.0,H
+SEA0845,North Passage,58.318218,-136.11786,1,238.0,H
+SEA0847,"Beardslee Island, West of, Glacier Bay",58.467072,-136.03453,1,158.0,H
+SEA0848,"Muir Inlet mouth, Glacier Bay",58.725971,-136.11327,22,48.0,W
+SEA0849,"Drake Island, West of, Glacier Bay",58.67635,-136.28613,34,157.0,W
+SEA0850,"Hugh Miller Inlet, Glacier Bay",58.7494,-136.37325,8,117.0,W
+SEA0851,"Lisianski Strait, north of Rock Point",58.005741,-136.35194,1,119.0,H
+SEA0901,"Klawock Narrows, north of Fish Egg Island",55.50733,-133.17993,1,55.0,H
+SEA1001,"Pleasant Island, southwest of",58.30968,-135.7382,1,336.0,H
+SEA1002,"Glacier Bay entrance, off Point Gustavus",58.38242,-135.94617,1,174.0,H
+SEA1003,"Glacier Bay entrance, midchannel",58.38213,-135.97673,1,192.0,H
+SEA1004,"Glacier Bay entrance, off Point Carolus",58.38275,-136.0155,1,161.0,H
+SEA1005,"South Inian Pass, east end",58.2241,-136.30842,1,199.0,H
+SEA1006,"North Inian Pass, east end",58.28403,-136.36993,30,95.0,H
+SEA1007,"North Inian Pass, west end",58.28328,-136.38465,29,135.0,H
+SEA1008,"Cross Sound Entrance, NW of Cape Bingham",58.1225,-136.56735,34,106.0,H
+SEA1009,"Cross Sound Entrance, midchannel",58.1531,-136.58747,33,119.0,H
+SEA1010,"Cross Sound Entrance, SE of Cape Spencer Lt.",58.17712,-136.61642,1,250.0,H
+SFB1201,San Francisco Bay Entrance (Outside),37.8106,-122.502,10,124.0,H
+SFB1202,"Golden Gate Bridge, 0.88 nm NE of",37.82922,-122.46202,1,126.0,H
+SFB1203,"Golden Gate Bridge, 0.46 nm E of",37.82007,-122.473,5,200.0,H
+SFB1204,"Alcatraz Island, southwest of",37.81425,-122.432,1,57.0,H
+SFB1205,"North Point, Pier 35, north of",37.81423,-122.407,1,57.0,H
+SFB1206,Pier 23,37.8053,-122.39728,1,37.0,H
+SFB1207,"Bay Bridge, Pier D",37.80093,-122.37387,1,65.0,H
+SFB1208,"Bay Bridge, Span B-C",37.79748,-122.37387,1,87.0,H
+SFB1209,"Yerba Buena Island, west of (midchannel)",37.81003,-122.38307,1,84.0,H
+SFB1210,"Treasure Island, 0.78 NM NW of",37.83733,-122.38717,1,22.0,H
+SFB1211,"Alcatraz Island, 0.5 mile north of",37.83513,-122.42013,1,74.0,H
+SFB1212,Raccoon Strait,37.87192,-122.44197,1,71.0,H
+SFB1213,Oakland Inner Harbor Channel,37.795,-122.3183,1,40.0,H
+SFB1214,Oakland Inner Harbor Reach,37.7929,-122.28552,1,45.0,W
+SFB1215,Brooklyn Basin,37.78523,-122.26055,1,28.0,H
+SFB1216,"Alameda Estuary, southeast end",37.76146,-122.22391,1,15.0,H
+SFB1217,Rincon Point,37.79027,-122.3734,1,58.0,H
+SFB1218,Emeryville Marina,37.84332,-122.32537,1,5.0,H
+SFB1220,"Point Bonita, 0.95 nm SSE of",37.8011,-122.5184,1,96.0,H
+SFB1221,"San Francisco Bar, north of ship channel",37.78529,-122.614,1,25.0,H
+SFB1222,San Francisco traffic separation zone buoy,37.7505,-122.6996,1,84.0,H
+SFB1223,"San Francisco southern traffic lane, N end",37.64458,-122.6954,1,105.0,H
+SFB1224,"San Francisco main traffic lane, E end",37.68824,-122.79983,20,24.0,W
+SFB1225,"San Francisco northern traffic lane, SE end",37.80437,-122.80515,19,19.0,W
+SFB1301,Dumbarton Highway Bridge,37.50175,-122.11598,1,40.0,H
+SFB1302,"Redwood Point, 1.7nm East of",37.53062,-122.1601,1,30.0,H
+SFB1304,Redwood Creek,37.52575,-122.1991,1,20.0,H
+SFB1305,San Mateo Bridge,37.58778,-122.25018,1,30.0,H
+SFB1306,"Coyote Point, 2.3 nmi. NNE of",37.62555,-122.29607,1,22.0,H
+SFB1307,Mulford Gardens Channel Approach,37.65008,-122.26282,4,4.0,H
+SFB1308,"Hunters Point, 1.6nm SE of",37.69603,-122.33815,1,24.0,H
+SFB1309,"Point Chauncey, 1.3 miles east of",37.89082,-122.41878,1,40.0,H
+SFB1310,"Point Chauncey, 1.25 nm north of",37.9153,-122.44607,1,31.0,H
+SFB1312,"Point San Pablo, midchannel",37.96888,-122.43913,1,60.0,H
+SFB1313,Petaluma River approach (Buoys 3 and 4),38.04349899291992,-122.42633056640625,4,2.0,H
+SFB1314,"Pinole Point, 1.27 nmi. NNW of",38.03083,-122.37715,1,32.0,H
+SFB1315,Pinole Shoal,38.04757,-122.33413,1,23.0,H
+SFB1316,"Davis Point, 1.0 nmi. NW of",38.0619,-122.27668,1,33.0,H
+SFB1317,"Mare Island Strait, NE of Pier 34",38.07725,-122.24565,1,29.0,H
+SFB1318,"Carquinez Bridge, I-80",38.06237,-122.22753,1,72.0,H
+SFB1319,Carquinez Strait,38.06138,-122.21823,1,42.0,H
+SFB1320,Dillon Point,38.0589,-122.19305,1,97.0,H
+SFB1322,Grizzly Bay entrance,38.10318,-122.05248,4,2.0,H
+SFB1323,Roe Island Channel,38.06507,-122.03445,1,29.0,H
+SFB1324,"Middle Point Lt., 0.18 nmi. NNW of",38.05752,-121.99303,1,30.0,H
+SFB1325,"Simmons Point, 0.6nm ESE of",38.04812,-121.9225,1,32.0,H
+SFB1326,"New York Slough, 0.6miles E of Pt. Emmet",38.0325,-121.86908,1,32.0,H
+SFB1327,Antioch Point,38.02395,-121.82258,1,48.0,H
+SFB1328,"West Island, north of",38.02485,-121.79005,1,26.0,H
+SFB1329,"Antioch, Route 160 bridge",38.02697,-121.75307,1,30.0,H
+SFB1330,"Entrance, 0.7nm SW of Chain Island",38.05847,-121.8712,1,48.0,H
+SFB1331,"Point Sacramento, 0.2nm NE of",38.0643,-121.83372,1,32.0,H
+SFB1332,Sacramento River Light 14,38.07715,-121.76393,1,26.0,H
+SHR9901,Shark River Entrance,40.1873,-74.0126,2,15.0,H
+SJR0301,"Dames Point, 0.23 n.mi. ESE of",30.3865,-81.55383,2,31.0,H
+SJR0302,Chaseville Turn,30.37833,-81.62833,2,30.0,H
+SJR0304,"St. Johns Bar Cut, 0.7 n.mi. east of jetties",30.398,-81.39717,2,31.0,H
+SJR9801,St. Johns River Ent. (between jetties),30.40067,-81.386,4,30.0,H
+SJR9806,Trout River Cut,30.38358,-81.62785,1,32.0,H
+SJR9807,"Blount Island, East of",30.39228,-81.50872,2,30.0,H
+STX1801,"Lydia Ann Channel, S end",27.85260009765625,-97.05480194091797,5,3.1,H
+STX1802,Murray Shoal,27.89929962158203,-97.05139923095703,5,4.3,H
+STX1812,"ICW Laguna Madre, 2.25 nm S of Arroyo Colorado Cut",26.327899932861328,-97.30970001220703,2,3.1,H
+STX1813,"ICW Laguna Madre, Light 69",26.107500076293945,-97.21160125732422,3,3.8,H
+STX1814,Queen Isabella Causeway Bridge,26.082399368286133,-97.19779968261719,14,17.0,H
+STX1815,"Port Isabel, Pontoon Swing Bridge",26.071800231933594,-97.19950103759766,4,8.0,H
+STX1817,"Brownsville Ship Channel, east end",26.03499984741211,-97.2197036743164,2,17.9,H
+STX1818,"Laguna Madre Channel, SW end",26.046600341796875,-97.1980972290039,4,3.1,H
+STX1819,"Laguna Madre Channel, NE end",26.066499710083008,-97.1675033569336,2,8.0,H
+STX1820,Brazos Santiago Pass Entrance,26.065200805664062,-97.14939880371094,1,32.0,H
+STX1821,Brazos Santiago Pass (SPIP),26.0674991607666,-97.15480041503906,29,17.0,H
+STX1822,"Port Isabel Channel, North End",26.05419921875,-97.21150207519531,13,28.0,H
+UNI1001,"Unimak Pass, East Entrance",54.29981,-164.51693,1,236.0,H
+UNI1002,Unimak Pass,54.30863,-164.74683,1,213.0,H
+UNI1003,"Ugamak Strait, off Kaligagan Island",54.15457,-164.87092,1,126.0,H
+UNI1004,"Unimak Pass, North Approach",54.44831,-165.09124,1,216.0,H
+UNI1005,"Unimak Pass, West Approach",54.36695,-165.36433,1,245.0,H
+UNI1006,Avatanak Strait,54.11279,-165.47573,1,247.0,H
+UNI1007,Akun Strait,54.1337,-165.65111,1,76.0,H
+UNI1008,Akutan Bay,54.18252,-165.72444,1,248.0,H
+UNI1009,Baby Pass,53.9812,-166.07178,1,133.0,H
+UNI1010,Akutan Pass,54.02455,-166.09753,1,207.0,H
+UNI1011,Unalga Pass,53.95372,-166.21471,1,157.0,H
+UNI1012,Udagak Strait (narrows),53.73414,-166.28904,2,108.0,H
+UNI1013,Priest Rock,54.01858,-166.37567,1,139.0,H
+UNI1014,"Ulakta Head, northeast of",53.93647,-166.47997,27,,W
+UNI1015,"Iliuliuk Bay, east channel",53.87745,-166.52832,16,,W
+UNI1016,Captains Bay,53.87716,-166.56829,1,61.0,H
+UNI1017,Cape Kovrizhka,53.84524,-167.18199,1,192.0,H
+UNI1018,Paso Point,53.41249,-167.69747,1,266.0,H
+UNI1019,Umnak Pass,53.36238,-167.81982,1,254.0,H
+UNI1020,Konets Head,53.32598,-167.90066,1,176.0,H
+UNI1021,Sedanka Pass,53.85121,-166.07639,1,197.0,H
+UNI1022,Derbin Strait,54.08391,-165.22707,1,220.0,H
+UNI1023,"Bishop Point, Unalaska Island",53.97871,-166.95646,1,114.0,H
+UNI1024,"Cape Cheerful, Unalaska Island",54.02659,-166.6724,1,151.0,H
+UNI1901,Isanotski Strait (False Pass Cnry),54.86669921875,-163.39999389648438,1,15.0,H
+bh0101,Castle island,42.34090042114258,-71.01229858398438,17,21.0,H
+ca0101,"Cape Cod Canal, West End",41.73749923706055,-70.6249008178711,20,13.0,H
+cb0102,"Chesapeake Bay Ent., 2.0 n.mi. N of Cape Henry Lt.",36.9594,-76.0128,4,22.0,H
+cb0201,York River Entrance Channel (SE end),37.14,-76.13383,2,14.4,H
+cb0301,"Thimble Shoal Channel, 2.4 n.mi east of Ft. Monroe",37.0112,-76.2495,2,15.0,H
+cb0402,Sewells Point (Naval Station Norfolk),36.96295,-76.33388,4,21.0,H
+cb0601,"Newport News Channel, west end",36.95602,-76.41448,2,15.0,H
+cb0701,James River Entrance,36.96233,-76.42417,25,11.0,H
+cb0801,"Bluff Point, 7.2 n.mi. east of",37.67442,-76.15462,4,22.0,H
+cb0901,"Piney Point, 1.1 n.mi. south of",38.09098,-76.52975,4,22.0,H
+cb1001,"Cove Point, 1.0 n.mi. N of",38.4026985168457,-76.38390350341797,20,10.0,H
+cb1102,"Chesapeake Bay Bridge, 0.5nm S of (LB91)",38.97999954223633,-76.38999938964844,2,14.0,H
+cb1202,"Brewerton Channel Extension, LB 2BE",39.14862823486328,-76.33,1,11.0,H
+cb1301,"Chesapeake and Delaware Canal, Chesapeake City",39.53053,-75.82762,20,8.0,H
+cb1401,Newport News Shipbuilding,36.98379898071289,-76.443603515625,40,22.0,H
+cc0302,UTSMI Research Pier (midchannel),27.83810043334961,-97.052001953125,30,20.0,H
+cc0401,Enbridge,27.8177,-97.2093,10,44.0,H
+cc0501,"Harbor Island, Aransas Channel",27.84673,-97.06076,12,11.0,H
+cc0601,Corpus Christi Channel UT Marine Science,27.83972,-97.0725,32,15.0,H
+cp0101,Cherry Point,48.86275,-122.76098,20,47.0,H
+db0201,Reedy Point,39.55860137939453,-75.55149841308594,1,35.0,H
+db0301,"Philadelphia, Penns Landing",39.94620132446289,-75.13960266113281,22,38.8,H
+db0502,Delaware Bay Channel LB 10,38.94013,-75.10486,1,12.0,H
+db1935,"Petty Island, Delaware River",39.96730041503906,-75.11720275878906,3,9.8,H
+fr0201,Surfside Bridge,28.955,-95.2939,6,14.8,H
+g02010,Morgans Point,29.68160057067871,-94.9822998046875,1,19.0,H
+g05010,Galveston Causeway RR. bridge,29.29747,-94.885818,26,10.0,H
+g06010,"Galveston Bay Entrance Channel, LB 11",29.34222,-94.74083,1,13.0,H
+g08010,"Fred Hartman Br., Houston Ship Channel",29.7035,-95.01892,30,25.0,H
+g09010,"Galveston Channel, west end",29.30940055847168,-94.82060241699219,30,30.0,H
+g10010,"610 Bridge, Houston Ship Channel",29.72569,-95.26697,20,15.0,W
+g11010,"Galveston Channel, East End",29.3182,-94.781,28,36.0,H
+gp0101,"Ship Island, 1.0 nm S of, LB 22",30.19406,-88.98917,1,11.0,H
+gp0201,"Ship Island, 0.5 nm NW of, LB 26",30.2162,-88.99442,2,15.0,H
+gp0301,"Ship Island, 1.8 nm NNW of, DM 32",30.23917,-89.0,5,10.0,H
+hb0201,Humboldt Bay Entrance Channel LB 9,40.75699996948242,-124.22339630126953,1,11.0,H
+hb0302,Hookton Channel Day Marker 3,40.74399948120117,-124.22450256347656,5,16.0,H
+hb0401,"North Bay Channel, Chevron Pier",40.7775,-124.19661,15,15.0,H
+jx0101,"Bar Cut, 0.6 n.mi. ENE of St. John's Point",30.39994,-81.37367,1,12.0,H
+jx0201,Mayport Basin Entrance,30.39889,-81.39469,1,12.0,H
+jx0301,ICW Intersection,30.38275,-81.45556,1,12.0,H
+jx0302,Mile Point LB 20,30.38433,-81.44217,1,10.6,H
+jx0303,"Mile Point, LB 22",30.384300231933594,-81.44219970703125,2,14.4,H
+jx0401,St. Johns Bluff,30.39037,-81.49678,1,12.0,H
+jx0501,Dames Point Bridge,30.38599967956543,-81.55789947509766,13,15.0,H
+jx0601,"Reddie Point, Trout River Cut LB64",30.391199111938477,-81.6260986328125,1,12.0,H
+jx0701,Acosta Bridge,30.32266,-81.66461,20,15.0,H
+kb0101,"St Marys Entrance, LB 13",30.7103,-81.3731,2,14.0,H
+kb0102,"St Marys Entrance, LB 19",30.7089,-81.4148,1,11.0,H
+kb0201,"Range A, LB 23, St Marys River",30.71049,-81.45926,1,11.0,H
+kb0301,"Range A2, LB 29, Cumberland Sound",30.72482,-81.48445,1,11.0,H
+kb0401,"Range E, LB 43, Cumberland Sound",30.77505,-81.48902,1,11.0,H
+kb0501,"Kings Bay, Site VI",30.7883,-81.4967,15,28.0,H
+kb0601,"Kings Bay, North Turning Basin",30.81,-81.5203,2,9.5,H
+ks0101,"Rich Passage, LB 8",47.5933,-122.5426,1,11.2,H
+ks0201,"Bangor, Hood Canal LB B",47.75782,-122.73057,2,14.0,H
+lb0101,Queens Gate,33.717,-118.1879,6,35.0,H
+lc0201,"Calcasieu Pass, Cameron Fishing Pier",29.76513,-93.34293,20,17.0,H
+lc0301,Lake Charles City Docks,30.2178,-93.2495,20,21.0,H
+mg0101,Matagorda Ship Channel Marker 19,28.44769,-96.35619,17,14.6,H
+mg0201,Matagorda Entrance Channel,28.42667,-96.33,20,15.0,H
+n01010,Bergen Point,40.6422004699707,-74.15129852294922,1,37.0,H
+n02010,Bayonne Bridge,40.641700744628906,-74.14330291748047,8,16.0,H
+n03020,The Narrows,40.60639953613281,-74.03800201416016,2,29.3,H
+n05010,Gowanus Flats LBB 32,40.67210006713867,-74.03990173339844,1,11.0,H
+n06010,"Kill Van Kull LB 14, east of Bayonne Bridge",40.64358,-74.13889,1,11.0,H
+n07010,Newark Bay Entrance LB 18,40.64708,-74.1555,2,15.0,H
+nb0101,"Providence River, Fox Point Reach",41.8087,-71.39747,2,31.0,W
+nb0201,Fall River entrance,41.6999,-71.17842,1,30.0,H
+nb0301,Quonset Point,41.5834,-71.3957,7,7.8,H
+nl0101,"Groton, Thames River, Pier 6",41.39175,-72.0923,9,42.0,H
+pm0101,"Portsmouth Harbor, Gangway Rocks LB13",43.0784,-70.7467,2,14.4,H
+ps0201,"Horn Island Pass, LB 17",30.21503,-88.51089,1,12.0,H
+s06010,Benicia Bridge,38.03463,-122.12525,16,15.0,H
+s08010,"Southampton Shoal Channel, LB 6",37.91625,-122.42233,2,15.0,H
+s09010,"Oakland Outer Harbor Entrance, LB 3",37.8082,-122.34434,2,14.0,H
+s10010,Oakland Inner Harbor LB4,37.80097,-122.34775,2,14.0,H
+sn0101,Sabine Bank Channel LBB 34,29.62873,-93.81617,1,10.0,W
+sn0201,"Sabine Pass, USCG Base",29.7286,-93.87,30,4.0,H
+sn0301,"Sabine Front Range, Point Hunt, NW of",29.75806,-93.89,5,7.0,H
+sn0501,Rainbow Bridge,29.98111,-93.87111,17,12.0,H
+sn0701,Port Arthur,29.86671,-93.93111,20,16.0,H
+sn0801,"Sabine Pass, Cheniere LNG",29.742399215698242,-93.87370300292969,45,8.0,H
+t01010,Sunshine Skyway Bridge,27.62065,-82.65525,3,36.0,H
+t02010,Old Tampa Bay Entrance (Port Tampa),27.86287,-82.55373,2,32.0,H
+t03010,Port Manatee Channel Entrance,27.66395,-82.59877,4,26.4,H
