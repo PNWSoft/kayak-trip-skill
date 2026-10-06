@@ -6,13 +6,15 @@ Maintainers run this before a release (needs internet):
 
 It keeps only the grid cells where the currents dataset has values (water), with
 each cell's lat/lon and depth, so salishsea_currents.py can find the nearest cell
-offline. Writes data/salishsea_grid.csv.gz.
+offline. Writes data/salishsea_grid.csv.gz and data/salishsea_grid.meta.json
+(cell count, build date, sources).
 """
 import argparse
 import csv
 import datetime
 import gzip
 import io
+import json
 import math
 import pathlib
 import sys
@@ -23,6 +25,7 @@ GRID = "ubcSSnBathymetryV21-08"
 CURRENTS = "ubcSSfDepthAvgdCurrents1h"
 DATA_DIR = pathlib.Path(__file__).resolve().parent.parent / "data"
 OUT = DATA_DIR / "salishsea_grid.csv.gz"
+META = DATA_DIR / "salishsea_grid.meta.json"
 
 
 def fetch_csv(url):
@@ -61,6 +64,8 @@ def main():
         w = csv.writer(f)
         w.writerow(["gridY", "gridX", "lat", "lon", "depth_m"])
         w.writerows(rows)
+    META.write_text(json.dumps({"water_cells": len(rows), "built": datetime.date.today().isoformat(), "grid": f"{ERDDAP}/{GRID}",
+                                "water_mask": f"{ERDDAP}/{CURRENTS} at {t}"}, indent=2) + "\n")
     print(f"{OUT.name}: {len(rows)} water cells ({OUT.stat().st_size // 1024} KB), built {datetime.date.today()}")
 
 

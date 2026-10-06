@@ -1,0 +1,6 @@
+{
+  "water_cells": 70070,
+  "built": "2026-10-06",
+  "grid": "https://salishsea.eos.ubc.ca/erddap/griddap/ubcSSnBathymetryV21-08",
+  "water_mask": "https://salishsea.eos.ubc.ca/erddap/griddap/ubcSSfDepthAvgdCurrents1h at 2026-10-01T00:30:00Z"
+}

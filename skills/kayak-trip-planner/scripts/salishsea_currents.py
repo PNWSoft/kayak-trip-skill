@@ -11,7 +11,10 @@ checks it is close enough to mean something, then fetches the hourly forecast.
 --url-only prints the cell checks and the data URLs without fetching, for
 environments where the shell has no internet but a web-fetch tool does.
 
-Exit codes: 0 ok, 2 no usable cell (outside the model or too far), 3 trip window past the forecast.
+Values are hourly averages; each time is the centre of its hour (10:30 = 10:00-11:00).
+
+Exit codes: 0 ok, 1 data unavailable, 2 no usable cell (outside the model or too far),
+3 trip window past the forecast.
 """
 import argparse
 import csv
@@ -129,7 +132,7 @@ def main():
     start = dt.datetime.combine(dt.date.fromisoformat(args.date), dt.time.fromisoformat(args.start), tz)
     end = start + dt.timedelta(hours=args.hours)
 
-    result = {"source": "SalishSeaCast (UBC), near-surface depth-averaged currents, hourly", "dataset": ERDDAP + ".html",
+    result = {"source": "SalishSeaCast (UBC), near-surface depth-averaged currents, hourly averages (times are mid-hour)", "dataset": ERDDAP + ".html",
               "point": {"lat": args.lat, "lon": args.lon}, "window": [start.isoformat(), end.isoformat()]}
     cell = nearest_cell(args.lat, args.lon)
     if cell is None:
@@ -185,6 +188,8 @@ def report(r, as_json, code):
             print(f"  Forecast runs to {r['forecast_ends']}")
         for h in r.get("hours", []):
             print(f"  {h['time'][:16].replace('T', ' ')}  {h['speed_kt']:.2f} kt toward {h['toward']}")
+        if r.get("hours"):
+            print("  (hourly averages; each time is the middle of its hour)")
         if "peak" in r:
             print(f"  Peak in window: {r['peak']['speed_kt']:.2f} kt toward {r['peak']['toward']} at {r['peak']['time'][11:16]}")
         for k in ("coverage_url", "data_url"):

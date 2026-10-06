@@ -18,6 +18,7 @@ import sys
 
 DATA_DIR = pathlib.Path(__file__).resolve().parent.parent / "data"
 FILES = {"tide": "tide_stations.csv", "current": "current_stations.csv", "buoy": "ndbc_stations.csv"}
+# CO-OPS tide station types: R = reference (full predictions), S = subordinate (high/low only).
 # NDBC station types: only "buoy" sits on open water; "fixed" is usually a shore or pier station (often no waves or water temp).
 NDBC_TYPES = {"buoy": "buoy", "fixed": "fixed shore/pier station", "oilrig": "offshore platform", "usv": "uncrewed vessel"}
 WEAK = "W"  # NOAA current station type: weak and variable, no predictions
@@ -93,6 +94,8 @@ def main():
                 print("  none within range")
             for r in rows:
                 extra = f"  bin {r['bin']}" if k == "current" else ""
+                if k == "tide":
+                    extra = "  [reference: full predictions]" if r.get("type") == "R" else "  [subordinate: highs and lows only]" if r.get("type") == "S" else ""
                 if k == "buoy":
                     extra = f"  [{NDBC_TYPES.get(r['type'], r['type'] or 'unknown type')}]"
                 if r.get("predictions") is False:
