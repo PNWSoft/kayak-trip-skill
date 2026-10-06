@@ -29,6 +29,7 @@ from zoneinfo import ZoneInfo
 
 THREDDS = "https://opendap.co-ops.nos.noaa.gov/thredds"
 MESH_FILE = pathlib.Path(__file__).resolve().parent.parent / "data" / "sscofs_mesh.csv.gz"
+MESH_META = MESH_FILE.with_name("sscofs_mesh.meta.json")
 COMPASS = ["N", "NNE", "NE", "ENE", "E", "ESE", "SE", "SSE", "S", "SSW", "SW", "WSW", "W", "WNW", "NW", "NNW"]
 CYCLES = (3, 9, 15, 21)  # UTC run hours, 4 per day
 MAX_LEAD = 72  # forecast hours per run
@@ -128,10 +129,11 @@ def plan_requests(start, end, now):
     runs = [(c, leads) for c, leads in runs if leads]
     if not runs:
         return [], None, None
-    latest, latest_leads = runs[0]
-    horizon = latest + dt.timedelta(hours=max(latest_leads))
+    latest = runs[0][0]
+    # The newest run may still be publishing; the horizon is the furthest hour any run covers.
+    horizon = max(c + dt.timedelta(hours=max(leads)) for c, leads in runs)
     t = start.astimezone(dt.timezone.utc)
-    t = t.replace(minute=0, second=0, microsecond=0) + (dt.timedelta(hours=1) if t.minute or t.second else dt.timedelta())
+    t = t.replace(minute=0, second=0, microsecond=0)  # round down: include the hour the window starts in
     reqs = []
     while t <= end:
         for c, leads in runs:
@@ -156,6 +158,23 @@ def parse(text):
             vals[cur] = float(line.rsplit(",", 1)[-1])
             cur = None
     return vals["u"], vals["v"], vals.get("temp"), int(vals.get("wet_cells", 1))
+
+
+def mesh_matches(cycle, lead):
+    """Compare the bundled index's element/node counts with the live model file. Returns (ok, message)."""
+    try:
+        meta = json.loads(MESH_META.read_text())
+    except (OSError, ValueError):
+        return False, f"Missing or unreadable {MESH_META.name}. Run build_sscofs_mesh.py."
+    try:
+        dds = fetch(f"{THREDDS}/dodsC/{file_path(cycle, lead)}.dds")
+    except Exception as e:
+        return False, f"Could not read the model file layout to check the mesh: {e}"
+    live = {k: int(v) for k, v in re.findall(r"\b(nele|node) = (\d+)\]", dds)}
+    if live.get("nele") != meta.get("nele") or live.get("node") != meta.get("node"):
+        return False, (f"NOAA's SSCOFS mesh has changed (bundled index: {meta.get('nele')} elements / {meta.get('node')} nodes; "
+                       f"live model: {live.get('nele')} / {live.get('node')}). Rebuild with build_sscofs_mesh.py; no data was fetched.")
+    return True, ""
 
 
 def main():
@@ -212,6 +231,11 @@ def main():
         return report(result, args.json, 3)
     if end > horizon:
         result["notes"].append("Forecast ends partway through the window; later hours are not covered.")
+    if reqs:
+        ok, msg = mesh_matches(reqs[0][1], reqs[0][2])
+        if not ok:
+            result["notes"].append(msg)
+            return report(result, args.json, 1)
     hours, failed = [], 0
     for t, c, lead in reqs:
         try:
@@ -226,6 +250,9 @@ def main():
                       "water_temp_f": round(temp * 9 / 5 + 32) if temp is not None else None, "dry": not wet})
     if failed:
         result["notes"].append(f"{failed} hourly request(s) failed and are missing.")
+    older = sorted({h["run"].split(" f")[0] for h in hours} - {result["model_run"]})
+    if older:
+        result["notes"].append(f"Some hours come from an older run ({', '.join(older)}) because the latest run doesn't cover them yet; each hour's run is listed.")
     if any(h["dry"] for h in hours):
         result["notes"].append("Element is dry (tidal flat) for part of the window.")
     result["hours"] = hours
@@ -250,7 +277,7 @@ def report(r, as_json, code):
         for h in r.get("hours", []):
             dry = "  (dry)" if h["dry"] else ""
             wt = f"  water {h['water_temp_f']} F" if h["water_temp_f"] is not None else ""
-            print(f"  {h['time'][:16].replace('T', ' ')}  {h['speed_kt']:.2f} kt toward {h['toward']}{wt}{dry}")
+            print(f"  {h['time'][:16].replace('T', ' ')}  {h['speed_kt']:.2f} kt toward {h['toward']}{wt}{dry}  [run {h['run']}]")
         if "peak" in r:
             print(f"  Peak in window: {r['peak']['speed_kt']:.2f} kt toward {r['peak']['toward']} at {r['peak']['time'][11:16]}")
         if "url_template" in r:

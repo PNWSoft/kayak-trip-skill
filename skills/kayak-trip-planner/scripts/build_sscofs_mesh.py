@@ -11,13 +11,15 @@ This saves one row per element, in element order (row 0 = element 0), with its
 center lat/lon, depth (mean of its 3 corner nodes), how many of its 3 sides are shoreline and
 one corner node (0-based; temperature is stored at nodes, not elements), so
 sscofs_currents.py can find the nearest element offline. Writes
-data/sscofs_mesh.csv.gz. Rebuild if NOAA changes the mesh (the element count
-is checked at run time).
+data/sscofs_mesh.csv.gz and data/sscofs_mesh.meta.json (element and node counts,
+build date, source). Rebuild if NOAA changes the mesh: sscofs_currents.py compares
+the counts with the live model before fetching data and stops if they differ.
 """
 import argparse
 import csv
 import datetime as dt
 import gzip
+import json
 import pathlib
 import sys
 import urllib.request
@@ -25,6 +27,7 @@ import urllib.request
 THREDDS = "https://opendap.co-ops.nos.noaa.gov/thredds"
 DATA_DIR = pathlib.Path(__file__).resolve().parent.parent / "data"
 OUT = DATA_DIR / "sscofs_mesh.csv.gz"
+META = DATA_DIR / "sscofs_mesh.meta.json"
 
 
 def get(url, timeout=600):
@@ -87,6 +90,7 @@ def main():
             shore = sum(nbe[k * n + i] == "0" for k in range(3))
             depth = sum(h[nv[k * n + i]] for k in range(3)) / 3
             w.writerow([f"{float(v['latc'][i]):.5f}", f"{lon:.5f}", f"{depth:.1f}", shore, nv[i]])
+    META.write_text(json.dumps({"nele": n, "node": len(h), "built": dt.date.today().isoformat(), "source": path}, indent=2) + "\n")
     print(f"{OUT.name}: {n} elements ({OUT.stat().st_size // 1024} KB), built {dt.date.today()} from {path}")
 
 

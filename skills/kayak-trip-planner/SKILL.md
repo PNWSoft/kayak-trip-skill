@@ -7,23 +7,23 @@ description: Use when someone asks about a good day or time to sea kayak in US w
 
 Sea kayaking needs more prep than a run or bike ride: tide, current, wind, waves, fog and daylight all have to line up. This skill pulls public NOAA and NWS data for a launch point, compares each factor with reference conditions for the paddler's experience level, suggests the best-matching day, launch time and route direction, and states plainly what the plan rests on and what it does not cover.
 
-Plans may be shared with people who never saw the conversation, so every plan must stand on its own. This skill gives planning information only. It is not a safety system: it shows the data, compares it with published reference conditions for the person's experience level, and offers guidance, but never says a day is safe or unsafe. The paddler makes every decision.
+Plans may be shared with people who never saw the conversation, so every plan must stand on its own. This skill gives planning information only. It is not a safety system: it shows the data, reports the estimated conditions from third-party data sources, compares them with published reference conditions for the person's experience level, and never says anything is safe or safer. The paddler makes every decision.
 
 Coverage: US coastal waters, estuaries and the Great Lakes (NOAA/NWS sources). Outside the US, say the data sources don't cover it and stop. On inland lakes and rivers there are no tide or marine forecasts; use the land forecast and say so.
 
 ## Step 0: Required acceptance of terms (once per notice version)
 
-Current notice version: **v1 (2026-10-05)**. Bump it here and in TERMS.md whenever the notice text changes.
+Current notice version: **v2 (2026-10-06)**. Bump it here and in TERMS.md whenever the notice text changes.
 
-Before giving any plan, recommendation or route, check whether this person has already accepted the **current version**: earlier in this conversation, or in Claude's memory (a note like "Accepted Kayak Trip Planner safety notice v1 on 2026-10-05"). If so, don't show the notice again. Otherwise show this notice exactly and ask the person to reply "I accept". Gathering their trip details (Step 1) can happen alongside it, but no plan is given until they accept.
+Before giving any plan, recommendation or route, check whether this person has already accepted the **current version**: earlier in this conversation, or in Claude's memory (a note like "Accepted Kayak Trip Planner terms v2 on 2026-10-06"). If so, don't show the notice again. Otherwise show this notice exactly and ask the person to reply "I accept". Gathering their trip details (Step 1) can happen alongside it, but no plan is given until they accept.
 
-> **Safety notice and terms of use.** Kayak Trip Planner gives general planning information from public NOAA and NWS data, which can be wrong, late, incomplete or unavailable. It does not observe real conditions, know your abilities or know local hazards, and it is not professional advice, instruction or a guarantee of safety. Paddling is dangerous and can cause injury or death. You are solely responsible for deciding whether, when and where to paddle, and for your own safety and that of anyone with you. By using this tool you accept all risks of using it, release its authors and contributors from all liability, and agree to hold them harmless from any claims, losses or damages arising from your use of it or reliance on it. License: Apache 2.0, including its disclaimer of warranty and limitation of liability. Full notice: TERMS.md in this skill's repository.
+> **Safety notice and terms of use.** Kayak Trip Planner gives general planning information from public NOAA and NWS data, which can be wrong, late, incomplete or unavailable. It does not observe real conditions, know your abilities or know local hazards, and it is not professional advice, instruction or a guarantee of safety. Paddling is dangerous and can cause injury or death. You are solely responsible for deciding whether, when and where to paddle, and for your own safety and that of anyone with you. By using this tool you accept all risks of using it, release its authors and contributors from all liability, and agree to hold them harmless from any claims, losses or damages arising from your use of it or reliance on it. License: Apache 2.0, including its disclaimer of warranty and limitation of liability. Full terms: TERMS.md in this skill's repository.
 >
 > Reply **"I accept"** to continue.
 
 - Accept only a clear acceptance ("I accept", "I agree", "yes, I accept"). If the reply is ambiguous, ask once more.
 - If they decline, don't give plans, recommendations or routes. You can still explain general concepts (what slack water is, how to read a tide table) and point them to the sources in Step 4.
-- After a clear acceptance, save it to memory if memory is available, as one dated note naming the version ("Accepted Kayak Trip Planner safety notice v1 on YYYY-MM-DD"), and say so in one line ("Saved your acceptance of the safety notice (v1), so I won't ask again."). If memory isn't available, say it will be asked again in new conversations.
+- After a clear acceptance, save it to memory if memory is available, as one dated note naming the version ("Accepted Kayak Trip Planner terms v2 on YYYY-MM-DD"), and say so in one line ("Saved your acceptance of the terms (v2), so I won't ask again."). If memory isn't available, say it will be asked again in new conversations.
 - Ask again whenever you can't confirm an acceptance of the current version: no memory, no matching note, or a note for an older version. Never assume acceptance from anything vaguer than such a note.
 - Acceptance is per person. If someone else in the conversation, or a person a plan is shared with, wants their own plan, they accept for themselves.
 - When a plan is shared, it already carries its own "Not covered by this plan" section; don't repeat the full notice in every plan.
@@ -109,7 +109,7 @@ Latest rows first: wind speed and gusts (m/s), wave height (m), water temperatur
 - Readings taken the evening before only describe that evening. For a trip tomorrow, say to check them again the morning of.
 
 ### Water temperature
-Always find and report it, whatever the gear: it drives the cold-water rule in Step 5 when there is no immersion gear, and with a dry suit or wet suit the person uses it to choose their layers. Report the temperature and its source only. Don't suggest clothing or layers; the person knows their own setup. Sources, in order: a regional model that reports it (in the Salish Sea, `sscofs_currents.py` gives modeled surface water temperature per hour); an NDBC station reporting WTMP; the nearest CO-OPS water level station with `product=water_temperature&date=latest`. Many tide stations don't measure it. If none has it, list it as unavailable; with no immersion gear treat it as below 60 F.
+Always find and report it, with its source, whatever the gear. Don't suggest clothing or layers yourself. When the water is 60 F or colder (or unknown), add the ACA's published recommendation, attributed and quoted, so it is clearly theirs and not this tool's: *ACA, Cold Water Survival (Paddle Safe - Paddle Smart series): "When paddling where the water temperature is 60 degrees Fahrenheit or colder, a wetsuit is a must and a drysuit is highly recommended."* ([source](https://www.nwrafting.com/wp-content/uploads/2025/05/cold_water_survival_aca.pdf)). Show it the same way regardless of the person's gear. Sources, in order: a regional model that reports it (in the Salish Sea, `sscofs_currents.py` gives modeled surface water temperature per hour); an NDBC station reporting WTMP; the nearest CO-OPS water level station with `product=water_temperature&date=latest`. Many tide stations don't measure it. If none has it, list it as unavailable and include the ACA line above.
 
 ### Daylight
 Run `python3 scripts/sun_times.py --lat LAT --lon LON --date YYYY-MM-DD --tz IANA_ZONE`. Flag trips ending within an hour of sunset.
@@ -149,13 +149,13 @@ The two sets differ (for beginners, ACA allows current up to 1 kt; Paddle UK's s
 
 ### Other things worth pointing out
 
-No standard gives numbers for these; they are common rules of thumb. Mention them as context when they apply, not as limits.
+These are generic, commonly known warnings. Mention them as context when they apply, not as limits. Generic warnings like these are fine; never say or imply that anything is safe or safer.
 - **Wind against current** builds steep, short waves even at moderate speeds.
 - **Offshore wind** (blowing from land to water) makes the return harder and can push a tired paddler away from shore.
 - **Afternoon sea breeze** often builds after midday on warm days; heading upwind first keeps the easier leg for last.
 - **Fog** cuts visibility for the paddler and for boats looking for them.
 - **Thunder or lightning** in the forecast.
-- **Cold water**: report the water temperature (see Step 4). Water below about 60 F is commonly cited as a cold-shock concern without immersion gear; mention it only when the person has none.
+- **Cold water**: report the water temperature and, at 60 F or colder, the attributed ACA recommendation (see Step 4).
 - **Launch at low tide**: mudflats, long carries, exposed rocks. A rising tide during the trip helps; a falling one can leave boats short of water in shallow bays.
 
 ## Step 6: Plan the route
@@ -163,7 +163,7 @@ No standard gives numbers for these; they are common rules of thumb. Mention the
 - Do the outbound leg against the weaker push (current or wind) so the return is assisted. Use slack times and the flood/ebb directions to choose.
 - Time features to the tide: rocks and tidepools near low water, shallow bays and marshes near high water.
 - Distance = speed x duration, minus ~20% for breaks and margin. Give rough clock times for the turnaround and key stops.
-- Prefer routes that keep a landing within reach, and note how far from shore the route goes compared with the reference distance for their level (e.g. ACA Level 2: within 0.5 nm; Paddle UK sheltered: within 200 m of shore). Mention crossings of shipping lanes or ferry routes if the route has them.
+- Note how far from shore the route goes compared with the reference distance for their level (e.g. ACA Level 2: within 0.5 nm; Paddle UK sheltered: within 200 m of shore). Mention crossings of shipping lanes or ferry routes if the route has them.
 
 Local geography is the weakest part of any plan. Name features only when confident; otherwise describe the route by direction and distance ("south along the shore ~2.4 mi, then back") and say to check a chart.
 
@@ -178,8 +178,8 @@ Then ALWAYS end with this section, filled in, even when everything looks good, f
 
 ### What this plan is based on
 - **Paddler assumptions:** speed, duration, experience level and the reference conditions used (with their source, and that they describe instructor-led course conditions), or the person's own limits; gear; water temperature with its source.
-- **Sources checked:** each source with its issue/update time and the period covered (link each); each station's distance from the launch; for current stations, that speeds apply at that station only.
-- **Reliability at this lead time:** which parts are predictions (tides, currents) and which are forecasts (weather), and how reliable each is now.
+- **Sources checked:** each source with its issue/update time and the period covered (link each); the launch and on-water point coordinates, and the NWS forecast zone the on-water point falls in; each station's distance from the launch; for current stations, that speeds apply at that station only; for tide stations that publish highs and lows only, that heights between them are interpolated; for each current model checked, its run time (and any older runs used), the distance from the on-water point to the model point, and the close-enough verdict (including when it failed and the model wasn't used).
+- **Reliability at this lead time:** which parts are predictions (tides, currents), which are model guidance and which are forecasts (weather), and how reliable each is now, including any known model bias (e.g. SSCOFS peak speeds 30-50% low at Deception Pass; see the regional notes).
 - **Not checked or unavailable:** anything that failed, was stale or was out of range.
 - **Excluded:** any day skipped for a Small Craft Advisory or stronger marine warning, with the advisory and its times.
 - **Not covered by this plan:** local hazards (rocks, surf, rebound off cliffs, boat and ferry traffic, shipping lanes), closures and permits, launch access, and real-time conditions on the day. This is planning information, not a safety assessment. Look at the water before launching and make your own decision. Conditions change; this plan is not a guarantee of safety.
