@@ -58,7 +58,7 @@ def nearest_element(lat, lon):
     spacing = min((meters(la, lo, float(o["lat"]), float(o["lon"])) for _, j, o in near[1:60] if j != i), default=None)
     return {"element": i, "lat": la, "lon": lo, "depth_m": float(r["depth_m"]), "distance_m": round(d),
             "mesh_spacing_m": round(spacing) if spacing is not None else None,
-            "shore_sides": int(r["shore_sides"]), "elements_within_1km": sum(1 for t in near if t[0] <= 1000)}
+            "shore_sides": int(r["shore_sides"]), "node": int(r["node"]), "elements_within_1km": sum(1 for t in near if t[0] <= 1000)}
 
 
 def assess(el, max_m):
@@ -87,10 +87,12 @@ def file_path(cycle, lead):
             f"sscofs.t{cycle:%H}z.{cycle:%Y%m%d}.fields.f{lead:03d}.nc")
 
 
-def data_url(cycle, lead, e):
-    sl = f"%5B0:0%5D%5B0:0%5D%5B{e}:{e}%5D"  # [0:0][0:0][e:e]; brackets must be encoded
+def data_url(cycle, lead, e, node):
+    """u, v are at element e; temp is at a node (a corner of e). Brackets must be percent-encoded."""
+    sl = f"%5B0:0%5D%5B0:0%5D%5B{e}:{e}%5D"  # [0:0][0:0][e:e]
+    nl = f"%5B0:0%5D%5B0:0%5D%5B{node}:{node}%5D"
     return (f"{THREDDS}/dodsC/{file_path(cycle, lead)}.ascii?"
-            f"time,u{sl},v{sl},temp{sl},wet_cells%5B0:0%5D%5B{e}:{e}%5D")
+            f"time,u{sl},v{sl},temp{nl},wet_cells%5B0:0%5D%5B{e}:{e}%5D")
 
 
 _catalogs = {}
@@ -195,7 +197,7 @@ def main():
             "Use the newest run that covers each hour; the newest run may still be filling in. "
             "Speed kt = sqrt(u^2+v^2) x 1.944 (u east, v north, m/s); toward = atan2(u, v) deg from north; "
             "temp is surface water temperature in deg C; wet_cells 0 = dry (tidal flat).")
-        result["url_template"] = data_url(dt.datetime(2000, 1, 1, 15), 1, el["element"]).replace(
+        result["url_template"] = data_url(dt.datetime(2000, 1, 1, 15), 1, el["element"], el["node"]).replace(
             "2000/01/01", "YYYY/MM/DD").replace("t15z.20000101", "tHHz.YYYYMMDD").replace("f001", "fNNN")
         return report(result, args.json, 0)
 
@@ -213,7 +215,7 @@ def main():
     hours, failed = [], 0
     for t, c, lead in reqs:
         try:
-            u, v, temp, wet = parse(fetch(data_url(c, lead, el["element"])))
+            u, v, temp, wet = parse(fetch(data_url(c, lead, el["element"], el["node"])))
         except Exception:
             failed += 1
             continue

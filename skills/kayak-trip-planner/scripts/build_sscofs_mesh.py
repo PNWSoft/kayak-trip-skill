@@ -8,7 +8,8 @@ Maintainers run this before a release (needs internet):
 SSCOFS (Salish Sea and Columbia River Operational Forecast System) is an
 unstructured FVCOM mesh. Currents are given at element (triangle) centers.
 This saves one row per element, in element order (row 0 = element 0), with its
-center lat/lon, depth (mean of its 3 corner nodes) and how many of its 3 sides are shoreline, so
+center lat/lon, depth (mean of its 3 corner nodes), how many of its 3 sides are shoreline and
+one corner node (0-based; temperature is stored at nodes, not elements), so
 sscofs_currents.py can find the nearest element offline. Writes
 data/sscofs_mesh.csv.gz. Rebuild if NOAA changes the mesh (the element count
 is checked at run time).
@@ -79,13 +80,13 @@ def main():
     DATA_DIR.mkdir(exist_ok=True)
     with gzip.open(OUT, "wt", newline="") as f:
         w = csv.writer(f)
-        w.writerow(["lat", "lon", "depth_m", "shore_sides"])
+        w.writerow(["lat", "lon", "depth_m", "shore_sides", "node"])
         for i in range(n):
             lon = float(v["lonc"][i])
             lon = lon - 360 if lon > 180 else lon
             shore = sum(nbe[k * n + i] == "0" for k in range(3))
             depth = sum(h[nv[k * n + i]] for k in range(3)) / 3
-            w.writerow([f"{float(v['latc'][i]):.5f}", f"{lon:.5f}", f"{depth:.1f}", shore])
+            w.writerow([f"{float(v['latc'][i]):.5f}", f"{lon:.5f}", f"{depth:.1f}", shore, nv[i]])
     print(f"{OUT.name}: {n} elements ({OUT.stat().st_size // 1024} KB), built {dt.date.today()} from {path}")
 
 
