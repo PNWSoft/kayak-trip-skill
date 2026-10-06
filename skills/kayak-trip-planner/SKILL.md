@@ -52,6 +52,7 @@ If the trip is soon and the person seems to want an answer now, proceed with the
 3. Run `python3 scripts/nearest_stations.py --lat LAT --lon LON --kind all`. It lists the nearest tide stations, current stations and buoys with distances and bearings.
    - Prefer the nearest tide station; note its distance. Over ~10 mi, or across a headland or into a different basin, flag that times may differ.
    - Current stations are often in channels miles away. Use a distant one for the TIMING and DIRECTION of slack, flood and ebb, never its speeds; channel speeds can be several times what's in a nearby bay. Say this in the plan.
+   - Weak-and-variable current stations (NOAA type W) have no predictions; the API returns "Currents predictions are not available". The script skips them and lists any closer than the usable stations in a note. Don't fetch them. A nearby one is still useful: say in the plan that NOAA rates currents near the launch as weak and variable.
    - If the bundled data is missing, ask the person for station IDs from https://tidesandcurrents.noaa.gov/noaacurrents/ and https://tidesandcurrents.noaa.gov/tide_predictions.html, and verify each with https://api.tidesandcurrents.noaa.gov/mdapi/prod/webapi/stations/ID.json. Never guess an ID.
 
 ## Step 3: Decide the planning stage

@@ -18,5 +18,5 @@ A ~500 m research model of the whole Salish Sea; the model behind the OceanConne
 https://oceanconnect.ca (Hakai Institute) maps modeled currents, wind, waves and webcams for BC and Washington. It renders in JavaScript, so the fetch tool can't read it. Recommend it to the paddler for a morning-of look, especially the webcams for fog.
 
 ## Local notes
-- Bellingham Bay / Chuckanut Bay: currents in the bay are weak; wind is the main factor. The nearest NOAA current station, PUG1741 Bellingham Channel North, is ~8-9 mi SW in a channel with 2.5-3 kt flows. Use it for slack timing and flood (north) / ebb (southwest) direction only.
+- Bellingham Bay / Chuckanut Bay: currents in the bay are weak; wind is the main factor. NOAA's closest current station, PCT2116 off Eliza Island (~3.5 mi W), is rated weak and variable and has no predictions. The nearest stations with predictions are PUG1707 Sinclair Island (~7.7 mi W; flood NW, ebb SE, about 1 kt) and PUG1741 Bellingham Channel North (~8.8 mi WSW; flood N, ebb SW, 2.5-3 kt in the channel). Use them for slack timing only; their directions and speeds describe those channels, not the bay.
 - Fall and winter fog often sits on Bellingham Bay and Puget Sound into late morning.
