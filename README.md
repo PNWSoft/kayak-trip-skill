@@ -27,7 +27,7 @@ Every plan ends with **"What this plan is based on"**: each source, when it was 
 
 **Doesn't**
 - Call any day, time or route safe or unsafe, or give go/no-go verdicts. You make the call.
-- Plan days with a **Small Craft Advisory** or any stronger marine warning (Gale, Storm, Hurricane Force, Hazardous Seas, Special Marine) during your trip window. Those days are listed as "Not planned". If you want to paddle in those conditions, do your own planning.
+- Plan days with a **Small Craft Advisory** or any stronger marine warning (Gale, Storm, Hurricane Force, Hazardous Seas, Special Marine) during your trip window. Those days are listed as "Excluded". If you want to paddle in those conditions, do your own planning.
 - Recommend clothing or gear. It reports water temperature; you know what your setup needs.
 - Know local hazards, closures, launch access or what the water looks like today.
 
